@@ -18,22 +18,29 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nexus Intelligence | Corporate",
-  description: "AI for the next generation",
-  metadataBase: new URL("https://nexusintell.com.br"),
+  description: "IA para a próxima geração da evolução tecnológica.",
+  metadataBase: new URL("https://www.nexusintell.com.br"),
+  alternates: {
+    canonical: "https://www.nexusintell.com.br",
+  },
   icons: {
-    icon: "/icon.png",
+    icon: [
+      { url: "/favicon.ico?v=2", sizes: "any" },
+      { url: "/icon.png?v=2", type: "image/png" },
+    ],
+    apple: "/icon.png?v=2",
   },
   openGraph: {
     title: "Nexus Intelligence | Corporate",
-    description: "AI for the next generation",
-    url: "https://nexusintell.com.br",
+    description: "IA para a próxima geração da evolução tecnológica.",
+    url: "https://www.nexusintell.com.br",
     siteName: "Nexus Intelligence",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/og-image.png?v=2",
         width: 1200,
         height: 630,
-        alt: "Nexus Intelligence",
+        alt: "Nexus Intelligence Logo",
       },
     ],
     locale: "pt_BR",
@@ -42,8 +49,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Nexus Intelligence | Corporate",
-    description: "AI for the next generation",
-    images: ["/twitter-image.png"],
+    description: "IA para a próxima geração da evolução tecnológica.",
+    images: ["/og-image.png?v=2"],
   },
 };
 
