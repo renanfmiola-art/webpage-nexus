@@ -19,8 +19,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nexus Intelligence | Corporate",
   description: "AI for the next generation",
+  metadataBase: new URL("https://nexusintell.com.br"),
   icons: {
     icon: "/icon.png",
+  },
+  openGraph: {
+    title: "Nexus Intelligence | Corporate",
+    description: "AI for the next generation",
+    url: "https://nexusintell.com.br",
+    siteName: "Nexus Intelligence",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Nexus Intelligence",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nexus Intelligence | Corporate",
+    description: "AI for the next generation",
+    images: ["/twitter-image.png"],
   },
 };
 
