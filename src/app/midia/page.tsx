@@ -44,7 +44,7 @@ export default function Page() {
                                     </svg>
                                 </a>
 
-                                <div className="space-y-4">
+                                <div className="space-y-4 pr-12 md:pr-0">
                                     <div>
                                         <h3 className="text-xl md:text-2xl font-black text-white tracking-tighter uppercase">
                                             {t.media.ramon.name}

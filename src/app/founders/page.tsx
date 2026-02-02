@@ -48,7 +48,7 @@ export default function Page() {
                             )}
 
                             <div className="space-y-6">
-                                <div>
+                                <div className="pr-14 md:pr-0">
                                     <h1 className="text-3xl md:text-4xl font-black text-white tracking-tighter mb-2">
                                         {founder.data.name}
                                     </h1>
