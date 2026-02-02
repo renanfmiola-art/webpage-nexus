@@ -9,7 +9,7 @@ export default function Page() {
         {
             data: t.founders.renan,
             image: "/renan-miola.jpg",
-            linkedin: "https://www.linkedin.com/in/renanmiola/"
+            linkedin: "https://www.linkedin.com/in/renan-fernando-miola-4132182bb/"
         },
         {
             data: t.founders.murilo,

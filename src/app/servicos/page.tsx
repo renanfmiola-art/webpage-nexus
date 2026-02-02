@@ -12,7 +12,8 @@ export default function Page() {
             subtitle: t.services.oreex.subtitle,
             p1: t.services.oreex.p1,
             p2: t.services.oreex.p2,
-            cta: t.services.oreex.cta
+            cta: t.services.oreex.cta,
+            file: "/files/oreex-about.pdf"
         },
         {
             id: "travelflow",
@@ -20,7 +21,8 @@ export default function Page() {
             subtitle: t.services.travelflow.subtitle,
             p1: t.services.travelflow.p1,
             p2: t.services.travelflow.p2,
-            cta: t.services.travelflow.cta
+            cta: t.services.travelflow.cta,
+            file: "/files/travelflow-about.pdf"
         }
     ];
 
@@ -55,10 +57,14 @@ export default function Page() {
 
                             {/* CTA */}
                             <div className="pt-4">
-                                <button className="px-6 py-3 bg-white/5 border border-white/10 rounded-full text-white/90 text-[10px] md:text-xs font-bold tracking-widest uppercase transition-all duration-300 hover:bg-white/10 hover:border-white/20 hover:scale-105 active:scale-95 shadow-lg flex items-center gap-2">
+                                <a
+                                    href={service.file}
+                                    download
+                                    className="inline-flex px-6 py-3 bg-white/5 border border-white/10 rounded-full text-white/90 text-[10px] md:text-xs font-bold tracking-widest uppercase transition-all duration-300 hover:bg-white/10 hover:border-white/20 hover:scale-105 active:scale-95 shadow-lg items-center gap-2"
+                                >
                                     {service.cta}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>

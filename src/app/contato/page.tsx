@@ -5,7 +5,7 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function Page() {
     const { t } = useLanguage();
 
-    const contactEmail = "contato@nexusintell.com.br";
+    const contactEmail = "miola@nexusintell.com.br";
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${contactEmail}`;
 
     return (
@@ -57,9 +57,6 @@ export default function Page() {
 
                 {/* Static Contact Info */}
                 <div className="pt-16 border-t border-white/5 space-y-3">
-                    <p className="text-white/30 text-sm font-medium tracking-wide">
-                        contato@nexusintell.com.br
-                    </p>
                     <p className="text-white/30 text-sm font-medium tracking-wide">
                         miola@nexusintell.com.br
                     </p>

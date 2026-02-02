@@ -5,39 +5,9 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function Page() {
     const { t } = useLanguage();
 
-    const downloads = [
-        {
-            prefix: "Nexus Intelligence",
-            file: "/files/nexus-intelligence-about.pdf",
-        },
-        {
-            prefix: "OREEX",
-            file: "/files/oreex-about.pdf",
-        },
-        {
-            prefix: "TRAVELFLOW",
-            file: "/files/travelflow-about.pdf",
-        }
-    ];
-
     return (
         <main className="min-h-[calc(100vh-64px)] pt-32 pb-48 px-6 md:px-12 lg:px-24">
             <div className="max-w-7xl mx-auto">
-                {/* Download Buttons Section */}
-                <div className="flex flex-wrap items-center justify-center gap-4 mb-24">
-                    {downloads.map((item, index) => (
-                        <a
-                            key={index}
-                            href={item.file}
-                            download
-                            className="px-6 py-4 bg-white/[0.03] border border-white/10 rounded-xl text-white/70 text-xs font-bold tracking-widest uppercase transition-all duration-300 hover:bg-white/10 hover:text-white hover:border-white/20 flex items-center gap-3 group"
-                        >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-y-0.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                            {item.prefix} - {t.media.download_about}
-                        </a>
-                    ))}
-                </div>
-
                 {/* Press Contact / Ramon's Card */}
                 <div className="max-w-5xl mx-auto">
                     <h2 className="text-white/30 text-xs font-bold tracking-[0.3em] uppercase mb-8 ml-2">
@@ -60,7 +30,7 @@ export default function Page() {
                             <div className="w-full md:w-2/3 p-8 md:p-10 flex flex-col justify-center relative">
                                 {/* Profile Link Button (LinkedIn) - Same as Founders */}
                                 <a
-                                    href="https://www.linkedin.com/in/ramon-barbosa-franco-3b4a2221/"
+                                    href="https://www.linkedin.com/in/monfranco8/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110 active:scale-95 z-20"
