@@ -14,7 +14,7 @@ export default function Page() {
         {
             data: t.founders.murilo,
             image: "/murilo-demarchi.png",
-            linkedin: "https://www.linkedin.com/in/murilosanches/" // Placeholder LinkedIn
+            linkedin: "#" // Removido acesso por enquanto
         }
     ];
 
@@ -36,14 +36,16 @@ export default function Page() {
                         {/* Right side: Content */}
                         <div className="lg:col-span-8 p-8 md:p-12 flex flex-col justify-center relative">
                             {/* LinkedIn Icon/Button */}
-                            <a
-                                href={founder.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="absolute top-8 right-8 w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/50 transition-all duration-300 hover:bg-white/10 hover:text-white hover:scale-110"
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
-                            </a>
+                            {founder.linkedin !== "#" && (
+                                <a
+                                    href={founder.linkedin}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="absolute top-8 right-8 w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/50 transition-all duration-300 hover:bg-white/10 hover:text-white hover:scale-110"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
+                                </a>
+                            )}
 
                             <div className="space-y-6">
                                 <div>
