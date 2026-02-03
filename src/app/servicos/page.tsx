@@ -3,7 +3,7 @@
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Page() {
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
 
     const services = [
         {
@@ -13,7 +13,7 @@ export default function Page() {
             p1: t.services.oreex.p1,
             p2: t.services.oreex.p2,
             cta: t.services.oreex.cta,
-            file: "/files/oreex-about.pdf"
+            file: language === "pt" ? "/files/oreex-about.pdf" : "/files/oreex-about-en.pdf"
         },
         {
             id: "travelflow",
