@@ -41,27 +41,27 @@ export const Navbar = () => {
     ];
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-[100] border-b border-white/5 bg-black/95 backdrop-blur-xl">
-            <div className="w-full px-6 h-16 flex items-center justify-between">
-                <div className="flex items-center gap-12">
+        <nav className="fixed top-0 left-0 right-0 z-[100] border-b border-white/5 bg-black/80 backdrop-blur-xl">
+            <div className="max-w-7xl px-6 h-16 flex items-center justify-between">
+                <div className="flex items-center gap-8">
                     <Link href="/" className="flex items-center gap-2 group cursor-pointer transition-opacity hover:opacity-80">
                         <img
                             src="/logo.png"
                             alt="NEXUS Logo"
-                            className="h-7 md:h-8 w-auto invert brightness-110 contrast-[1.6] grayscale mix-blend-screen opacity-90"
+                            className="h-8 md:h-9 w-auto invert brightness-110 contrast-[1.6] grayscale mix-blend-screen opacity-90"
                         />
                     </Link>
 
-                    {/* Desktop Menu - Tab Style */}
-                    <div className="hidden md:flex items-center">
+                    {/* Desktop Menu */}
+                    <div className="hidden md:flex items-center gap-2">
                         {navItems.map((item) => (
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className={`px-5 h-16 flex items-center text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300 border-x border-transparent
+                                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300
                                     ${pathname === item.href
-                                        ? "bg-white/5 text-white border-white/10 shadow-[inset_0_-2px_0_white]"
-                                        : "text-white/40 hover:text-white hover:bg-white/[0.02]"
+                                        ? "bg-white/10 text-white shadow-[0_4px_12px_rgba(0,0,0,0.5)] border border-white/10"
+                                        : "text-white/60 hover:text-white hover:bg-white/[0.05]"
                                     }
                                 `}
                             >
@@ -71,17 +71,17 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-4">
                     {/* Language Switchers (Desktop) */}
-                    <div className="hidden sm:flex items-center gap-3">
+                    <div className="hidden md:flex items-center gap-2">
                         {languages.map((lang) => (
                             <button
                                 key={lang.code}
                                 onClick={() => setLanguage(lang.code as any)}
-                                className={`w-6 h-6 rounded-sm border transition-all overflow-hidden ${language === lang.code ? 'border-primary scale-110' : 'border-white/10 opacity-40 hover:opacity-80'}`}
+                                className={`w-8 h-8 rounded-full border-2 transition-all overflow-hidden ${language === lang.code ? 'border-primary' : 'border-transparent opacity-60 hover:opacity-100'}`}
                                 title={lang.label}
                             >
-                                <img src={lang.flag} alt={lang.code.toUpperCase()} className="w-full h-full object-cover grayscale" />
+                                <img src={lang.flag} alt={lang.code.toUpperCase()} className="w-full h-full object-cover" />
                             </button>
                         ))}
                     </div>
@@ -91,9 +91,9 @@ export const Navbar = () => {
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className="md:hidden w-10 h-10 flex flex-col items-center justify-center gap-1.5 focus:outline-none z-50"
                     >
-                        <span className={`w-6 h-px bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`} />
-                        <span className={`w-6 h-px bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`} />
-                        <span className={`w-6 h-px bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`} />
+                        <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+                        <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`} />
+                        <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
                     </button>
                 </div>
             </div>
