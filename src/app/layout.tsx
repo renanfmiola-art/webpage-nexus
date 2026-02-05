@@ -25,10 +25,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico?v=2", sizes: "any" },
-      { url: "/icon.png?v=2", type: "image/png" },
+      { url: "/favicon.ico?v=3", sizes: "any" },
+      { url: "/icon.png?v=3", type: "image/png" },
     ],
-    apple: "/icon.png?v=2",
+    apple: "/icon.png?v=3",
   },
   openGraph: {
     title: "Nexus Intelligence | Corporate",

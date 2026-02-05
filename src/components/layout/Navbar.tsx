@@ -26,11 +26,11 @@ export const Navbar = () => {
 
     const navItems = [
         { name: t.nav.home, href: "/" },
+        { name: t.nav.travelflow, href: "/travelflow" },
+        { name: t.nav.nexusClear, href: "/nexus-clear" },
         { name: t.nav.about, href: "/sobre" },
-        { name: t.nav.founders, href: "/founders" },
-        { name: t.nav.services, href: "/servicos" },
-        { name: t.nav.media, href: "/midia" },
         { name: t.nav.contact, href: "/contato" },
+        { name: t.nav.blog, href: "/blog" },
     ];
 
     const languages = [
@@ -42,7 +42,7 @@ export const Navbar = () => {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-[100] border-b border-white/5 bg-black/80 backdrop-blur-xl">
-            <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div className="max-w-7xl px-6 h-16 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2 group cursor-pointer transition-opacity hover:opacity-80">
                     <img
                         src="/logo.png"
