@@ -11,7 +11,14 @@ export default function Page() {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-12">
                     {t.nav.contact}
                 </h1>
-                {/* Content eliminated as requested */}
+
+                <div className="flex justify-start w-full mb-16">
+                    <img
+                        src="/hero-logo.png"
+                        alt="NEXUS Intelligence"
+                        className="h-[156px] md:h-[208px] lg:h-[260px] w-auto opacity-100"
+                    />
+                </div>
             </div>
         </main>
     );

@@ -10,15 +10,6 @@ export default function Home() {
       <div className="max-w-4xl space-y-24">
         {/* Header */}
         <div className="space-y-16">
-          {/* Left Aligned Logo */}
-          <div className="flex justify-start w-full">
-            <img
-              src="/hero-logo.png"
-              alt="NEXUS Intelligence"
-              className="h-[120px] md:h-[160px] lg:h-[200px] w-auto opacity-100"
-            />
-          </div>
-
           <div className="space-y-8">
             {/* Industrial Status Indicator */}
             <div className="flex items-center gap-4 text-[10px] font-bold tracking-[0.3em] uppercase text-white/40 border-l border-white/20 pl-4 py-1">
