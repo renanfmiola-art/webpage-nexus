@@ -78,6 +78,58 @@ export const translations = {
                 footer: "Tudo é feito com escopo fechado, sem customizações caóticas e sem dependência futura da Nexus."
             }
         },
+        nexusClear: {
+            what_is: {
+                title: "O que é",
+                p1: "O NEXUS CLEAR é um microprojeto de infraestrutura de dados criado para devolver clareza operacional e decisória em poucos dias.",
+                p2: "Ele organiza dados que já existem na empresa e os transforma em uma visão executiva simples, confiável e acionável.",
+                p3: "Não é um projeto longo nem uma transformação completa. É uma intervenção enxuta, com escopo fechado, para que decisões deixem de ser tomadas no escuro."
+            },
+            for_whom: {
+                title: "Para quem é",
+                p1: "O NEXUS CLEAR é indicado para empresas operacionais já em funcionamento, que:",
+                items: [
+                    "Possuem faturamento recorrente;",
+                    "Operam com vendas, operação e financeiros ativos;",
+                    "Acumulam dados em planilhas, sistemas e relatórios desconectados;",
+                    "Dependem do dono ou de poucas pessoas para decidir."
+                ],
+                footer: "É especialmente adequado para empresas B2B ou B2B2C a partir de 3 colaboradores, onde crescer sem clareza passou a ser um risco."
+            },
+            problem: {
+                title: "Qual problema resolve",
+                p1: "Empresas raramente sofrem por falta de dados. Elas sofrem por falta de visão clara sobre o que realmente importa.",
+                items: [
+                    "Dificuldade de enxergar margem, vendas e gargalos;",
+                    "Excesso de informações que não viram decisão;",
+                    "Dependência de planilhas manuais e consolidações demoradas;",
+                    "Sensação constante de trabalhar muito e decidir mal."
+                ],
+                footer: "Ao final do projeto, a empresa passa a ter visibilidade real para priorizar ajustes antes de crescer."
+            },
+            is_not: {
+                title: "O que NÃO é",
+                items: [
+                    "Consultoria estratégica aberta;",
+                    "BI genérico ou projeto de gráficos;",
+                    "Implementação longa ou contínua;",
+                    "Suporte recorrente;",
+                    "Substituto de sistemas complexos."
+                ],
+                footer: "É um projeto de clareza, não de transformação total."
+            },
+            how_it_works: {
+                title: "Como funciona",
+                p1: "O projeto é executado em até 7 dias, com etapas objetivas:",
+                steps: [
+                    { title: "Diagnóstico rápido", text: "Alinhamos o objetivo decisório e entendemos quais dados realmente importam;" },
+                    { title: "Consolidação de dados existentes", text: "Organizamos informações já disponíveis (planilhas, ERP, CRM, financeiro);" },
+                    { title: "Construção do dashboard executivo", text: "Criamos uma visão clara com os principais KPIs da operação;" },
+                    { title: "Entrega e leitura executiva", text: "Apresentamos o painel, explicamos os indicadores e indicamos os principais pontos de atenção." }
+                ],
+                footer: "Tudo é feito com escopo fechado, sem dependência futura e sem improviso."
+            }
+        },
         about: {
             title: "Por que existimos",
             p1: "Operações de alta complexidade — seja na extração de materiais estratégicos ou na coordenação de experiências personalizadas — compartilham o mesmo problema crítico: decisões lentas custam caro.",
@@ -178,6 +230,58 @@ export const translations = {
                 footer: "Everything is done with a fixed scope, without chaotic customizations and without future dependence on Nexus."
             }
         },
+        nexusClear: {
+            what_is: {
+                title: "What is it",
+                p1: "NEXUS CLEAR is a data infrastructure micro-project created to restore operational and decision-making clarity in a few days.",
+                p2: "It organizes data that already exists in the company and transforms it into a simple, reliable, and actionable executive view.",
+                p3: "It is not a long project or a complete transformation. It is a lean intervention with a fixed scope so that decisions are no longer made in the dark."
+            },
+            for_whom: {
+                title: "Who is it for",
+                p1: "NEXUS CLEAR is indicated for operational companies already in operation, which:",
+                items: [
+                    "Have recurring revenue;",
+                    "Operate with active sales, operations, and financials;",
+                    "Accumulate data in disconnected spreadsheets, systems, and reports;",
+                    "Depend on the owner or a few people to decide."
+                ],
+                footer: "It is especially suitable for B2B or B2B2C companies with 3 or more employees, where growing without clarity has become an operational risk."
+            },
+            problem: {
+                title: "What problem does it solve",
+                p1: "Companies rarely suffer from a lack of data. They suffer from a lack of a clear vision of what really matters.",
+                items: [
+                    "Difficulty seeing margins, sales, and bottlenecks;",
+                    "Excess information that does not lead to decisions;",
+                    "Dependence on manual spreadsheets and time-consuming consolidations;",
+                    "Constant feeling of working hard and deciding poorly."
+                ],
+                footer: "At the end of the project, the company has real visibility to prioritize adjustments before growing."
+            },
+            is_not: {
+                title: "What it is NOT",
+                items: [
+                    "Open strategic consultancy;",
+                    "Generic BI or graphics project;",
+                    "Long or continuous implementation;",
+                    "Recurring support;",
+                    "Substitute for complex systems."
+                ],
+                footer: "It is a clarity project, not a total transformation."
+            },
+            how_it_works: {
+                title: "How it works",
+                p1: "The project is executed in up to 7 days, with objective steps:",
+                steps: [
+                    { title: "Rapid Diagnosis", text: "We align the decision-making objective and understand what data really matters;" },
+                    { title: "Consolidation of existing data", text: "We organize already available information (spreadsheets, ERP, CRM, financial);" },
+                    { title: "Executive dashboard construction", text: "We create a clear view with the operation's main KPIs;" },
+                    { title: "Executive delivery and readout", text: "We present the panel, explain the indicators, and point out the main points of attention." }
+                ],
+                footer: "Everything is done with a fixed scope, without future dependence and without improvisation."
+            }
+        },
         about: {
             title: "Why we exist",
             p1: "High-complexity operations — whether in strategic material extraction or personal experience coordination — share the same critical problem: slow decisions are expensive.",
@@ -228,7 +332,7 @@ export const translations = {
             what_is: {
                 title: "Qu'est-ce que c'est",
                 p1: "TRAVELFLOW est un système d'infrastructure commerciale créé par Nexus Intelligence AI pour les agences de voyages opérant avec des voyages personnalisés et des ventes à tickets élevés.",
-                p2: "Son objectif est de transformer un processus commercial fragile — dépendant de la mémoire, de l'effort et de l'improvisation humaine — en une opération prévisible, continue et contrôlable.",
+                p2: "Son objectif est de transformer un processus commercial fragile — dépendant de la mémoire, de l'effort et de l'improvisation humaine — en une opération prévisível, continue et contrôlable.",
                 p3: "TRAVELFLOW ne remplace pas les personnes. Il élimine les faiblesses des processus pour que le facteur humain puisse agir là où cela compte vraiment : diagnostic, relation et clôture."
             },
             for_whom: {
@@ -241,7 +345,7 @@ export const translations = {
                     "Dépendent fortement du consultant pour diriger le tunnel ;",
                     "Ressentent des pertes de ventes dues à un suivi incohérent et à un manque de continuité."
                 ],
-                footer: "Il est indiqué pour les opérations qui vendent déjà, mais qui ont perdu en prévisibilité en grandissant."
+                footer: "Il est indiqué pour les opérations qui vendent déjà, mas qui ont perdu en prévisibilité en grandissant."
             },
             problem: {
                 title: "Quel problème résout-il",
@@ -278,11 +382,63 @@ export const translations = {
                 footer: "Tout est fait avec un périmètre défini, sans personnalisations chaotiques et sans dépendance future vis-à-vis de Nexus."
             }
         },
+        nexusClear: {
+            what_is: {
+                title: "Qu'est-ce que c'est",
+                p1: "NEXUS CLEAR est un micro-projet d'infrastructure de données créé pour redonner de la clarté opérationnelle et décisionnelle en quelques jours.",
+                p2: "Il organise les données déjà existantes dans l'entreprise et les transforme en une vision exécutive simple, fiable et exploitable.",
+                p3: "Il ne s'agit pas d'un projet long ni d'une transformation complète. C'est une intervention agile, avec un périmètre défini, pour que les décisions ne soient plus prises dans l'obscurité."
+            },
+            for_whom: {
+                title: "À qui s'adresse-t-il",
+                p1: "NEXUS CLEAR s'adresse aux entreprises opérationnelles déjà en activité qui :",
+                items: [
+                    "Ont un chiffre d'affaires récurrent ;",
+                    "Opèrent avec des ventes, des opérations et des finances actives ;",
+                    "Accumulent des données dans des feuilles de calcul, des systèmes et des rapports déconnectés ;",
+                    "Dépendent du propriétaire ou de quelques personnes pour décider."
+                ],
+                footer: "Il est particulièrement adapté aux entreprises B2B ou B2B2C à partir de 3 collaborateurs, où croître sans clarté est devenu un risque."
+            },
+            problem: {
+                title: "Quel problème résout-il",
+                p1: "Les entreprises souffrent rarement d'un manque de données. Elles souffrent d'un manque de vision claire sur ce qui compte vraiment.",
+                items: [
+                    "Difficulté à visualiser les marges, les ventes et les goulots d'étranglement ;",
+                    "Excès d'informations qui ne se traduisent pas en décisions ;",
+                    "Dépendance aux feuilles de calcul manuelles et aux consolidations fastidieuses ;",
+                    "Sentiment constant de travailler beaucoup et de mal décider."
+                ],
+                footer: "À la fin du projet, l'entreprise dispose d'une visibilidade réelle pour prioriser les ajustements avant de croître."
+            },
+            is_not: {
+                title: "Ce que ce n'est PAS",
+                items: [
+                    "Conseil stratégique ouvert ;",
+                    "BI générique ou projet de graphiques ;",
+                    "Implémentation longue ou continue ;",
+                    "Support récurrent ;",
+                    "Substitut de systèmes complexes."
+                ],
+                footer: "C'est un projet de clarté, pas une transformation totale."
+            },
+            how_it_works: {
+                title: "Comment ça marche",
+                p1: "Le projet est exécuté en 7 jours maximum, avec des étapes objectives :",
+                steps: [
+                    { title: "Diagnostic rapide", text: "Nous alignons l'objectif décisionnel et comprenons quelles données comptent vraiment ;" },
+                    { title: "Consolidation des données existantes", text: "Nous organisons les informations déjà disponibles (feuilles de calcul, ERP, CRM, finance) ;" },
+                    { title: "Construction du tableau de bord exécutif", text: "Nous créons une vision claire avec les principaux KPIs de l'opération ;" },
+                    { title: "Livraison et lecture exécutive", text: "Nous présentons le tableau, expliquons les indicateurs et indiquons les principaux points d'attention." }
+                ],
+                footer: "Tout est fait avec un périmètre défini, sans dépendance future et sans improvisation."
+            }
+        },
         about: {
             title: "Pourquoi nous existons",
             p1: "Les opérations de haute complexité — qu'il s'agisse de l'extraction de matériaux stratégiques ou de la coordination d'expériences personnalisées — partagent le même problème critique : les décisions lentes coûtent cher.",
-            p2: "L'infrastructure technologique disponible aujourd'hui n'a pas été conçue pour fonctionner dans ce contexte. Les ERP organisent les données. Les tableaux de bord visualisent les mesures. Les cabinets de conseil remettent des rapports. Mais aucune de ces couches ne synchronise les processus en temps réel ou ne convertit les données opérationnelles en actions coordonnées.",
-            p3: "Nous avons fondé Nexus Intelligence para construire ce qui manque : la couche neurale des opérations critiques — l'infrastructure qui connecte les données fragmentées, coordonne les processus interdépendants et élimine la latence entre l'insight et l'exécution.",
+            p2: "L'infrastructure technologique disponible aujourd'hui n'a pas été conçue pour fonctionner dans ce contexte. Les ERP organisent les données. Les tableaux de bord visualisent les mesures. Les cabinets de conseil remettent des rapports. Mais aucune de ces couches ne synchronise les processus en tempo réel ou ne convertit les données opérationnelles en actions coordonnées.",
+            p3: "Nous avons fondé Nexus Intelligence pour construire ce qui manque : la couche neurale des opérations critiques — l'infrastructure qui connecte les données fragmentées, coordonne les processus interdépendants et élimine la latence entre l'insight et l'exécution.",
             p4: "Nous ne développons pas de logiciels. Nous construisons le système nerveux opérationnel."
         },
         contact: {
@@ -376,6 +532,58 @@ export const translations = {
                     { title: "Activación y validación", text: "Garantía de uso real, reducción de la dependencia humana y entrega del sistema funcional." }
                 ],
                 footer: "Todo se hace con un alcance cerrado, sin personalizaciones caóticas y sin dependencia futura de Nexus."
+            }
+        },
+        nexusClear: {
+            what_is: {
+                title: "Qué es",
+                p1: "NEXUS CLEAR es un microproyecto de infraestructura de datos creado para devolver la claridad operativa y de decisión en pocos días.",
+                p2: "Organiza los datos que ya existen en la empresa y los transforma en una visión ejecutiva simple, confiable y accionable.",
+                p3: "No es un proyecto largo ni una transformación completa. Es una intervención ágil, con un alcance cerrado, para que las decisiones dejen de tomarse a ciegas."
+            },
+            for_whom: {
+                title: "Para quién es",
+                p1: "NEXUS CLEAR está indicado para empresas operativas ya en funcionamiento que:",
+                items: [
+                    "Tienen ingresos recurrentes;",
+                    "Operan con ventas, operaciones y finanzas activas;",
+                    "Acumulan datos en hojas de cálculo, sistemas y informes desconectados;",
+                    "Dependen del dueño o de pocas personas para decidir."
+                ],
+                footer: "Es especialmente adecuado para empresas B2B o B2B2C con 3 o más colaboradores, donde crecer sin claridad se ha convertido en un riesgo operativo."
+            },
+            problem: {
+                title: "Qué problema resuelve",
+                p1: "Las empresas rara vez sufren por falta de datos. Sufren por falta de una visión clara sobre lo que realmente importa.",
+                items: [
+                    "Dificultad para visualizar márgenes, ventas y cuellos de botella;",
+                    "Exceso de información que no se traduce en decisiones;",
+                    "Dependencia de hojas de cálculo manuales y consolidaciones lentas;",
+                    "Sensación constante de trabajar mucho y decidir mal."
+                ],
+                footer: "Al final del proyecto, la empresa cuenta con visibilidade real para priorizar ajustes antes de crecer."
+            },
+            is_not: {
+                title: "Qué NO es",
+                items: [
+                    "Consultoría estratégica abierta;",
+                    "BI genérico o proyecto de gráficos;",
+                    "Implementación larga o continua;",
+                    "Soporte recurrente;",
+                    "Sustituto de sistemas complejos."
+                ],
+                footer: "Es un proyecto de claridad, no de transformación total."
+            },
+            how_it_works: {
+                title: "Cómo funciona",
+                p1: "El proyecto se ejecuta en un máximo de 7 días, con etapas objetivas:",
+                steps: [
+                    { title: "Diagnóstico rápido", text: "Alineamos el objetivo de decisión y entendemos qué datos realmente importan;" },
+                    { title: "Consolidación de datos existentes", text: "Organizamos la información ya disponible (hojas de cálculo, ERP, CRM, financiero);" },
+                    { title: "Construcción del panel ejecutivo", text: "Creamos una visión clara con los principales KPIs de la operación;" },
+                    { title: "Entrega y lectura ejecutiva", text: "Presentamos el panel, explicamos los indicadores e indicamos los principales puntos de atención." }
+                ],
+                footer: "Todo se hace con un alcance cerrado, sin dependencia futura y sin improvisación."
             }
         },
         about: {
