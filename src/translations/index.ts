@@ -157,7 +157,16 @@ export const translations = {
             ]
         },
         contact: {
-            cta: "Entre em Contato"
+            cta: "Entre em Contato",
+            cards: {
+                travelflow: "TRAVELFLOW - SAIBA MAIS",
+                nexusClear: "NEXUS CLEAR - SAIBA MAIS",
+                email: "EMAIL"
+            },
+            info: {
+                email: "miola@nexusintell.com.br",
+                whatsapp: "+55 14 99862 2743"
+            }
         },
         page_titles: {
             about: "Sobre Nós",
@@ -328,7 +337,16 @@ export const translations = {
             ]
         },
         contact: {
-            cta: "Get in Touch"
+            cta: "Get in Touch",
+            cards: {
+                travelflow: "TRAVELFLOW - LEARN MORE",
+                nexusClear: "NEXUS CLEAR - LEARN MORE",
+                email: "EMAIL"
+            },
+            info: {
+                email: "miola@nexusintell.com.br",
+                whatsapp: "+55 14 99862 2743"
+            }
         },
         page_titles: {
             about: "About Us",
@@ -499,7 +517,16 @@ export const translations = {
             ]
         },
         contact: {
-            cta: "Contactez-nous"
+            cta: "Contactez-nous",
+            cards: {
+                travelflow: "TRAVELFLOW - EN SAVOIR PLUS",
+                nexusClear: "NEXUS CLEAR - EN SAVOIR PLUS",
+                email: "E-MAIL"
+            },
+            info: {
+                email: "miola@nexusintell.com.br",
+                whatsapp: "+55 14 99862 2743"
+            }
         },
         page_titles: {
             about: "À propos de nous",
@@ -670,7 +697,16 @@ export const translations = {
             ]
         },
         contact: {
-            cta: "Ponerse en contacto"
+            cta: "Ponerse en contacto",
+            cards: {
+                travelflow: "TRAVELFLOW - SABER MÁS",
+                nexusClear: "NEXUS CLEAR - SABER MÁS",
+                email: "EMAIL"
+            },
+            info: {
+                email: "miola@nexusintell.com.br",
+                whatsapp: "+55 14 99862 2743"
+            }
         },
         page_titles: {
             about: "Sobre nosotros",
