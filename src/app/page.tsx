@@ -13,7 +13,7 @@ export default function Home() {
           <img
             src="/hero-logo.png"
             alt="NEXUS Intelligence"
-            className="h-20 md:h-24 lg:h-28 w-auto invert brightness-110 contrast-[1.6] grayscale mix-blend-screen opacity-90 transition-all duration-700 hover:scale-105"
+            className="h-20 md:h-24 lg:h-28 w-auto opacity-100 transition-all duration-700 hover:scale-105"
           />
         </div>
 

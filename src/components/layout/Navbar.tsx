@@ -48,7 +48,7 @@ export const Navbar = () => {
                         <img
                             src="/logo.png"
                             alt="NEXUS Logo"
-                            className="h-8 md:h-9 w-auto invert brightness-110 contrast-[1.6] grayscale mix-blend-screen opacity-90"
+                            className="h-10 md:h-12 w-auto opacity-100"
                         />
                     </Link>
 
