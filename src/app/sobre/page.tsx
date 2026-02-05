@@ -6,17 +6,21 @@ export default function Page() {
     const { t } = useLanguage();
 
     // Fallback and type safety for the new structure
-    const aboutSections = (t.about as any).sections || [];
+    const ab = t.about as any;
+    const aboutSections = ab.sections || [];
 
     return (
         <main className="min-h-[calc(100vh-64px)] pt-32 pb-48 px-6 md:px-12 lg:px-24">
             <div className="max-w-4xl space-y-24">
                 {/* Header */}
-                <div className="space-y-12">
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter uppercase leading-[0.9]">
-                        {t.about.title}
+                <div>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-8 uppercase leading-[0.9]">
+                        {ab.title}
                     </h1>
-                    <div className="w-12 h-0.5 bg-white/20" />
+                    <div className="w-12 h-0.5 bg-white/20 mb-8" />
+                    <p className="text-xl md:text-2xl text-white/60 leading-relaxed max-w-3xl font-medium tracking-tight">
+                        {ab.subheadline}
+                    </p>
                 </div>
 
                 {/* Sections */}
