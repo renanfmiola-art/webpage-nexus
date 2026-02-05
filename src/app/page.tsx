@@ -13,7 +13,7 @@ export default function Home() {
           <div className="space-y-8">
             {/* Industrial Status Indicator */}
             <div className="flex items-center gap-4 text-[10px] font-bold tracking-[0.3em] uppercase text-white/40 border-l border-white/20 pl-4 py-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#adff2f] animate-pulse shadow-[0_0_8px_rgba(173,255,47,0.5)]" />
               <span>System Status: Operational</span>
             </div>
 
