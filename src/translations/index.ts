@@ -159,8 +159,8 @@ export const translations = {
         contact: {
             cta: "Entre em Contato",
             cards: {
-                travelflow: "TRAVELFLOW - SAIBA MAIS",
-                nexusClear: "NEXUS CLEAR - SAIBA MAIS",
+                travelflow: "TRAVELFLOW",
+                nexusClear: "NEXUSCLEAR",
                 email: "EMAIL"
             },
             info: {
@@ -339,8 +339,8 @@ export const translations = {
         contact: {
             cta: "Get in Touch",
             cards: {
-                travelflow: "TRAVELFLOW - LEARN MORE",
-                nexusClear: "NEXUS CLEAR - LEARN MORE",
+                travelflow: "TRAVELFLOW",
+                nexusClear: "NEXUSCLEAR",
                 email: "EMAIL"
             },
             info: {
@@ -519,8 +519,8 @@ export const translations = {
         contact: {
             cta: "Contactez-nous",
             cards: {
-                travelflow: "TRAVELFLOW - EN SAVOIR PLUS",
-                nexusClear: "NEXUS CLEAR - EN SAVOIR PLUS",
+                travelflow: "TRAVELFLOW",
+                nexusClear: "NEXUSCLEAR",
                 email: "E-MAIL"
             },
             info: {
@@ -699,8 +699,8 @@ export const translations = {
         contact: {
             cta: "Ponerse en contacto",
             cards: {
-                travelflow: "TRAVELFLOW - SABER MÁS",
-                nexusClear: "NEXUS CLEAR - SABER MÁS",
+                travelflow: "TRAVELFLOW",
+                nexusClear: "NEXUSCLEAR",
                 email: "EMAIL"
             },
             info: {
