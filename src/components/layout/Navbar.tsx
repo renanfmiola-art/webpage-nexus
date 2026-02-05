@@ -109,10 +109,10 @@ export const Navbar = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu Overlay - FULL SCREEN */}
+            {/* Mobile Menu Overlay - BELOW NAVBAR */}
             <div
-                className={`fixed inset-0 bg-black z-[40] transition-all duration-500 ease-in-out md:hidden flex flex-col items-center justify-center p-8
-                    ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'}
+                className={`fixed left-0 right-0 bottom-0 bg-black z-[90] transition-all duration-300 ease-in-out md:hidden flex flex-col items-center justify-center p-8
+                    ${isMenuOpen ? 'top-16 opacity-100 visible' : 'top-[-100%] opacity-0 invisible pointer-events-none'}
                 `}
             >
                 <div className="flex flex-col gap-8 w-full max-w-xs text-center">
@@ -122,7 +122,7 @@ export const Navbar = () => {
                             href={item.href}
                             onClick={() => setIsMenuOpen(false)}
                             className={`text-2xl font-black tracking-widest uppercase transition-all duration-300
-                                ${pathname === item.href ? 'text-white' : 'text-white/30 hover:text-white'}
+                                ${pathname === item.href ? 'text-white' : 'text-white/40 hover:text-white'}
                             `}
                             style={{
                                 transitionDelay: `${index * 50}ms`,
