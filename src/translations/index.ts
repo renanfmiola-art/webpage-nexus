@@ -133,11 +133,32 @@ export const translations = {
             }
         },
         about: {
-            title: "Por que existimos",
-            p1: "Operações de alta complexidade — seja na extração de materiais estratégicos ou na coordenação de experiências personalizadas — compartilham o mesmo problema crítico: decisões lentas custam caro.",
-            p2: "A infraestrutura tecnológica disponível hoje não foi projetada para operar nesse contexto. ERPs organizam dados. Dashboards visualizam métricas. Consultorias entregam relatórios. Mas nenhuma dessas camadas sincroniza processos em tempo real ou converte dados operacionais em ações coordenadas.",
-            p3: "Fundamos a Nexus Intelligence para construir o que falta: a camada neural de operações críticas — a infraestrutura que conecta dados fragmentados, coordena processos interdependentes e elimina a latência entre insight e execução.",
-            p4: "Não desenvolvemos software. Construímos o sistema nervoso da operação."
+            title: "Sobre",
+            sections: [
+                {
+                    title: "O que é a Nexus Intelligence AI",
+                    p1: "A Nexus Intelligence AI é uma empresa de infraestrutura operacional focada em negócios de serviços high-ticket que precisam de previsibilidade, clareza e controle para crescer sem depender de improviso humano.",
+                    p2: "Nossa atuação não está na execução de tarefas pontuais, campanhas ou soluções genéricas. Projetamos e implantamos sistemas operacionais e comerciais que reduzem fragilidades do processo, organizam decisões e sustentam crescimento com controle. A Nexus não é um produto — é a arquitetura por trás dos produtos que desenvolvemos."
+                },
+                {
+                    title: "Visão",
+                    p1: "Acreditamos que crescer sem estrutura é um risco desnecessário.",
+                    p2: "Nossa visão é um mercado onde empresas crescem com método, limites claros e previsibilidade, e onde decisões importantes deixam de ser tomadas no escuro.",
+                    p3: "Buscamos construir uma empresa reconhecida por clareza, critério e profundidade, não por volume, hype ou promessas aceleradas."
+                },
+                {
+                    title: "Abordagem",
+                    p1: "A Nexus Intelligence AI atua na camada estrutural do negócio — onde processos, decisões e limites determinam a saúde da operação.",
+                    p2: "Trabalhamos com escopo fechado, critérios claros e baixo volume de clientes, garantindo profundidade e qualidade na implantação dos sistemas que projetamos. Antes de pensar em escala, priorizamos estrutura. Antes de acelerar, garantimos controle.",
+                    p3: "Nossa abordagem é seletiva por natureza. Atuamos apenas onde há aderência real, impacto concreto e maturidade para operar com método."
+                },
+                {
+                    title: "Posicionamento Institucional",
+                    p1: "A Nexus Intelligence AI não é agência, não é consultoria aberta e não é fornecedora de soluções improvisadas.",
+                    p2: "Somos uma empresa de arquitetura operacional, criada para negócios que valorizam previsibilidade, clareza e decisões baseadas em estrutura.",
+                    p3: "Trabalhamos com poucas empresas ao mesmo tempo, protegendo nossa energia, nosso padrão de entrega e o posicionamento que escolhemos sustentar. Crescer devagar é estratégia. Controle vem antes da escala."
+                }
+            ]
         },
         contact: {
             cta: "Entre em Contato"
@@ -287,11 +308,32 @@ export const translations = {
             }
         },
         about: {
-            title: "Why we exist",
-            p1: "High-complexity operations — whether in strategic material extraction or personal experience coordination — share the same critical problem: slow decisions are expensive.",
-            p2: "The technological infrastructure available today was not designed to operate in this context. ERPs organize data. Dashboards visualize metrics. Consultancies deliver reports. But none of these layers synchronize processes in real-time or convert operational data into coordinated actions.",
-            p3: "We founded Nexus Intelligence to build what's missing: the neural layer of critical operations — the infrastructure that connects fragmented data, coordinates interdependent processes, and eliminates the latency between insight and execution.",
-            p4: "We don't develop software. We build the operational nervous system."
+            title: "About",
+            sections: [
+                {
+                    title: "What is Nexus Intelligence AI",
+                    p1: "Nexus Intelligence AI is an operational infrastructure company focused on high-ticket service businesses that need predictability, clarity, and control to grow without depending on human improvisation.",
+                    p2: "Our role is not in the execution of specific tasks, campaigns, or generic solutions. We design and implement operational and commercial systems that reduce process fragilities, organize decisions, and sustain growth with control. Nexus is not a product — it is the architecture behind the products we develop."
+                },
+                {
+                    title: "Vision",
+                    p1: "We believe that growing without structure is an unnecessary risk.",
+                    p2: "Our vision is a market where companies grow with method, clear limits, and predictability, and where important decisions stop being made in the dark.",
+                    p3: "We seek to build a company recognized for clarity, criteria, and depth, not for volume, hype, or accelerated promises."
+                },
+                {
+                    title: "Approach",
+                    p1: "Nexus Intelligence AI operates at the structural layer of the business — where processes, decisions, and limits determine the health of the operation.",
+                    p2: "We work with a fixed scope, clear criteria, and a low volume of clients, ensuring depth and quality in the implementation of the systems we design. Before thinking about scale, we prioritize structure. Before accelerating, we guarantee control.",
+                    p3: "Our approach is selective by nature. We act only where there is real adherence, concrete impact, and maturity to operate with method."
+                },
+                {
+                    title: "Institutional Positioning",
+                    p1: "Nexus Intelligence AI is not an agency, not an open consultancy, and not a provider of improvised solutions.",
+                    p2: "We are an operational architecture company, created for businesses that value predictability, clarity, and structure-based decisions.",
+                    p3: "We work with few companies at a time, protecting our energy, our delivery standard, and the positioning we choose to sustain. Growing slowly is a strategy. Control comes before scale."
+                }
+            ]
         },
         contact: {
             cta: "Get in Touch"
@@ -441,11 +483,32 @@ export const translations = {
             }
         },
         about: {
-            title: "Pourquoi nous existons",
-            p1: "Les opérations de haute complexité — qu'il s'agisse de l'extraction de matériaux stratégiques ou de la coordination d'expériences personnalisées — partagent le même problème critique : les décisions lentes coûtent cher.",
-            p2: "L'infrastructure technologique disponible aujourd'hui n'a pas été conçue pour fonctionner dans ce contexte. Les ERP organisent les données. Les tableaux de bord visualisent les mesures. Les cabinets de conseil remettent des rapports. Mais aucune de ces couches ne synchronise les processus en tempo réel ou ne convertit les données opérationnelles en actions coordonnées.",
-            p3: "Nous avons fondé Nexus Intelligence pour construire ce qui manque : la couche neurale des opérations critiques — l'infrastructure qui connecte les données fragmentées, coordonne les processus interdépendants et élimine la latence entre l'insight et l'exécution.",
-            p4: "Nous ne développons pas de logiciels. Nous construisons le système nerveux opérationnel."
+            title: "À propos",
+            sections: [
+                {
+                    title: "Qu'est-ce que Nexus Intelligence AI",
+                    p1: "Nexus Intelligence AI est une entreprise d'infrastructure opérationnelle axée sur les entreprises de services à tickets élevés qui ont besoin de prévisibilité, de clarté et de contrôle pour croître sans dépendre de l'improvisation humaine.",
+                    p2: "Notre rôle n'est pas dans l'exécution de tâches ponctuelles, de campagnes ou de solutions génériques. Nous concevons et mettons en œuvre des systèmes opérationnels et commerciaux qui réduisent les fragilités des processus, organisent les décisions et soutiennent la croissance avec contrôle. Nexus n'est pas un produit — c'est l'architecture derrière les produits que nous développons."
+                },
+                {
+                    title: "Vision",
+                    p1: "Nous croyons que croître sans structure est un risque inutile.",
+                    p2: "Notre vision est un marché où les entreprises croissent avec méthode, des limites claires et de la prévisibilité, et où les décisions importantes ne sont plus prises dans l'obscurité.",
+                    p3: "Nous cherchons à bâtir une entreprise reconnue pour sa clarté, son critère et sa profondeur, et non pour son volume, son battage médiatique ou ses promesses accélérées."
+                },
+                {
+                    title: "Approche",
+                    p1: "Nexus Intelligence AI intervient au niveau structurel de l'entreprise — là où les processus, les décisions et les limites déterminent la santé de l'opération.",
+                    p2: "Nous travaillons avec un périmètre défini, des critères clairs et un faible volume de clients, garantissant la profondeur et la qualité de la mise en œuvre des systèmes que nous concevons. Avant de penser à l'échelle, nous priorisons la structure. Avant d'accélérer, nous garantissons le contrôle.",
+                    p3: "Notre approche est sélective par nature. Nous n'agissons que là où il y a une réelle adhésion, un impact concret et la maturité nécessaire pour opérer avec méthode."
+                },
+                {
+                    title: "Positionnement Institutionnel",
+                    p1: "Nexus Intelligence AI n'est pas une agence, n'est pas un cabinet de conseil ouvert et n'est pas um fournisseur de solutions improvisées.",
+                    p2: "Nous sommes une entreprise d'architecture opérationnelle, créée pour les entreprises qui valorisent la prévisibilité, la clarté et les décisions basées sur la structure.",
+                    p3: "Nous travaillons avec peu d'entreprises à la fois, protégeant notre énergie, notre standard de livraison et le positionnement que nous choisissons de soutenir. Croître lentement est une stratégie. Le contrôle vient avant l'échelle."
+                }
+            ]
         },
         contact: {
             cta: "Contactez-nous"
@@ -595,11 +658,32 @@ export const translations = {
             }
         },
         about: {
-            title: "Por qué existimos",
-            p1: "Las operaciones de alta complejidad, ya sea en la extracción de materiales estratégicos o en la coordinación de experiencias personalizadas, comparten el mismo problema crítico: las decisiones lentas salen caras.",
-            p2: "La infraestructura tecnológica disponible hoy no fue diseñada para operar en este contexto. Los ERP organizan datos. Los tableros visualizan métricas. Las consultorías entregan informes. Pero ninguna de estas capas sincroniza procesos en tiempo real o convierte datos operativos en acciones coordenadas.",
-            p3: "Fundamos Nexus Intelligence para construir lo que falta: la capa neuronal de operaciones críticas: la infraestructura que conecta datos fragmentados, coordina procesos interdependientes y elimina la latencia entre el conocimiento y la ejecución.",
-            p4: "No desarrollamos software. Construimos el sistema nervioso operativo."
+            title: "Sobre",
+            sections: [
+                {
+                    title: "Qué es Nexus Intelligence AI",
+                    p1: "Nexus Intelligence AI es una empresa de infraestructura operativa enfocada en negocios de servicios de alto valor (high-ticket) que necesitan previsibilidad, claridad y control para crecer sin depender de la improvisación humana.",
+                    p2: "Nuestra actuación no está en la ejecución de tareas puntuales, campanãs o soluciones genéricas. Diseñamos e implantamos sistemas operativos y comerciales que reducen fragilidades del proceso, organizan decisiones y sustentan el crecimiento con control. Nexus no es un producto — es la arquitectura detrás de los productos que desarrollamos."
+                },
+                {
+                    title: "Visión",
+                    p1: "Creemos que crecer sin estructura es un riesgo innecesario.",
+                    p2: "Nuestra visión es un mercado donde las empresas crecen con método, límites claros y previsibilidad, y donde las decisiones importantes dejan de tomarse a oscuras.",
+                    p3: "Buscamos construir una empresa reconocida por su claridad, criterio y profundidad, no por volumen, bombo publicitario o promesas aceleradas."
+                },
+                {
+                    title: "Enfoque",
+                    p1: "Nexus Intelligence AI actúa en la capa estructural del negocio — donde los procesos, decisiones y límites determinan la salud de la operación.",
+                    p2: "Trabajamos con un alcance cerrado, criterios claros y bajo volumen de clientes, garantizando profundidad y calidad en la implantación de los sistemas que diseñamos. Antes de pensar en escalar, priorizamos la estructura. Antes de acelerar, garantizamos el control.",
+                    p3: "Nuestro enfoque es selectivo por naturaleza. Actuamos solo donde hay una adherencia real, impacto concreto y madurez para operar con método."
+                },
+                {
+                    title: "Posicionamiento Institucional",
+                    p1: "Nexus Intelligence AI no es una agencia, no es una consultoría abierta y no es un proveedor de soluciones improvisadas.",
+                    p2: "Somos una empresa de arquitectura operativa, creada para negocios que valoran la previsibilidad, la claridad y las decisiones basadas en la estructura.",
+                    p3: "Trabajamos con pocas empresas a la vez, protegiendo nuestra energía, nuestro estándar de entrega e el posicionamiento que elegimos mantener. Crecer despacio es una estrategia. El control va antes que la escala."
+                }
+            ]
         },
         contact: {
             cta: "Ponerse en contacto"
