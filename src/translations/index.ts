@@ -10,7 +10,7 @@ export const translations = {
         },
         home: {
             headline: "Infraestrutura operacional para negócios que não aceitam crescer no escuro.",
-            subheadline: "Projetamos sistemas claros e previsíveis para empresas high-ticket que precisam de controle antes de escalar.",
+            subheadline: "Clareza operacional para empresas onde decisões não podem depender de feeling, planilhas soltas e improviso.",
             problem: {
                 title: "Problema",
                 p1: "Negócios de serviços high-ticket raramente falham por falta de demanda. Eles falham quando o crescimento passa a depender de memória, esforço humano e decisões tomadas no escuro.",
@@ -162,7 +162,7 @@ export const translations = {
         },
         home: {
             headline: "Operational infrastructure for businesses that refuse to grow in the dark.",
-            subheadline: "We design clear and predictable systems for high-ticket companies that need control before scaling.",
+            subheadline: "Operational clarity for companies where decisions cannot depend on gut feeling, loose spreadsheets, and improvisation.",
             problem: {
                 title: "The Problem",
                 p1: "High-ticket service businesses rarely fail due to a lack of demand. They fail when growth starts to depend on memory, human effort, and decisions made in the dark.",
@@ -314,7 +314,7 @@ export const translations = {
         },
         home: {
             headline: "Infrastructure opérationnelle pour les entreprises qui refusent de croître dans l'ombre.",
-            subheadline: "Nous concevons des systèmes clairs et prévisibles pour les entreprises à tickets élevés qui ont besoin de contrôle avant de passer à l'échelle.",
+            subheadline: "Clarté opérationnelle pour les entreprises où les décisions ne peuvent pas dépendre du feeling, de feuilles de calcul éparses et de l'improvisation.",
             problem: {
                 title: "Le Problème",
                 p1: "Les entreprises de services à tickets élevés échouent rarement par manque de demande. Elles échouent lorsque la croissance commence à dépendre de la mémoire, de l'effort humain et de décisions prises dans l'ombre.",
@@ -466,7 +466,7 @@ export const translations = {
         },
         home: {
             headline: "Infraestructura operativa para negocios que no aceptan crecer a oscuras.",
-            subheadline: "Diseñamos sistemas claros y previsibles para empresas de alto valor (high-ticket) que necesitan control antes de escalar.",
+            subheadline: "Claridad operativa para empresas donde las decisiones no pueden depender de corazonadas, hojas de cálculo sueltas e improvisación.",
             problem: {
                 title: "El Problema",
                 p1: "Los negocios de servicios de alto valor rara vez fallan por falta de demanda. Fallan cuando el crecimiento empieza a depender de la memoria, el esfuerzo humano y las decisiones tomadas a oscuras.",
