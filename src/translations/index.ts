@@ -168,6 +168,24 @@ export const translations = {
                 whatsapp: "+55 14 99862 2743"
             }
         },
+        blog: {
+            title: "Insights",
+            subtitle: "Inteligência neural e infraestrutura operacional para negócios críticos.",
+            posts: [
+                {
+                    id: 1,
+                    date: "05 FEV 2026",
+                    title: "A era da infraestrutura operacional: Por que escalar sem estrutura é um risco.",
+                    excerpt: "Crescer no improviso é o caminho mais rápido para o caos operacional. Entenda como a arquitetura precede a escala."
+                },
+                {
+                    id: 2,
+                    date: "28 JAN 2026",
+                    title: "O fim do 'feeling': Como dados puros estão moldando decisões high-ticket.",
+                    excerpt: "Decisões baseadas em intuição são frágeis. A clareza de dados é o novo padrão ouro para empresas de serviços."
+                }
+            ]
+        },
         page_titles: {
             about: "Sobre Nós",
             contact: "Entre em Contato"
@@ -347,6 +365,24 @@ export const translations = {
                 email: "miola@nexusintell.com.br",
                 whatsapp: "+55 14 99862 2743"
             }
+        },
+        blog: {
+            title: "Insights",
+            subtitle: "Neural intelligence and operational infrastructure for critical businesses.",
+            posts: [
+                {
+                    id: 1,
+                    date: "FEB 05 2026",
+                    title: "The era of operational infrastructure: Why scaling without structure is a risk.",
+                    excerpt: "Growing on improvisation is the fastest path to operational chaos. Understand how architecture precedes scale."
+                },
+                {
+                    id: 2,
+                    date: "JAN 28 2026",
+                    title: "The end of 'feeling': How raw data is shaping high-ticket decisions.",
+                    excerpt: "Intuition-based decisions are fragile. Data clarity is the new gold standard for service companies."
+                }
+            ]
         },
         page_titles: {
             about: "About Us",
@@ -528,6 +564,24 @@ export const translations = {
                 whatsapp: "+55 14 99862 2743"
             }
         },
+        blog: {
+            title: "Insights",
+            subtitle: "Intelligence neurale et infrastructure opérationnelle pour les entreprises critiques.",
+            posts: [
+                {
+                    id: 1,
+                    date: "05 FÉV 2026",
+                    title: "L'ère de l'infrastructure opérationnelle : Pourquoi croître sans structure est un risque.",
+                    excerpt: "Croître dans l'improvisation est le chemin le plus rapide vers le chaos opérationnel. Comprenez comment l'architecture précède l'échelle."
+                },
+                {
+                    id: 2,
+                    date: "28 JAN 2026",
+                    title: "La fin du 'feeling' : Comment les données brutes façonnent les décisions à tickets élevés.",
+                    excerpt: "Les décisions basées sur l'intuition sont fragiles. La clarté des données est la nouvelle norme d'or pour les entreprises de services."
+                }
+            ]
+        },
         page_titles: {
             about: "À propos de nous",
             contact: "Contactez-nous"
@@ -707,6 +761,24 @@ export const translations = {
                 email: "miola@nexusintell.com.br",
                 whatsapp: "+55 14 99862 2743"
             }
+        },
+        blog: {
+            title: "Insights",
+            subtitle: "Inteligencia neural e infraestructura operativa para negocios críticos.",
+            posts: [
+                {
+                    id: 1,
+                    date: "05 FEB 2026",
+                    title: "La era de la infraestructura operativa: Por qué escalar sin estructura es un riesgo.",
+                    excerpt: "Crecer en la improvisación es el camino más rápido hacia el caos operativo. Entienda cómo la arquitectura precede a la escala."
+                },
+                {
+                    id: 2,
+                    date: "28 ENE 2026",
+                    title: "El fin del 'feeling': Cómo los datos puros están moldeando decisiones de alto valor.",
+                    excerpt: "Las decisiones basadas en la intuición son frágiles. La claridad de los datos es el nuevo estándar de oro para las empresas de servicios."
+                }
+            ]
         },
         page_titles: {
             about: "Sobre nosotros",
