@@ -10,7 +10,7 @@ export const translations = {
         },
         home: {
             headline: "Infraestrutura operacional para negócios que não aceitam crescer no escuro.",
-            subheadline: "Clareza operacional para empresas onde decisões não podem depender de feeling, planilhas soltas e improviso.",
+            subheadline: "Projetamos sistemas claros e previsíveis para empresas high-ticket que precisam de controle antes de escalar.",
             problem: {
                 title: "Problema",
                 p1: "Negócios de serviços high-ticket raramente falham por falta de demanda. Eles falham quando o crescimento passa a depender de memória, esforço humano e decisões tomadas no escuro.",
@@ -80,6 +80,7 @@ export const translations = {
             }
         },
         nexusClear: {
+            hero_description: "Clareza operacional para empresas onde decisões não podem depender de feeling, planilhas soltas e improviso.",
             what_is: {
                 title: "O que é",
                 p1: "O NEXUS CLEAR é um microprojeto de infraestrutura de dados criado para devolver clareza operacional e decisória em poucos dias.",
@@ -163,7 +164,7 @@ export const translations = {
         },
         home: {
             headline: "Operational infrastructure for businesses that refuse to grow in the dark.",
-            subheadline: "Operational clarity for companies where decisions cannot depend on gut feeling, loose spreadsheets, and improvisation.",
+            subheadline: "We design clear and predictable systems for high-ticket companies that need control before scaling.",
             problem: {
                 title: "The Problem",
                 p1: "High-ticket service businesses rarely fail due to a lack of demand. They fail when growth starts to depend on memory, human effort, and decisions made in the dark.",
@@ -233,6 +234,7 @@ export const translations = {
             }
         },
         nexusClear: {
+            hero_description: "Operational clarity for companies where decisions cannot depend on gut feeling, loose spreadsheets, and improvisation.",
             what_is: {
                 title: "What is it",
                 p1: "NEXUS CLEAR is a data infrastructure micro-project created to restore operational and decision-making clarity in a few days.",
@@ -316,7 +318,7 @@ export const translations = {
         },
         home: {
             headline: "Infrastructure opérationnelle pour les entreprises qui refusent de croître dans l'ombre.",
-            subheadline: "Clarté opérationnelle pour les entreprises où les décisions ne peuvent pas dépendre du feeling, de feuilles de calcul éparses et de l'improvisation.",
+            subheadline: "Nous concevons des systèmes clairs et prévisibles pour les entreprises à tickets élevés qui ont besoin de contrôle avant de passer à l'échelle.",
             problem: {
                 title: "Le Problème",
                 p1: "Les entreprises de services à tickets élevés échouent rarement par manque de demande. Elles échouent lorsque la croissance commence à dépendre de la mémoire, de l'effort humain et de décisions prises dans l'ombre.",
@@ -386,6 +388,7 @@ export const translations = {
             }
         },
         nexusClear: {
+            hero_description: "Clarté opérationnelle pour les entreprises où les décisions ne peuvent pas dépendre du feeling, de feuilles de calcul éparses et de l'improvisation.",
             what_is: {
                 title: "Qu'est-ce que c'est",
                 p1: "NEXUS CLEAR est un micro-projet d'infrastructure de données créé pour redonner de la clarté opérationnelle et décisionnelle en quelques jours.",
@@ -469,7 +472,7 @@ export const translations = {
         },
         home: {
             headline: "Infraestructura operativa para negocios que no aceptan crecer a oscuras.",
-            subheadline: "Claridad operativa para empresas donde las decisiones no pueden depender de corazonadas, hojas de cálculo sueltas e improvisación.",
+            subheadline: "Diseñamos sistemas claros y previsibles para empresas de alto valor (high-ticket) que necesitan control antes de escalar.",
             problem: {
                 title: "El Problema",
                 p1: "Los negocios de servicios de alto valor rara vez fallan por falta de demanda. Fallan cuando el crecimiento empieza a depender de la memoria, el esfuerzo humano y las decisiones tomadas a oscuras.",
@@ -539,6 +542,7 @@ export const translations = {
             }
         },
         nexusClear: {
+            hero_description: "Claridad operativa para empresas donde las decisiones no pueden depender de corazonadas, hojas de cálculo sueltas e improvisación.",
             what_is: {
                 title: "Qué es",
                 p1: "NEXUS CLEAR es un microproyecto de infraestructura de datos creado para devolver la claridad operativa y de decisión en pocos días.",

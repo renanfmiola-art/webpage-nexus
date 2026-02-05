@@ -16,7 +16,7 @@ export default function Page() {
                     </h1>
                     <div className="w-12 h-0.5 bg-white/20 mb-8" />
                     <p className="text-xl md:text-2xl text-white/60 leading-relaxed max-w-2xl font-medium tracking-tight">
-                        Infraestrutura de dados para clareza decisória em tempo recorde.
+                        {nc.hero_description}
                     </p>
                 </div>
 
