@@ -25,6 +25,7 @@ export const translations = {
             }
         },
         travelflow: {
+            hero_description: "Infraestrutura comercial para agências de turismo onde cada venda não pode depender da memória, esforço e improviso de alguém.",
             what_is: {
                 title: "O que é",
                 p1: "O TRAVELFLOW é um sistema de infraestrutura comercial criado pela Nexus Intelligence AI para agências de turismo que operam com viagens personalizadas e vendas high-ticket.",
@@ -177,6 +178,7 @@ export const translations = {
             }
         },
         travelflow: {
+            hero_description: "Commercial infrastructure for travel agencies where each sale cannot depend on someone's memory, effort, and improvisation.",
             what_is: {
                 title: "What is it",
                 p1: "TRAVELFLOW is a commercial infrastructure system created by Nexus Intelligence AI for travel agencies operating with customized travel and high-ticket sales.",
@@ -329,6 +331,7 @@ export const translations = {
             }
         },
         travelflow: {
+            hero_description: "Infrastructure commerciale pour les agences de voyages où chaque vente ne peut dépendre de la mémoire, de l'effort et de l'improvisation de quelqu'un.",
             what_is: {
                 title: "Qu'est-ce que c'est",
                 p1: "TRAVELFLOW est un système d'infrastructure commerciale créé par Nexus Intelligence AI pour les agences de voyages opérant avec des voyages personnalisés et des ventes à tickets élevés.",
@@ -481,6 +484,7 @@ export const translations = {
             }
         },
         travelflow: {
+            hero_description: "Infraestructura comercial para agencias de viajes donde cada venta no puede depender de la memoria, el esfuerzo y la improvisación de alguien.",
             what_is: {
                 title: "Qué es",
                 p1: "TRAVELFLOW es un sistema de infraestructura comercial creado por Nexus Intelligence AI para agencias de viajes que operan con viajes personalizados y ventas de alto valor (high-ticket).",
