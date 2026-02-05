@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Nexus Intelligence",
     images: [
       {
-        url: "/og-image.png?v=2",
+        url: "/og-image.png?v=3",
         width: 1200,
         height: 630,
         alt: "Nexus Intelligence Logo",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nexus Intelligence | Corporate",
     description: "IA para a próxima geração da evolução tecnológica.",
-    images: ["/og-image.png?v=2"],
+    images: ["/og-image.png?v=3"],
   },
 };
 
