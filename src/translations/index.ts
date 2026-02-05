@@ -137,7 +137,7 @@ export const translations = {
             subheadline: "Nossa atuação não está na execução de tarefas pontuais, campanhas ou soluções genéricas. Projetamos e implantamos sistemas operacionais e comerciais que reduzem fragilidades do processo, organizam decisões e sustentam crescimento com controle. A Nexus não é um produto — é a arquitetura por trás dos produtos que desenvolvemos.",
             sections: [
                 {
-                    title: "Missão",
+                    title: "Visão",
                     p1: "Acreditamos que crescer sem estrutura é um risco desnecessário.",
                     p2: "Nossa visão é um mercado onde empresas crescem com método, limites claros e previsibilidade, e onde decisões importantes deixam de ser tomadas no escuro.",
                     p3: "Buscamos construir uma empresa reconhecida por clareza, critério e profundidade, não por volume, hype ou promessas aceleradas."
@@ -308,7 +308,7 @@ export const translations = {
             subheadline: "Our role is not in the execution of specific tasks, campaigns, or generic solutions. We design and implement operational and commercial systems that reduce process fragilities, organize decisions, and sustain growth with control. Nexus is not a product — it is the architecture behind the products we develop.",
             sections: [
                 {
-                    title: "Mission",
+                    title: "Vision",
                     p1: "We believe that growing without structure is an unnecessary risk.",
                     p2: "Our vision is a market where companies grow with method, clear limits, and predictability, and where important decisions stop being made in the dark.",
                     p3: "We seek to build a company recognized for clarity, criteria, and depth, not for volume, hype, or accelerated promises."
@@ -479,7 +479,7 @@ export const translations = {
             subheadline: "Notre rôle n'est pas dans l'exécution de tâches ponctuelles, de campagnes ou de solutions génériques. Nous concevons et mettons en œuvre des systèmes opérationnels et commerciaux qui réduisent les fragilités des processus, organisent les décisions et soutiennent la croissance avec contrôle. Nexus n'est pas un produit — c'est l'architecture derrière les produits que nous développons.",
             sections: [
                 {
-                    title: "Mission",
+                    title: "Vision",
                     p1: "Nous croyons que croître sans structure est un risque inutile.",
                     p2: "Notre vision est un marché où les entreprises croissent avec méthode, des limites claires et de la prévisibilité, et où les décisions importantes ne sont plus prises dans l'obscurité.",
                     p3: "Nous cherchons à bâtir une entreprise reconnue pour sa clarté, son critère et sa profondeur, et non pour son volume, son battage médiatique ou ses promesses accélérées."
@@ -650,7 +650,7 @@ export const translations = {
             subheadline: "Nuestra actuación no está en la ejecución de tareas puntuales, campanãs o soluciones genéricas. Diseñamos e implantamos sistemas operativos y comerciales que reducen fragilidades del proceso, organizan decisiones y sustentan el crecimiento con control. Nexus no es un producto — es la arquitectura detrás de los productos que desarrollamos.",
             sections: [
                 {
-                    title: "Misión",
+                    title: "Visión",
                     p1: "Creemos que crecer sin estructura es un riesgo innecesario.",
                     p2: "Nuestra visión es un mercado donde las empresas crecen con método, límites claros y previsibilidad, y donde las decisiones importantes dejan de tomarse a oscuras.",
                     p3: "Buscamos construir una empresa reconocida por su claridad, criterio y profundidad, no por volumen, bombo publicitario o promesas aceleradas."
