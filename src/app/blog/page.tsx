@@ -5,16 +5,19 @@ export default function Page() {
         {
             name: "Ramon Barbosa",
             role: "Press",
+            image: "/ramon.png",
             link: "https://www.linkedin.com/in/monfranco8/"
         },
         {
             name: "Renan Miola",
             role: "Founder",
+            image: "/renan-miola.jpg",
             link: "https://www.linkedin.com/in/renan-fernando-miola-4132182bb/"
         },
         {
             name: "Murilo Demarchi",
-            role: "CoFounder"
+            role: "CoFounder",
+            image: "/murilo-demarchi.png"
         },
     ];
 
@@ -25,12 +28,19 @@ export default function Page() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {people.map((person, index) => {
                         const CardContent = (
-                            <div className="p-8 space-y-6">
+                            <div className="p-8 flex items-center gap-6">
+                                <div className="w-16 h-16 rounded-full overflow-hidden border border-white/10 shrink-0 bg-white/5">
+                                    <img
+                                        src={person.image}
+                                        alt={person.name}
+                                        className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    />
+                                </div>
                                 <div>
-                                    <h2 className="text-2xl font-black text-white tracking-tight uppercase leading-[0.9]">
+                                    <h2 className="text-xl font-black text-white tracking-tight uppercase leading-[0.9]">
                                         {person.name}
                                     </h2>
-                                    <p className="text-white/40 text-xs font-bold tracking-[0.2em] uppercase mt-3">
+                                    <p className="text-white/40 text-[10px] font-bold tracking-[0.2em] uppercase mt-2">
                                         {person.role}
                                     </p>
                                 </div>
