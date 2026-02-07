@@ -37,8 +37,6 @@ export const Navbar = () => {
     const languages = [
         { code: 'pt', flag: 'https://flagcdn.com/w80/br.png', label: 'Português' },
         { code: 'en', flag: 'https://flagcdn.com/w80/us.png', label: 'English' },
-        { code: 'fr', flag: 'https://flagcdn.com/w80/fr.png', label: 'Français' },
-        { code: 'es', flag: 'https://flagcdn.com/w80/es.png', label: 'Español' },
     ];
 
     return (

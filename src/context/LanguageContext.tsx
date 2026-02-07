@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { translations } from "../translations";
 
-type Language = "pt" | "en" | "fr" | "es";
+type Language = "pt" | "en";
 
 interface LanguageContextType {
     language: Language;
@@ -19,7 +19,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
     // Load language from localStorage if available
     useEffect(() => {
         const savedLang = localStorage.getItem("nexus_lang") as Language;
-        if (savedLang && ["pt", "en", "fr", "es"].includes(savedLang)) {
+        if (savedLang && ["pt", "en"].includes(savedLang)) {
             setLanguageState(savedLang);
         }
     }, []);
