@@ -22,7 +22,7 @@ export default function Page() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-24">
                     <button className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]">
                         <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
-                            {c.cards.travelflow}
+                            {c.cards.nexusflow}
                         </span>
                     </button>
 

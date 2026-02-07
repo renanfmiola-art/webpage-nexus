@@ -2,7 +2,7 @@ export const translations = {
     pt: {
         nav: {
             home: "Início",
-            travelflow: "TravelFlow",
+            nexusflow: "Nexus Flow",
             nexusClear: "Nexus Clear",
             about: "Sobre",
             contact: "Contato",
@@ -24,19 +24,19 @@ export const translations = {
                 p3: "Nossa abordagem é seletiva por natureza. Atuamos com poucos clientes ao mesmo tempo para garantir profundidade, controle e qualidade na implantação dos sistemas que projetamos. Estrutura vem antes do crescimento. Controle vem antes da escala."
             }
         },
-        travelflow: {
-            hero_description: "Infraestrutura comercial para agências de turismo onde cada venda não pode depender da memória, esforço e improviso de alguém.",
+        nexusflow: {
+            hero_description: "Infraestrutura comercial para agências onde cada venda não pode depender da memória, esforço e improviso de alguém.",
             what_is: {
                 title: "O que é",
-                p1: "O TRAVELFLOW é um sistema de infraestrutura comercial criado pela Nexus Intelligence AI para agências de turismo que operam com viagens personalizadas e vendas high-ticket.",
+                p1: "O NEXUS FLOW é um sistema de infraestrutura comercial criado pela Nexus Intelligence AI para empresas que operam com vendas high-ticket.",
                 p2: "Seu objetivo é transformar um processo comercial frágil — dependente de memória, esforço e improviso humano — em uma operação previsível, contínua e controlável.",
-                p3: "O TRAVELFLOW não substitui pessoas. Ele elimina fragilidades do processo para que o fator humano atue onde realmente importa: diagnóstico, relacionamento e fechamento."
+                p3: "O NEXUS FLOW não substitui pessoas. Ele elimina fragilidades do processo para que o fator humano atue onde realmente importa: diagnóstico, relacionamento e fechamento."
             },
             for_whom: {
                 title: "Para quem é",
-                p1: "O TRAVELFLOW foi desenvolvido para agências de turismo que:",
+                p1: "O NEXUS FLOW foi desenvolvido para empresas que:",
                 items: [
-                    "Vendem viagens personalizadas de alto valor;",
+                    "Vendem serviços de alto valor;",
                     "Trabalham com ciclos de venda consultivos;",
                     "Recebem leads por múltiplos canais (WhatsApp, Instagram, site, indicações);",
                     "Dependem fortemente do consultor para conduzir o funil;",
@@ -69,7 +69,7 @@ export const translations = {
             },
             how_it_works: {
                 title: "Como funciona",
-                p1: "A Nexus Intelligence AI implanta o TRAVELFLOW seguindo um processo estruturado e sem improviso:",
+                p1: "A Nexus Intelligence AI implanta o NEXUS FLOW seguindo um processo estruturado e sem improviso:",
                 steps: [
                     { title: "Mapeamento do fluxo comercial atual", text: "Identificação dos pontos onde vendas se perdem e decisões dependem de pessoas;" },
                     { title: "Definição do fluxo mínimo previsível", text: "Estruturação do caminho do lead até a venda, com critérios claros de avanço;" },
@@ -159,7 +159,7 @@ export const translations = {
         contact: {
             cta: "Entre em Contato",
             cards: {
-                travelflow: "TRAVELFLOW",
+                nexusflow: "NEXUS FLOW",
                 nexusClear: "NEXUSCLEAR",
                 email: "EMAIL"
             },
@@ -200,7 +200,7 @@ export const translations = {
     en: {
         nav: {
             home: "Home",
-            travelflow: "TravelFlow",
+            nexusflow: "Nexus Flow",
             nexusClear: "Nexus Clear",
             about: "About",
             contact: "Contact",
@@ -222,19 +222,19 @@ export const translations = {
                 p3: "Our approach is selective by nature. We work with few clients at a time to ensure depth, control, and quality in the implementation of the systems we design. Structure comes before growth. Control comes before scale."
             }
         },
-        travelflow: {
-            hero_description: "Commercial infrastructure for travel agencies where each sale cannot depend on someone's memory, effort, and improvisation.",
+        nexusflow: {
+            hero_description: "Commercial infrastructure for companies where each sale cannot depend on someone's memory, effort, and improvisation.",
             what_is: {
                 title: "What is it",
-                p1: "TRAVELFLOW is a commercial infrastructure system created by Nexus Intelligence AI for travel agencies operating with customized travel and high-ticket sales.",
+                p1: "NEXUS FLOW is a commercial infrastructure system created by Nexus Intelligence AI for companies operating with high-ticket sales.",
                 p2: "Its goal is to transform a fragile commercial process — dependent on memory, effort, and human improvisation — into a predictable, continuous, and controllable operation.",
-                p3: "TRAVELFLOW does not replace people. It eliminates process weaknesses so that the human factor can act where it truly matters: diagnosis, relationship, and closing."
+                p3: "NEXUS FLOW does not replace people. It eliminates process weaknesses so that the human factor can act where it truly matters: diagnosis, relationship, and closing."
             },
             for_whom: {
                 title: "Who is it for",
-                p1: "TRAVELFLOW was developed for travel agencies that:",
+                p1: "NEXUS FLOW was developed for companies that:",
                 items: [
-                    "Sell high-value customized travel;",
+                    "Sell high-value services;",
                     "Work with consultative sales cycles;",
                     "Receive leads through multiple channels (WhatsApp, Instagram, website, referrals);",
                     "Depend heavily on the consultant to drive the funnel;",
@@ -267,7 +267,7 @@ export const translations = {
             },
             how_it_works: {
                 title: "How it works",
-                p1: "Nexus Intelligence AI implements TRAVELFLOW following a structured process without improvisation:",
+                p1: "Nexus Intelligence AI implements NEXUS FLOW following a structured process without improvisation:",
                 steps: [
                     { title: "Mapping the current commercial flow", text: "Identification of points where sales are lost and decisions depend on people;" },
                     { title: "Defining the minimum predictable flow", text: "Structuring the lead-to-sale path with clear advancement criteria;" },
@@ -357,7 +357,7 @@ export const translations = {
         contact: {
             cta: "Get in Touch",
             cards: {
-                travelflow: "TRAVELFLOW",
+                nexusflow: "NEXUS FLOW",
                 nexusClear: "NEXUSCLEAR",
                 email: "EMAIL"
             },
@@ -398,7 +398,7 @@ export const translations = {
     fr: {
         nav: {
             home: "Accueil",
-            travelflow: "TravelFlow",
+            nexusflow: "Nexus Flow",
             nexusClear: "Nexus Clear",
             about: "À propos",
             contact: "Contact",
@@ -420,19 +420,19 @@ export const translations = {
                 p3: "Notre approche est sélective par nature. Nous travaillons avec peu de clients à la fois pour garantir la profondeur, le contrôle et la qualité de la mise en œuvre des systèmes que nous concevons. La structure vient avant la croissance. Le contrôle vient avant l'échelle."
             }
         },
-        travelflow: {
-            hero_description: "Infrastructure commerciale pour les agences de voyages où chaque vente ne peut dépendre de la mémoire, de l'effort et de l'improvisation de quelqu'un.",
+        nexusflow: {
+            hero_description: "Infrastructure commerciale pour les entreprises où chaque vente ne peut dépendre de la mémoire, de l'effort et de l'improvisation de quelqu'un.",
             what_is: {
                 title: "Qu'est-ce que c'est",
-                p1: "TRAVELFLOW est un système d'infrastructure commerciale créé par Nexus Intelligence AI pour les agences de voyages opérant avec des voyages personnalisés et des ventes à tickets élevés.",
+                p1: "NEXUS FLOW est un système d'infrastructure commerciale créé par Nexus Intelligence AI pour les entreprises opérant avec des ventes à tickets élevés.",
                 p2: "Son objectif est de transformer un processus commercial fragile — dépendant de la mémoire, de l'effort et de l'improvisation humaine — en une opération prévisível, continue et contrôlable.",
-                p3: "TRAVELFLOW ne remplace pas les personnes. Il élimine les faiblesses des processus pour que le facteur humain puisse agir là où cela compte vraiment : diagnostic, relation et clôture."
+                p3: "NEXUS FLOW ne remplace pas les personnes. Il élimine les faiblesses des processus pour que le facteur humain puisse agir là où cela compte vraiment : diagnostic, relation et clôture."
             },
             for_whom: {
                 title: "À qui s'adresse-t-il",
-                p1: "TRAVELFLOW a été développé pour les agences de voyages qui :",
+                p1: "NEXUS FLOW a été développé pour les entreprises qui :",
                 items: [
-                    "Vendent des voyages personnalisés de haute valeur ;",
+                    "Vendent des services de haute valeur ;",
                     "Travaillent avec des cycles de vente consultatifs ;",
                     "Reçoivent des prospects via plusieurs canaux (WhatsApp, Instagram, site web, recommandations) ;",
                     "Dépendent fortement du consultant pour diriger le tunnel ;",
@@ -465,7 +465,7 @@ export const translations = {
             },
             how_it_works: {
                 title: "Comment ça marche",
-                p1: "Nexus Intelligence AI implante TRAVELFLOW en suivant un processus structuré et sans improvisation :",
+                p1: "Nexus Intelligence AI implante NEXUS FLOW en suivant un processus structuré et sans improvisation :",
                 steps: [
                     { title: "Cartographie du flux commercial actuel", text: "Identification des points où les ventes se perdent et où les décisions dépendent des personnes ;" },
                     { title: "Définition du flux minimal prévisible", text: "Structuration du chemin du prospect à la vente, avec des critères d'avancement clairs ;" },
@@ -555,7 +555,7 @@ export const translations = {
         contact: {
             cta: "Contactez-nous",
             cards: {
-                travelflow: "TRAVELFLOW",
+                nexusflow: "NEXUS FLOW",
                 nexusClear: "NEXUSCLEAR",
                 email: "E-MAIL"
             },
@@ -596,7 +596,7 @@ export const translations = {
     es: {
         nav: {
             home: "Inicio",
-            travelflow: "TravelFlow",
+            nexusflow: "Nexus Flow",
             nexusClear: "Nexus Clear",
             about: "Sobre",
             contact: "Contacto",
@@ -618,17 +618,17 @@ export const translations = {
                 p3: "Nuestro enfoque es selectivo por naturaleza. Trabajamos con pocos clientes a la vez para garantizar profundidad, control y calidad en la implementación de los sistemas que diseñamos. La estructura va antes que el crecimiento. El control va antes que la escala."
             }
         },
-        travelflow: {
+        nexusflow: {
             hero_description: "Infraestructura comercial para agencias de viajes donde cada venta no puede depender de la memoria, el esfuerzo y la improvisación de alguien.",
             what_is: {
                 title: "Qué es",
-                p1: "TRAVELFLOW es un sistema de infraestructura comercial creado por Nexus Intelligence AI para agencias de viajes que operan con viajes personalizados y ventas de alto valor (high-ticket).",
+                p1: "NEXUS FLOW es un sistema de infraestructura comercial creado por Nexus Intelligence AI para agencias de viajes que operan con viajes personalizados y ventas de alto valor (high-ticket).",
                 p2: "Su objetivo es transformar un proceso comercial frágil —dependiente de la memoria, el esfuerzo y la improvisación humana— en una operación previsible, continua y controlable.",
-                p3: "TRAVELFLOW no sustituye a las personas. Elimina las fragilidades del proceso para que el factor humano actúe donde realmente importa: diagnóstico, relación y cierre."
+                p3: "NEXUS FLOW no sustituye a las personas. Elimina las fragilidades del proceso para que el factor humano actúe donde realmente importa: diagnóstico, relación y cierre."
             },
             for_whom: {
                 title: "Para quién es",
-                p1: "TRAVELFLOW fue desarrollado para agencias de viajes que:",
+                p1: "NEXUS FLOW fue desarrollado para agencias de viajes que:",
                 items: [
                     "Venden viajes personalizados de alto valor;",
                     "Trabajan con ciclos de venta consultivos;",
@@ -663,7 +663,7 @@ export const translations = {
             },
             how_it_works: {
                 title: "Cómo funciona",
-                p1: "Nexus Intelligence AI implanta TRAVELFLOW siguiendo un proceso estructurado y sin improvisación:",
+                p1: "Nexus Intelligence AI implanta NEXUS FLOW siguiendo un proceso estructurado y sin improvisación:",
                 steps: [
                     { title: "Mapeo del flujo comercial actual", text: "Identificación de los puntos donde se pierden ventas y las decisiones dependen de personas;" },
                     { title: "Definición del flujo mínimo previsible", text: "Estructuración del camino del lead hasta la venta, con criterios claros de avance;" },
@@ -753,7 +753,7 @@ export const translations = {
         contact: {
             cta: "Ponerse en contacto",
             cards: {
-                travelflow: "TRAVELFLOW",
+                nexusflow: "NEXUS FLOW",
                 nexusClear: "NEXUSCLEAR",
                 email: "EMAIL"
             },
