@@ -27,6 +27,7 @@ export const Navbar = () => {
     const navItems = [
         { name: t.nav.home, href: "/" },
         { name: t.nav.nexusflow, href: "/nexusflow" },
+        { name: t.nav.nexusInk, href: "/nexus-ink" },
         { name: t.nav.nexusClear, href: "/nexus-clear" },
         { name: t.nav.about, href: "/sobre" },
         { name: t.nav.contact, href: "/contato" },
