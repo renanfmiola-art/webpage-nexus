@@ -76,9 +76,14 @@ export default function Page() {
                                             </div>
 
                                             <div className="pt-8">
-                                                <button className="w-full py-5 bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-[0.4em] hover:bg-white hover:text-black transition-all duration-500">
+                                                <a
+                                                    href={`https://wa.me/5514998622743?text=${encodeURIComponent(`Olá, gostaria de mais informações sobre o ${plan.name}...`)}`}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="w-full py-5 bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-[0.4em] hover:bg-white hover:text-black transition-all duration-500 block text-center"
+                                                >
                                                     {plan.cta}
-                                                </button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
