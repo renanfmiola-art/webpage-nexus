@@ -131,56 +131,55 @@ export const translations = {
             }
         },
         nexusInk: {
-            hero_description: "Clareza operacional para empresas onde decisões não podem depender de feeling, planilhas soltas e improviso.",
+            hero_description: "Organização inteligente de atendimento para estúdios de tatuagem que precisam ganhar tempo criativo sem perder oportunidades.",
             what_is: {
                 title: "O que é",
-                p1: "O NEXUS INK é um microprojeto de infraestrutura de dados criado para devolver clareza operacional e decisória em poucos dias.",
-                p2: "Ele organiza dados que já existem na empresa e os transforma em uma visão executiva simples, confiável e acionável.",
-                p3: "Não é um projeto longo nem uma transformação completa. É uma intervenção enxuta, com escopo fechado, para que decisões deixem de ser tomadas no escuro."
+                p1: "O Nexus Ink é uma solução de organização e triagem de atendimento criada para estúdios de tatuagem que recebem muitos contatos e perdem tempo com mensagens desorganizadas, orçamentos incompletos e agendas confusas.",
+                p2: "O sistema estrutura o atendimento inicial, coleta as informações corretas do cliente e entrega o pedido organizado para o tatuador — que entra apenas na etapa criativa e de decisão final."
             },
             for_whom: {
                 title: "Para quem é",
-                p1: "O NEXUS INK é indicado para empresas operacionais já em funcionamento, que:",
+                p1: "O Nexus Ink é indicado para estúdios de tatuagem estruturados, que:",
                 items: [
-                    "Possuem faturamento recorrente;",
-                    "Operam com vendas, operação e financeiros ativos;",
-                    "Acumulam dados em planilhas, sistemas e relatórios desconectados;",
-                    "Dependem do dono ou de poucas pessoas para decidir."
+                    "recebem alto volume de mensagens",
+                    "trabalham com flash tattoos ou estilos bem definidos",
+                    "têm agenda cheia e pouco tempo para atendimento",
+                    "precisam organizar pedidos antes de avaliar orçamento"
                 ],
-                footer: "É especialmente adequado para empresas B2B ou B2B2C a partir de 3 colaboradores, onde crescer sem clareza passou a ser um risco."
+                footer: "É especialmente útil para estúdios com mais de um tatuador ou com demanda constante via WhatsApp e redes sociais."
             },
             problem: {
                 title: "Qual problema resolve",
-                p1: "Empresas raramente sofrem por falta de dados. Elas sofrem por falta de visão clara sobre o que realmente importa.",
+                p1: "Estúdios de tatuagem perdem tempo e oportunidades porque:",
                 items: [
-                    "Dificuldade de enxergar margem, vendas e gargalos;",
-                    "Excesso de informações que não viram decisão;",
-                    "Dependência de planilhas manuais e consolidations demoradas;",
-                    "Sensação constante de trabalhar muito e decidir mal."
+                    "clientes enviam pedidos incompletos",
+                    "ideias chegam desorganizadas",
+                    "o tatuador precisa interromper a criação para atender",
+                    "a agenda fica confusa ou mal distribuída"
                 ],
-                footer: "Ao final do projeto, a empresa passa a ter visibilidade real para priorizar ajustes antes de crescer."
+                footer: "O Nexus Ink resolve o caos no atendimento inicial, organizando as informações do cliente antes de chegar ao tatuador, reduzindo interrupções e melhorando o aproveitamento do tempo criativo."
             },
             is_not: {
                 title: "O que NÃO é",
                 items: [
-                    "Consultoria estratégica aberta;",
-                    "BI genérico ou projeto de gráficos;",
-                    "Implementación longa ou contínua;",
-                    "Suporte recorrente;",
-                    "Substituto de sistemas complexos."
+                    "um sistema que cria tatuagens",
+                    "um robô que define orçamento",
+                    "uma automação criativa",
+                    "um marketplace de tatuagem",
+                    "um substituto do tatuador"
                 ],
-                footer: "É um projeto de clareza, não de transformação total."
+                footer: "Ele organiza o processo para que o tatuador foque no que realmente importa: a arte."
             },
             how_it_works: {
                 title: "Como funciona",
-                p1: "O projeto é executado em até 7 dias, com etapas objetivas:",
+                p1: "O processo respeita o fluxo criativo e a identidade do estúdio:",
                 steps: [
-                    { title: "Diagnóstico rápido", text: "Alinhamos o objetivo decisório e entendemos quais dados realmente importam;" },
-                    { title: "Consolidação de dados existentes", text: "Organizamos informações já disponíveis (planilhas, ERP, CRM, financeiro);" },
-                    { title: "Construção do dashboard executivo", text: "Criamos uma visão clara com os principais KPIs da operação;" },
-                    { title: "Entrega e leitura executiva", text: "Apresentamos o painel, explicamos os indicadores e indicamos os principais pontos de atenção." }
+                    { title: "Mapeamento do atendimento do estúdio", text: "Entendemos como os pedidos chegam e quais informações são essenciais." },
+                    { title: "Criação do fluxo de triagem", text: "O sistema coleta referências, tamanho, local do corpo, estilo e disponibilidade." },
+                    { title: "Organização e classificação dos pedidos", text: "Os pedidos chegam estruturados, claros e prontos para avaliação." },
+                    { title: "Entrega ao tatuador", text: "O tatuador recebe o briefing organizado e decide orçamento e agenda com mais agilidade." }
                 ],
-                footer: "Tudo é feito com escopo fechado, sem dependência futura e sem improviso."
+                footer: "Tudo respeitando o processo criativo e a identidade do estúdio."
             }
         },
         about: {
@@ -381,56 +380,55 @@ export const translations = {
             }
         },
         nexusInk: {
-            hero_description: "Operational clarity for companies where decisions cannot depend on gut feeling, loose spreadsheets, and improvisation.",
+            hero_description: "Intelligent service organization for tattoo studios that need to gain creative time without losing opportunities.",
             what_is: {
                 title: "What is it",
-                p1: "NEXUS INK is a data infrastructure micro-project created to restore operational and decision-making clarity in a few days.",
-                p2: "It organizes data that already exists in the company and transforms it into a simple, reliable, and actionable executive view.",
-                p3: "It is not a long project or a complete transformation. It is a lean intervention with a fixed scope so that decisions are no longer made in the dark."
+                p1: "Nexus Ink is a service organization and screening solution created for tattoo studios that receive many contacts and lose time with disorganized messages, incomplete quotes, and confusing schedules.",
+                p2: "The system structures the initial service, collects the correct information from the client, and delivers the organized request to the tattoo artist — who only enters at the creative and final decision stage."
             },
             for_whom: {
                 title: "Who is it for",
-                p1: "NEXUS INK is indicated for operational companies already in operation, which:",
+                p1: "Nexus Ink is indicated for structured tattoo studios that:",
                 items: [
-                    "Have recurring revenue;",
-                    "Operate with active sales, operations, and financials;",
-                    "Accumulate data in disconnected spreadsheets, systems, and reports;",
-                    "Depend on the owner or a few people to decide."
+                    "receive a high volume of messages",
+                    "work with flash tattoos or well-defined styles",
+                    "have a full schedule and little time for service",
+                    "need to organize requests before evaluating quotes"
                 ],
-                footer: "It is especially suitable for B2B or B2B2C companies with 3 or more employees, where growing without clarity has become an operational risk."
+                footer: "It is especially useful for studios with more than one tattoo artist or with constant demand via WhatsApp and social media."
             },
             problem: {
                 title: "What problem does it solve",
-                p1: "Companies rarely suffer from a lack of data. They suffer from a lack of a clear vision of what really matters.",
+                p1: "Tattoo studios lose time and opportunities because:",
                 items: [
-                    "Difficulty seeing margins, sales, and bottlenecks;",
-                    "Excess information that does not lead to decisions;",
-                    "Dependence on manual spreadsheets and time-consuming consolidations;",
-                    "Constant feeling of working hard and deciding poorly."
+                    "clients send incomplete requests",
+                    "ideas arrive disorganized",
+                    "the tattoo artist needs to interrupt creation to provide service",
+                    "the schedule becomes confusing or poorly distributed"
                 ],
-                footer: "At the end of the project, the company has real visibility to prioritize adjustments before growing."
+                footer: "Nexus Ink resolves initial service chaos by organizing client information before it reaches the tattoo artist, reducing interruptions and improving creative time use."
             },
             is_not: {
                 title: "What it is NOT",
                 items: [
-                    "Open strategic consultancy;",
-                    "Generic BI or graphics project;",
-                    "Long or continuous implementation;",
-                    "Recurring support;",
-                    "Substitute for complex systems."
+                    "a system that creates tattoos",
+                    "a robot that defines quotes",
+                    "a creative automation",
+                    "a tattoo marketplace",
+                    "a substitute for the tattoo artist"
                 ],
-                footer: "It is a clarity project, not a total transformation."
+                footer: "It organizes the process so the tattoo artist can focus on what really matters: the art."
             },
             how_it_works: {
                 title: "How it works",
-                p1: "The project is executed in up to 7 days, with objective steps:",
+                p1: "The process respects the creative flow and identity of the studio:",
                 steps: [
-                    { title: "Rapid Diagnosis", text: "We align the decision-making objective and understand what data really matters;" },
-                    { title: "Consolidation of existing data", text: "We organize already available information (spreadsheets, ERP, CRM, financial);" },
-                    { title: "Executive dashboard construction", text: "We create a clear view with the operation's main KPIs;" },
-                    { title: "Executive delivery and readout", text: "We present the panel, explain the indicators, and point out the main points of attention." }
+                    { title: "Studio service mapping", text: "We understand how requests arrive and what information is essential." },
+                    { title: "Screening flow creation", text: "The system collects references, size, body location, style, and availability." },
+                    { title: "Request organization and classification", text: "Requests arrive structured, clear, and ready for evaluation." },
+                    { title: "Delivery to the tattoo artist", text: "The tattoo artist receives the organized briefing and decides on quotes and schedule with more agility." }
                 ],
-                footer: "Everything is done with a fixed scope, without future dependence and without improvisation."
+                footer: "All while respecting the creative process and the studio's identity."
             }
         },
         about: {
