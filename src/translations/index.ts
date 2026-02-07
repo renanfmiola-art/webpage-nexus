@@ -8,7 +8,8 @@ export const translations = {
             nexusClear: "Nexus Clear",
             about: "Sobre",
             contact: "Contato",
-            blog: "Blog"
+            blog: "Blog",
+            plans: "Planos"
         },
         home: {
             headline: "Clareza e automação para empresas que não podem perder vendas por falta de resposta ou organização.",
@@ -207,6 +208,107 @@ export const translations = {
                 }
             ]
         },
+        plans: {
+            title: "Planos & Investimento",
+            hero_description: "Apresentamos de forma clara, profissional e objetiva os planos e investimentos das soluções da Nexus Intelligence AI.",
+            final_cta: {
+                text: "Não sabe qual plano faz mais sentido para o seu negócio? Preencha o formulário e avaliamos a melhor opção.",
+                button: "Acessar formulário de qualificação"
+            },
+            sections: [
+                {
+                    title: "NEXUS CLEAR",
+                    description: "Microprojetos de BI e clareza operacional para empresas que precisam organizar dados e tomar decisões com mais segurança.",
+                    plans: [
+                        {
+                            name: "Clear Essencial",
+                            type: "Projeto único",
+                            price: "A partir de R$ 2.000",
+                            features: ["Dashboard executivo", "KPIs essenciais", "Organização de dados"],
+                            cta: "Solicitar Avaliação"
+                        },
+                        {
+                            name: "Clear Avançado",
+                            type: "Projeto único",
+                            price: "A partir de R$ 5.000",
+                            features: ["Dashboard completo", "Automação leve", "KPIs comerciais"],
+                            cta: "Solicitar Avaliação"
+                        },
+                        {
+                            name: "Clear Estratégico",
+                            type: "Projeto único",
+                            price: "Até R$ 8.000",
+                            features: ["Dashboards integrados", "Automações", "Insights estratégicos"],
+                            cta: "Solicitar Avaliação"
+                        }
+                    ]
+                },
+                {
+                    title: "NEXUS FLOW – Implantação",
+                    description: "Implantação de agentes de IA humanizados para automatizar atendimento e organizar contatos.",
+                    plans: [
+                        {
+                            name: "Flow Essencial",
+                            type: "Implantação",
+                            price: "A partir de R$ 2.000",
+                            features: ["1 canal de atendimento", "Linguagem humanizada"],
+                            cta: "Solicitar Avaliação"
+                        },
+                        {
+                            name: "Flow Profissional",
+                            type: "Implantação",
+                            price: "A partir de R$ 5.000",
+                            features: ["2 canais", "Qualificação de leads"],
+                            cta: "Solicitar Avaliação"
+                        },
+                        {
+                            name: "Flow Completo",
+                            type: "Implantação",
+                            price: "Até R$ 10.000",
+                            features: ["Multicanais", "Follow-up automatizado"],
+                            cta: "Solicitar Avaliação"
+                        }
+                    ]
+                },
+                {
+                    title: "NEXUS FLOW – Gestão Mensal",
+                    description: "Gestão contínua dos agentes de IA para garantir performance, ajustes e evolução do atendimento.",
+                    plans: [
+                        {
+                            name: "Gestão Essencial",
+                            price: "R$ 899 / mês",
+                            features: ["Monitoramento básico", "Ajustes de respostas"],
+                            cta: "Solicitar Gestão"
+                        },
+                        {
+                            name: "Gestão Profissional",
+                            price: "R$ 1.399 / mês",
+                            features: ["Otimizações contínuas", "Ajustes por campanhas"],
+                            cta: "Solicitar Gestão"
+                        },
+                        {
+                            name: "Gestão Avançada",
+                            price: "R$ 2.000 / mês",
+                            features: ["Estratégia completa", "Relatórios de desempenho"],
+                            cta: "Solicitar Gestão"
+                        }
+                    ]
+                },
+                {
+                    title: "NEXUS INK",
+                    description: "Projeto piloto para organização do atendimento e triagem de pedidos em estúdios de tatuagem.",
+                    plans: [
+                        {
+                            name: "Nexus Ink",
+                            type: "Projeto único",
+                            price: "R$ 1.500 – R$ 4.500",
+                            features: ["Organização de atendimento", "Briefing estruturado", "Redução de interrupções"],
+                            cta: "Solicitar Avaliação"
+                        }
+                    ]
+                }
+            ]
+        },
         contact: {
             cta: "Entre em Contato",
             cards: {
@@ -257,7 +359,8 @@ export const translations = {
             nexusClear: "Nexus Clear",
             about: "About",
             contact: "Contact",
-            blog: "Blog"
+            blog: "Blog",
+            plans: "Plans"
         },
         home: {
             headline: "Clarity and automation for companies that cannot afford to lose sales due to lack of response or organization.",
@@ -453,6 +556,107 @@ export const translations = {
                     p1: "Nexus Intelligence AI is not an agency, is not generic software, and does not deliver improvised solutions. We are a company specialized in operational clarity and service automation, with a focus on practical results and human experience.",
                     p2: "We operate mainly with service companies that need to organize data, structure service, and convert contacts into sales more efficiently.",
                     p3: "Our commitment is simple, well-implemented solutions that make sense for those in the operation."
+                }
+            ]
+        },
+        plans: {
+            title: "Plans & Investment",
+            hero_description: "We present in a clear, professional, and objective way the plans and investments for Nexus Intelligence AI solutions.",
+            final_cta: {
+                text: "Not sure which plan makes sense for your business? Fill out the form and we will evaluate the best option.",
+                button: "Access qualification form"
+            },
+            sections: [
+                {
+                    title: "NEXUS CLEAR",
+                    description: "BI micro-projects and operational clarity for companies that need to organize data and make decisions with more security.",
+                    plans: [
+                        {
+                            name: "Clear Essential",
+                            type: "Single project",
+                            price: "From R$ 2,000",
+                            features: ["Executive dashboard", "Essential KPIs", "Data organization"],
+                            cta: "Request Evaluation"
+                        },
+                        {
+                            name: "Clear Advanced",
+                            type: "Single project",
+                            price: "From R$ 5,000",
+                            features: ["Complete dashboard", "Light automation", "Commercial KPIs"],
+                            cta: "Request Evaluation"
+                        },
+                        {
+                            name: "Clear Strategic",
+                            type: "Single project",
+                            price: "Up to R$ 8,000",
+                            features: ["Integrated dashboards", "Automations", "Strategic insights"],
+                            cta: "Request Evaluation"
+                        }
+                    ]
+                },
+                {
+                    title: "NEXUS FLOW – Implementation",
+                    description: "Implementation of humanized AI agents to automate service and organize contacts.",
+                    plans: [
+                        {
+                            name: "Flow Essential",
+                            type: "Implementation",
+                            price: "From R$ 2,000",
+                            features: ["1 service channel", "Humanized language"],
+                            cta: "Request Evaluation"
+                        },
+                        {
+                            name: "Flow Professional",
+                            type: "Implementation",
+                            price: "From R$ 5,000",
+                            features: ["2 channels", "Lead qualification"],
+                            cta: "Request Evaluation"
+                        },
+                        {
+                            name: "Flow Complete",
+                            type: "Implementation",
+                            price: "Up to R$ 10,000",
+                            features: ["Multichannel", "Automated follow-up"],
+                            cta: "Request Evaluation"
+                        }
+                    ]
+                },
+                {
+                    title: "NEXUS FLOW – Monthly Management",
+                    description: "Continuous management of AI agents to ensure performance, adjustments, and service evolution.",
+                    plans: [
+                        {
+                            name: "Essential Management",
+                            price: "R$ 899 / month",
+                            features: ["Basic monitoring", "Response adjustments"],
+                            cta: "Request Management"
+                        },
+                        {
+                            name: "Professional Management",
+                            price: "R$ 1,399 / month",
+                            features: ["Continuous optimizations", "Adjustments by campaigns"],
+                            cta: "Request Management"
+                        },
+                        {
+                            name: "Advanced Management",
+                            price: "R$ 2,000 / month",
+                            features: ["Complete strategy", "Performance reports"],
+                            cta: "Request Management"
+                        }
+                    ]
+                },
+                {
+                    title: "NEXUS INK",
+                    description: "Pilot project for service organization and request screening in tattoo studios.",
+                    plans: [
+                        {
+                            name: "Nexus Ink",
+                            type: "Single project",
+                            price: "R$ 1,500 – R$ 4,500",
+                            features: ["Service organization", "Structured briefing", "Interruption reduction"],
+                            cta: "Request Evaluation"
+                        }
+                    ]
                 }
             ]
         },
