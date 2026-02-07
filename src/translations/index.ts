@@ -136,7 +136,8 @@ export const translations = {
             what_is: {
                 title: "O que é",
                 p1: "O Nexus Ink é uma solução de organização e triagem de atendimento criada para estúdios de tatuagem que recebem muitos contatos e perdem tempo com mensagens desorganizadas, orçamentos incompletos e agendas confusas.",
-                p2: "O sistema estrutura o atendimento inicial, coleta as informações corretas do cliente e entrega o pedido organizado para o tatuador — que entra apenas na etapa criativa e de decisão final."
+                p2: "O sistema estrutura o atendimento inicial, coleta as informações corretas do cliente e entrega o pedido organizado para o tatuador — que entra apenas na etapa criativa e de decisão final.",
+                p3: ""
             },
             for_whom: {
                 title: "Para quem é",
@@ -384,7 +385,8 @@ export const translations = {
             what_is: {
                 title: "What is it",
                 p1: "Nexus Ink is a service organization and screening solution created for tattoo studios that receive many contacts and lose time with disorganized messages, incomplete quotes, and confusing schedules.",
-                p2: "The system structures the initial service, collects the correct information from the client, and delivers the organized request to the tattoo artist — who only enters at the creative and final decision stage."
+                p2: "The system structures the initial service, collects the correct information from the client, and delivers the organized request to the tattoo artist — who only enters at the creative and final decision stage.",
+                p3: ""
             },
             for_whom: {
                 title: "Who is it for",

@@ -30,6 +30,7 @@ export default function Page() {
                     <div className="md:col-span-2 space-y-6 text-white/60 text-lg leading-relaxed">
                         <p className="text-white font-medium">{ni.what_is.p1}</p>
                         <p>{ni.what_is.p2}</p>
+                        <p>{ni.what_is.p3}</p>
                     </div>
                 </div>
 
