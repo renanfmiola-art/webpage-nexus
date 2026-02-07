@@ -183,26 +183,25 @@ export const translations = {
             }
         },
         about: {
-            title: "A Nexus Intelligence AI é uma empresa de infraestrutura operacional focada em negócios de serviços high-ticket que precisam de previsibilidade, clareza e controle para crescer sem depender de improviso humano.",
-            subheadline: "Nossa atuação não está na execução de tarefas pontuais, campanhas ou soluções genéricas. Projetamos e implantamos sistemas operacionais e comerciais que reduzem fragilidades do processo, organizam decisões e sustentam crescimento com controle. A Nexus não é um produto — é a arquitetura por trás dos produtos que desenvolvemos.",
+            title: "Clareza e automação para negócios que precisam funcionar melhor no dia a dia.",
+            subheadline: "Criamos soluções práticas de dados e atendimento para empresas que não podem perder vendas por desorganização, demora ou improviso.",
             sections: [
                 {
                     title: "Visão",
-                    p1: "Acreditamos que crescer sem estrutura é um risco desnecessário.",
-                    p2: "Nossa visão é um mercado onde empresas crescem com método, limites claros e previsibilidade, e onde decisões importantes deixam de ser tomadas no escuro.",
-                    p3: "Buscamos construir uma empresa reconhecida por clareza, critério e profundidade, não por volume, hype ou promessas aceleradas."
+                    p1: "Acreditamos que tecnologia só faz sentido quando simplifica. Nossa visão é um mercado onde empresas usam dados e automação para tomar decisões melhores, atender com mais qualidade e crescer de forma organizada — sem depender de esforço excessivo ou processos confusos.",
+                    p2: "Buscamos construir soluções acessíveis, eficientes e aplicáveis à rotina real dos negócios."
                 },
                 {
                     title: "Abordagem",
-                    p1: "A Nexus Intelligence AI atua na camada estrutural do negócio — onde processos, decisões e limites determinam a saúde da operação.",
-                    p2: "Trabalhamos com escopo fechado, critérios claros e baixo volume de clientes, garantizando profundidade e qualidade na implantação dos sistemas que projetamos. Antes de pensar em escala, priorizamos estrutura. Antes de acelerar, garantimos controle.",
-                    p3: "Nossa abordagem é seletiva por natureza. Atuamos apenas onde há aderência real, impacto concreto e maturidade para operar com método."
+                    p1: "A Nexus Intelligence AI atua de forma prática e objetiva. Antes de automatizar, entendemos o processo. Antes de sugerir tecnologia, organizamos a base.",
+                    p2: "Trabalhamos com escopo claro, soluções enxutas e foco em aplicação real. Nossos projetos são pensados para funcionar no dia a dia da empresa, sem complexidade desnecessária e sem criar dependência.",
+                    p3: "A automação existe para apoiar pessoas, não para substituí-las."
                 },
                 {
                     title: "Posicionamento Institucional",
-                    p1: "A Nexus Intelligence AI não é agência, não é consultoria aberta e não é fornecedora de soluções improvisadas.",
-                    p2: "Somos uma empresa de arquitetura operacional, criada para negócios que valorizam previsibilidade, clareza e decisões baseadas em estrutura.",
-                    p3: "Trabalhamos com poucas empresas ao mesmo tempo, protegendo nossa energia, nosso padrão de entrega e o posicionamento que escolhemos sustentar. Crescer devagar é estratégia. Controle vem antes da escala."
+                    p1: "A Nexus Intelligence AI não é agência, não é software genérico e não entrega soluções improvisadas. Somos uma empresa especializada em clareza operacional e automação de atendimento, com foco em resultado prático e experiência humana.",
+                    p2: "Atuamos principalmente com empresas de serviços que precisam organizar dados, estruturar o atendimento e converter contatos em vendas de forma mais eficiente.",
+                    p3: "Nosso compromisso é com soluções simples, bem implementadas e que façam sentido para quem está na operação."
                 }
             ]
         },
@@ -432,26 +431,25 @@ export const translations = {
             }
         },
         about: {
-            title: "Nexus Intelligence AI is an operational infrastructure company focused on high-ticket service businesses that need predictability, clarity, and control to grow without depending on human improvisation.",
-            subheadline: "Our role is not in the execution of specific tasks, campaigns, or generic solutions. We design and implement operational and commercial systems that reduce process fragilities, organize decisions, and sustain growth with control. Nexus is not a product — it is the architecture behind the products we develop.",
+            title: "Clarity and automation for businesses that need to function better in their daily operations.",
+            subheadline: "We create practical data and service solutions for companies that cannot afford to lose sales due to disorganization, delays, or improvisation.",
             sections: [
                 {
                     title: "Vision",
-                    p1: "We believe that growing without structure is an unnecessary risk.",
-                    p2: "Our vision is a market where companies grow with method, clear limits, and predictability, and where important decisions stop being made in the dark.",
-                    p3: "We seek to build a company recognized for clarity, criteria, and depth, not for volume, hype, or accelerated promises."
+                    p1: "We believe that technology only makes sense when it simplifies. Our vision is a market where companies use data and automation to make better decisions, provide higher quality service, and grow in an organized way — without depending on excessive effort or confusing processes.",
+                    p2: "We seek to build solutions that are accessible, efficient, and applicable to the real day-to-day routine of businesses."
                 },
                 {
                     title: "Approach",
-                    p1: "Nexus Intelligence AI operates at the structural layer of the business — where processes, decisions, and limits determine the health of the operation.",
-                    p2: "We work with a fixed scope, clear criteria, and a low volume of clients, ensuring depth and quality in the implementation of the systems we design. Before thinking about scale, we prioritize structure. Before accelerating, we guarantee control.",
-                    p3: "Our approach is selective by nature. We act only where there is real adherence, concrete impact, and maturity to operate with method."
+                    p1: "Nexus Intelligence AI acts in a practical and objective way. Before automating, we understand the process. Before suggesting technology, we organize the foundation.",
+                    p2: "We work with a clear scope, lean solutions, and a total focus on real-world application. Our projects are designed to function in the company's daily routine, without unnecessary complexity and without creating dependency.",
+                    p3: "Automation exists to support people, not to replace them."
                 },
                 {
                     title: "Institutional Positioning",
-                    p1: "Nexus Intelligence AI is not an agency, not an open consultancy, and not a provider of improvised solutions.",
-                    p2: "We are an operational architecture company, created for businesses that value predictability, clarity, and structure-based decisions.",
-                    p3: "We work with few companies at a time, protecting our energy, our delivery standard, and the positioning we choose to sustain. Growing slowly is a strategy. Control comes before scale."
+                    p1: "Nexus Intelligence AI is not an agency, is not generic software, and does not deliver improvised solutions. We are a company specialized in operational clarity and service automation, with a focus on practical results and human experience.",
+                    p2: "We operate mainly with service companies that need to organize data, structure service, and convert contacts into sales more efficiently.",
+                    p3: "Our commitment is simple, well-implemented solutions that make sense for those in the operation."
                 }
             ]
         },
