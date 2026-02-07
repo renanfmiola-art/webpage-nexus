@@ -1,3 +1,4 @@
+// Final translation structure for PT and EN
 export const translations = {
     pt: {
         nav: {
