@@ -231,14 +231,14 @@ export const translations = {
                             name: "Clear Avançado",
                             type: "Projeto único",
                             price: "A partir de R$ 5.000",
-                            features: ["Dashboard completo", "Automação leve", "KPIs comerciais"],
+                            features: ["Todos Essencial", "Automação leve", "KPIs comerciais"],
                             cta: "Solicitar Avaliação"
                         },
                         {
                             name: "Clear Estratégico",
                             type: "Projeto único",
                             price: "A Partir de R$ 8.000,00",
-                            features: ["Dashboards integrados", "Automações", "Insights estratégicos"],
+                            features: ["Todos Avançado", "Dashboards integrados", "Insights estratégicos"],
                             cta: "Solicitar Avaliação"
                         }
                     ]
@@ -580,14 +580,14 @@ export const translations = {
                             name: "Clear Advanced",
                             type: "Single project",
                             price: "From R$ 5,000",
-                            features: ["Complete dashboard", "Light automation", "Commercial KPIs"],
+                            features: ["All Essential", "Light automation", "Commercial KPIs"],
                             cta: "Request Evaluation"
                         },
                         {
                             name: "Clear Strategic",
                             type: "Single project",
                             price: "From R$ 8,000.00",
-                            features: ["Integrated dashboards", "Automations", "Strategic insights"],
+                            features: ["All Advanced", "Integrated dashboards", "Strategic insights"],
                             cta: "Request Evaluation"
                         }
                     ]
