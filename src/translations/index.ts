@@ -26,58 +26,55 @@ export const translations = {
             }
         },
         nexusflow: {
-            hero_description: "Infraestrutura comercial para agências onde cada venda não pode depender da memória, esforço e improviso de alguém.",
+            hero_description: "Agentes de IA humanizados para automatizar o atendimento, organizar contatos e gerar mais vendas — sem robotizar a experiência do cliente.",
             what_is: {
                 title: "O que é",
-                p1: "O NEXUS FLOW é um sistema de infraestrutura comercial criado pela Nexus Intelligence AI para empresas que operam com vendas high-ticket.",
-                p2: "Seu objetivo é transformar um processo comercial frágil — dependente de memória, esforço e improviso humano — em uma operação previsível, contínua e controlável.",
+                p1: "O Nexus Flow™ é uma solução de automação de atendimento com agentes de IA, criada para empresas de serviços que recebem muitos contatos e perdem oportunidades por demora, desorganização ou falta de follow-up.",
+                p2: "O agente atua no primeiro atendimento, responde dúvidas frequentes, qualifica o cliente e encaminha o contato para o humano no momento certo, mantendo linguagem natural e contexto do negócio.",
                 p3: "O NEXUS FLOW não substitui pessoas. Ele elimina fragilidades do processo para que o fator humano atue onde realmente importa: diagnóstico, relacionamento e fechamento."
             },
             for_whom: {
                 title: "Para quem é",
-                p1: "O NEXUS FLOW foi desenvolvido para empresas que:",
+                p1: "O Nexus Flow™ é indicado para empresas de serviços com ofertas bem definidas, onde o atendimento é repetitivo e impacta diretamente o faturamento.",
                 items: [
-                    "Vendem serviços de alto valor;",
-                    "Trabalham com ciclos de venda consultivos;",
-                    "Recebem leads por múltiplos canais (WhatsApp, Instagram, site, indicações);",
-                    "Dependem fortemente do consultor para conduzir o funil;",
-                    "Sentem perda de vendas por follow-up inconsistente e falta de continuidade."
+                    "clínicas de estética",
+                    "serviços de climatização (ar-condicionado)",
+                    "limpeza pós-obra e serviços técnicos"
                 ],
-                footer: "É indicado para operações que já vendem, mas perderam previsibilidade à medida que cresceram."
+                footer: "Se o seu negócio depende de responder rápido, organizar contatos e converter mensagens em vendas, o Nexus Flow™ faz sentido."
             },
             problem: {
                 title: "Qual problema resolve",
-                p1: "Agências de turismo high-ticket raramente perdem vendas por falta de demanda. Elas perdem vendas por falhas estruturais no processo comercial.",
+                p1: "Empresas perdem vendas todos os dias porque:",
                 items: [
-                    "Follow-up inconsistente e tardio;",
-                    "Dependência excessiva da memória do consultor;",
-                    "Leads que somem sem critério claro;",
-                    "Ausência de visão confiável do funil;",
-                    "Dificuldade de prever resultados comerciais."
+                    "demoram para responder",
+                    "atendem manualmente",
+                    "esquecem de fazer follow-up",
+                    "não organizam os contatos recebidos"
                 ],
-                footer: "Ao estruturar o processo, a agência deixa de “correr atrás de vendas” e passa a operar com continuidade e controle."
+                footer: "O Nexus Flow™ resolve a perda de oportunidades no atendimento, garantindo resposta rápida, organização e continuidade no contato com o cliente — sem sobrecarregar a equipe."
             },
             is_not: {
                 title: "O que NÃO é",
                 items: [
-                    "Um CRM genérico;",
-                    "Uma automação solta;",
-                    "Uma agência de marketing;",
-                    "Uma consultoria estratégica aberta;",
-                    "Um software self-service."
+                    "um chatbot genérico",
+                    "uma automação fria ou engessada",
+                    "um robô que substitui o humano",
+                    "um software pronto para uso sem configuração",
+                    "uma agência de marketing"
                 ],
-                footer: "É um sistema de infraestrutura comercial, implantado com escopo fechado e critérios claros."
+                footer: "É uma solução implantada e gerenciada, adaptada ao fluxo real do negócio."
             },
             how_it_works: {
                 title: "Como funciona",
-                p1: "A Nexus Intelligence AI implanta o NEXUS FLOW seguindo um processo estruturado e sem improviso:",
+                p1: "Nexus Intelligence AI implanta o Nexus Flow seguindo etapas objetivas:",
                 steps: [
-                    { title: "Mapeamento do fluxo comercial atual", text: "Identificação dos pontos onde vendas se perdem e decisões dependem de pessoas;" },
-                    { title: "Definição do fluxo mínimo previsível", text: "Estruturação do caminho do lead até a venda, com critérios claros de avanço;" },
-                    { title: "Implantação da infraestrutura", text: "Automação de pré-atendimento, organização de dados, follow-ups e integração com CRM;" },
-                    { title: "Ativação e validação", text: "Garantia de uso real, redução de dependência humana e entrega do sistema funcional." }
+                    { title: "Mapeamento do atendimento", text: "Entendemos como os contatos chegam e quais perguntas se repetem." },
+                    { title: "Criação do agente de IA", text: "Treinamos o agente com linguagem, regras e contexto do negócio." },
+                    { title: "Automação do fluxo", text: "O agente atende, qualifica e organiza os contatos automaticamente." },
+                    { title: "Gestão contínua", text: "Monitoramos, ajustamos e melhoramos o desempenho do agente ao longo do tempo." }
                 ],
-                footer: "Tudo é feito com escopo fechado, sem customizações caóticas e sem dependência futura da Nexus."
+                footer: "Tudo com foco em eficiência, clareza e experiência do cliente."
             }
         },
         nexusClear: {
@@ -279,58 +276,55 @@ export const translations = {
             }
         },
         nexusflow: {
-            hero_description: "Commercial infrastructure for companies where each sale cannot depend on someone's memory, effort, and improvisation.",
+            hero_description: "Humanized AI Agents to automate service, organize contacts, and generate more sales — without robotizing the customer experience.",
             what_is: {
                 title: "What is it",
-                p1: "NEXUS FLOW is a commercial infrastructure system created by Nexus Intelligence AI for companies operating with high-ticket sales.",
-                p2: "Its goal is to transform a fragile commercial process — dependent on memory, effort, and human improvisation — into a predictable, continuous, and controllable operation.",
+                p1: "Nexus Flow™ is a service automation solution with AI agents, created for service companies that receive many contacts and lose opportunities due to delays, disorganization, or lack of follow-up.",
+                p2: "The agent handles the initial service, answers frequent questions, qualifies the customer, and forwards the contact to a human at the right moment, maintaining natural language and business context.",
                 p3: "NEXUS FLOW does not replace people. It eliminates process weaknesses so that the human factor can act where it truly matters: diagnosis, relationship, and closing."
             },
             for_whom: {
                 title: "Who is it for",
-                p1: "NEXUS FLOW was developed for companies that:",
+                p1: "Nexus Flow™ is indicated for service companies with well-defined offers, where service is repetitive and directly impacts revenue.",
                 items: [
-                    "Sell high-value services;",
-                    "Work with consultative sales cycles;",
-                    "Receive leads through multiple channels (WhatsApp, Instagram, website, referrals);",
-                    "Depend heavily on the consultant to drive the funnel;",
-                    "Feel lost sales due to inconsistent follow-up and lack of continuity."
+                    "aesthetic clinics",
+                    "air conditioning services",
+                    "post-construction cleaning and technical services"
                 ],
-                footer: "It is indicated for operations that already sell but lost predictability as they grew."
+                footer: "If your business depends on responding quickly, organizing contacts, and converting messages into sales, Nexus Flow™ makes sense."
             },
             problem: {
                 title: "What problem does it solve",
-                p1: "High-ticket travel agencies rarely lose sales due to a lack of demand. They lose sales due to structural failures in the commercial process.",
+                p1: "Companies lose sales every day because:",
                 items: [
-                    "Inconsistent and late follow-up;",
-                    "Excessive dependence on the consultant's memory;",
-                    "Leads that disappear without clear criteria;",
-                    "Absence of a reliable funnel view;",
-                    "Difficulty in predicting commercial results."
+                    "they take too long to respond",
+                    "they handle service manually",
+                    "they forget to follow up",
+                    "they do not organize the contacts received"
                 ],
-                footer: "By structuring the process, the agency stops 'chasing sales' and starts operating with continuity and control."
+                footer: "Nexus Flow™ solves the loss of opportunities in service, ensuring quick response, organization, and continuity in contact with the customer — without overloading the team."
             },
             is_not: {
                 title: "What it is NOT",
                 items: [
-                    "A generic CRM;",
-                    "A loose automation;",
-                    "A marketing agency;",
-                    "An open strategic consultancy;",
-                    "A self-service software."
+                    "a generic chatbot",
+                    "a cold or rigid automation",
+                    "a robot that replaces the human",
+                    "ready-to-use software without configuration",
+                    "a marketing agency"
                 ],
-                footer: "It is a commercial infrastructure system, implemented with a fixed scope and clear criteria."
+                footer: "It is an implemented and managed solution, adapted to the real flow of the business."
             },
             how_it_works: {
                 title: "How it works",
-                p1: "Nexus Intelligence AI implements NEXUS FLOW following a structured process without improvisation:",
+                p1: "Nexus Intelligence AI implements Nexus Flow following objective stages:",
                 steps: [
-                    { title: "Mapping the current commercial flow", text: "Identification of points where sales are lost and decisions depend on people;" },
-                    { title: "Defining the minimum predictable flow", text: "Structuring the lead-to-sale path with clear advancement criteria;" },
-                    { title: "Infrastructure implementation", text: "Automation of pre-service, data organization, follow-ups, and CRM integration;" },
-                    { title: "Activation and validation", text: "Ensuring actual use, reducing human dependency, and delivering a functional system." }
+                    { title: "Service mapping", text: "We understand how contacts arrive and which questions are repeated." },
+                    { title: "AI Agent creation", text: "We train the agent with language, rules, and business context." },
+                    { title: "Flow automation", text: "The agent handles, qualifies, and organizes contacts automatically." },
+                    { title: "Continuous management", text: "We monitor, adjust, and improve the agent's performance over time." }
                 ],
-                footer: "Everything is done with a fixed scope, without chaotic customizations and without future dependence on Nexus."
+                footer: "All with a focus on efficiency, clarity, and customer experience."
             }
         },
         nexusClear: {
