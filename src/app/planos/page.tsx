@@ -77,7 +77,11 @@ export default function Page() {
 
                                             <div className="pt-8">
                                                 <a
-                                                    href={`https://wa.me/5514998622743?text=${encodeURIComponent(`Olá, gostaria de mais informações sobre o ${plan.name}...`)}`}
+                                                    href={`https://wa.me/5514998622743?text=${encodeURIComponent(
+                                                        plan.name.includes("Gestão")
+                                                            ? `Olá, gostaria de mais informações sobre o sistema de ${plan.name} Nexus Clear...`
+                                                            : `Olá, gostaria de mais informações sobre o ${plan.name}...`
+                                                    )}`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="w-full py-5 bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-[0.4em] hover:bg-white hover:text-black transition-all duration-500 block text-center"
