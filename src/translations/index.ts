@@ -10,19 +10,19 @@ export const translations = {
             blog: "Blog"
         },
         home: {
-            headline: "Infraestrutura operacional para negócios que não aceitam crescer no escuro.",
-            subheadline: "Projetamos sistemas claros e previsíveis para empresas high-ticket que precisam de controle antes de escalar.",
+            headline: "Clareza e automação para empresas que não podem perder vendas por falta de resposta ou organização.",
+            subheadline: "Transformamos dados e atendimento em sistemas claros, automatizados e orientados a resultado — sem robotizar a experiência do cliente.",
             problem: {
                 title: "Problema",
-                p1: "Negócios de serviços high-ticket raramente falham por falta de demanda. Eles falham quando o crescimento passa a depender de memória, esforço humano e decisões tomadas no escuro.",
-                p2: "Em operações onde vendas são complexas e personalizadas, é comum encontrar follow-up inconsistente, dados espalhados e ausência de um processo confiável do lead até o fechamento. O resultado não é apenas perda de oportunidades, mas um modelo de crescimento instável, difícil de prever e caro de sustentar.",
-                p3: "Quando não existe infraestrutura, cada nova venda aumenta a pressão sobre pessoas e processos. Crescer deixa de ser uma vantagem competitiva — e passa a ser um risco operacional."
+                p1: "A Nexus Intelligence AI é uma empresa especializada em clareza operacional e automação inteligente para negócios de serviços.",
+                p2: "Atuamos onde decisões e vendas não podem depender de improviso humano. Criamos sistemas simples, funcionais e gerenciáveis, que organizam dados, automatizam o atendimento e devolvem controle ao negócio.",
+                p3: "Não somos agência, não somos software genérico e não vendemos soluções improvisadas. Trabalhamos com método, escopo claro e foco em resultado prático."
             },
             approach: {
                 title: "Nossa abordagem",
-                p1: "A Nexus Intelligence AI atua na camada estrutural do negócio — onde decisões, processos e limites determinam se o crescimento será sustentável ou caótico.",
-                p2: "Não operamos como agência, nem como consultoria aberta. Trabalhamos com escopo fechado, critérios claros e foco absoluto em previsibilidade operacional. Antes de pensar em escala, projetamos a estrutura que sustenta o crescimento sem depender de esforço constante ou improviso humano.",
-                p3: "Nossa abordagem é seletiva por natureza. Atuamos com poucos clientes ao mesmo tempo para garantir profundidade, controle e qualidade na implantação dos sistemas que projetamos. Estrutura vem antes do crescimento. Controle vem antes da escala."
+                p1: "Trabalhamos com escopo claro, soluções enxutas e foco total em aplicação prática.",
+                p2: "Antes de pensar em crescimento, organizamos. Antes de automatizar, entendemos o processo. Antes de escalar, garantimos controle.",
+                p3: "Nossa abordagem é direta, sem promessas exageradas e sem dependência futura. A tecnologia existe para simplificar, não para complicar."
             }
         },
         nexusflow: {
@@ -263,19 +263,19 @@ export const translations = {
             blog: "Blog"
         },
         home: {
-            headline: "Operational infrastructure for businesses that refuse to grow in the dark.",
-            subheadline: "We design clear and predictable systems for high-ticket companies that need control before scaling.",
+            headline: "Clarity and automation for companies that cannot afford to lose sales due to lack of response or organization.",
+            subheadline: "We transform data and customer service into clear, automated, and result-oriented systems — without robotizing the customer experience.",
             problem: {
                 title: "The Problem",
-                p1: "High-ticket service businesses rarely fail due to a lack of demand. They fail when growth starts to depend on memory, human effort, and decisions made in the dark.",
-                p2: "In operations where sales are complex and personalized, it's common to find inconsistent follow-up, scattered data, and the absence of a reliable process from lead to closing. The result is not just lost opportunities, but an unstable growth model, difficult to predict and expensive to sustain.",
-                p3: "When there is no infrastructure, every new sale increases the pressure on people and processes. Growing stops being a competitive advantage — and starts being an operational risk."
+                p1: "Nexus Intelligence AI is a company specialized in operational clarity and intelligent automation for service businesses.",
+                p2: "We operate where decisions and sales cannot depend on human improvisation. We create simple, functional, and manageable systems that organize data, automate service, and return control to the business.",
+                p3: "We are not an agency, we are not generic software, and we do not sell improvised solutions. We work with method, clear scope, and a focus on practical results."
             },
             approach: {
                 title: "Our Approach",
-                p1: "Nexus Intelligence AI operates at the structural layer of the business — where decisions, processes, and limits determine whether growth will be sustainable or chaotic.",
-                p2: "We do not operate as an agency or an open consultancy. We work with a fixed scope, clear criteria, and an absolute focus on operational predictability. Before thinking about scale, we design the structure that sustains growth without depending on constant effort or human improvisation.",
-                p3: "Our approach is selective by nature. We work with few clients at a time to ensure depth, control, and quality in the implementation of the systems we design. Structure comes before growth. Control comes before scale."
+                p1: "We work with a clear scope, lean solutions, and a total focus on practical application.",
+                p2: "Before thinking about growth, we organize. Before automating, we understand the process. Before scaling, we guarantee control.",
+                p3: "Our approach is direct, without exaggerated promises and without future dependency. Technology exists to simplify, not to complicate."
             }
         },
         nexusflow: {
