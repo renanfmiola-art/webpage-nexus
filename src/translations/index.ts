@@ -237,7 +237,7 @@ export const translations = {
                         {
                             name: "Clear Estratégico",
                             type: "Projeto único",
-                            price: "A Partir de R$ 8.000,00",
+                            price: "A partir de R$ 8.000,00",
                             features: ["Todos Avançado", "Dashboards integrados", "Insights estratégicos"],
                             cta: "Solicitar Avaliação"
                         }
@@ -264,7 +264,7 @@ export const translations = {
                         {
                             name: "Flow Completo",
                             type: "Implantação",
-                            price: "A Partir de R$ 10.000,00",
+                            price: "A partir de R$ 10.000,00",
                             features: ["Todos Profissional", "Multicanais", "Mensagens por voz"],
                             cta: "Solicitar Avaliação"
                         }
