@@ -26,7 +26,7 @@ export default function Page() {
                 {/* Sections */}
                 <div className="space-y-0">
                     {aboutSections.map((section: any, idx: number) => (
-                        <div key={idx} className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 pt-16 pb-16 border-t border-white/5 first:border-t-0">
+                        <div key={idx} className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 pt-16 pb-16 border-t border-white/5">
                             <div className="md:col-span-1">
                                 <h2 className="text-[10px] font-bold tracking-[0.5em] uppercase text-white/40 border-l-2 border-white/10 pl-4">
                                     {section.title}
