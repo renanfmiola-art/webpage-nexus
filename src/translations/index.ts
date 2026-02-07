@@ -29,19 +29,19 @@ export const translations = {
             hero_description: "Agentes de IA humanizados para automatizar o atendimento, organizar contatos e gerar mais vendas — sem robotizar a experiência do cliente.",
             what_is: {
                 title: "O que é",
-                p1: "O Nexus Flow™ é uma solução de automação de atendimento com agentes de IA, criada para empresas de serviços que recebem muitos contatos e perdem oportunidades por demora, desorganização ou falta de follow-up.",
+                p1: "O Nexus Flow é uma solução de automação de atendimento com agentes de IA, criada para empresas de serviços que recebem muitos contatos e perdem oportunidades por demora, desorganização ou falta de follow-up.",
                 p2: "O agente atua no primeiro atendimento, responde dúvidas frequentes, qualifica o cliente e encaminha o contato para o humano no momento certo, mantendo linguagem natural e contexto do negócio.",
                 p3: "O NEXUS FLOW não substitui pessoas. Ele elimina fragilidades do processo para que o fator humano atue onde realmente importa: diagnóstico, relacionamento e fechamento."
             },
             for_whom: {
                 title: "Para quem é",
-                p1: "O Nexus Flow™ é indicado para empresas de serviços com ofertas bem definidas, onde o atendimento é repetitivo e impacta diretamente o faturamento.",
+                p1: "O Nexus Flow é indicado para empresas de serviços com ofertas bem definidas, onde o atendimento é repetitivo e impacta diretamente o faturamento.",
                 items: [
                     "clínicas de estética",
                     "serviços de climatização (ar-condicionado)",
                     "limpeza pós-obra e serviços técnicos"
                 ],
-                footer: "Se o seu negócio depende de responder rápido, organizar contatos e converter mensagens em vendas, o Nexus Flow™ faz sentido."
+                footer: "Se o seu negócio depende de responder rápido, organizar contatos e converter mensagens em vendas, o Nexus Flow faz sentido."
             },
             problem: {
                 title: "Qual problema resolve",
@@ -52,7 +52,7 @@ export const translations = {
                     "esquecem de fazer follow-up",
                     "não organizam os contatos recebidos"
                 ],
-                footer: "O Nexus Flow™ resolve a perda de oportunidades no atendimento, garantindo resposta rápida, organização e continuidade no contato com o cliente — sem sobrecarregar a equipe."
+                footer: "O Nexus Flow resolve a perda de oportunidades no atendimento, garantindo resposta rápida, organização e continuidade no contato com o cliente — sem sobrecarregar a equipe."
             },
             is_not: {
                 title: "O que NÃO é",
@@ -279,19 +279,19 @@ export const translations = {
             hero_description: "Humanized AI Agents to automate service, organize contacts, and generate more sales — without robotizing the customer experience.",
             what_is: {
                 title: "What is it",
-                p1: "Nexus Flow™ is a service automation solution with AI agents, created for service companies that receive many contacts and lose opportunities due to delays, disorganization, or lack of follow-up.",
+                p1: "Nexus Flow is a service automation solution with AI agents, created for service companies that receive many contacts and lose opportunities due to delays, disorganization, or lack of follow-up.",
                 p2: "The agent handles the initial service, answers frequent questions, qualifies the customer, and forwards the contact to a human at the right moment, maintaining natural language and business context.",
                 p3: "NEXUS FLOW does not replace people. It eliminates process weaknesses so that the human factor can act where it truly matters: diagnosis, relationship, and closing."
             },
             for_whom: {
                 title: "Who is it for",
-                p1: "Nexus Flow™ is indicated for service companies with well-defined offers, where service is repetitive and directly impacts revenue.",
+                p1: "Nexus Flow is indicated for service companies with well-defined offers, where service is repetitive and directly impacts revenue.",
                 items: [
                     "aesthetic clinics",
                     "air conditioning services",
                     "post-construction cleaning and technical services"
                 ],
-                footer: "If your business depends on responding quickly, organizing contacts, and converting messages into sales, Nexus Flow™ makes sense."
+                footer: "If your business depends on responding quickly, organizing contacts, and converting messages into sales, Nexus Flow makes sense."
             },
             problem: {
                 title: "What problem does it solve",
@@ -302,7 +302,7 @@ export const translations = {
                     "they forget to follow up",
                     "they do not organize the contacts received"
                 ],
-                footer: "Nexus Flow™ solves the loss of opportunities in service, ensuring quick response, organization, and continuity in contact with the customer — without overloading the team."
+                footer: "Nexus Flow solves the loss of opportunities in service, ensuring quick response, organization, and continuity in contact with the customer — without overloading the team."
             },
             is_not: {
                 title: "What it is NOT",
