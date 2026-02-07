@@ -61,7 +61,7 @@ export default function Page() {
                                             </div>
 
                                             <div>
-                                                <div className="text-3xl font-black tracking-tighter text-white">
+                                                <div className="text-3xl font-black tracking-tighter text-white whitespace-nowrap">
                                                     {plan.price.includes("/") ? (
                                                         <div className="flex flex-col">
                                                             <span>{plan.price.split("/")[0].trim()}</span>
