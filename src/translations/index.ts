@@ -288,7 +288,7 @@ export const translations = {
                         },
                         {
                             name: "Gestão Avançada",
-                            price: "R$ 2.000 / mês",
+                            price: "R$ 2.399 / mês",
                             features: ["Estratégia completa", "Relatórios de desempenho"],
                             cta: "Solicitar Gestão"
                         }
@@ -637,7 +637,7 @@ export const translations = {
                         },
                         {
                             name: "Advanced Management",
-                            price: "R$ 2,000 / month",
+                            price: "R$ 2.399 / month",
                             features: ["Complete strategy", "Performance reports"],
                             cta: "Request Management"
                         }
