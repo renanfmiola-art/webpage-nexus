@@ -79,7 +79,7 @@ export default function Page() {
                                                 <a
                                                     href={`https://wa.me/5514998622743?text=${encodeURIComponent(
                                                         plan.name.includes("Gestão")
-                                                            ? `Olá, gostaria de mais informações sobre o sistema de ${plan.name} Nexus Clear...`
+                                                            ? `Olá, gostaria de mais informações sobre o sistema de ${plan.name} Nexus Flow...`
                                                             : `Olá, gostaria de mais informações sobre o ${plan.name}...`
                                                     )}`}
                                                     target="_blank"
