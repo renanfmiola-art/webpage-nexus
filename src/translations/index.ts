@@ -237,7 +237,7 @@ export const translations = {
                         {
                             name: "Clear Estratégico",
                             type: "Projeto único",
-                            price: "Até R$ 8.000",
+                            price: "A Partir de R$ 8.000,00",
                             features: ["Dashboards integrados", "Automações", "Insights estratégicos"],
                             cta: "Solicitar Avaliação"
                         }
@@ -283,13 +283,13 @@ export const translations = {
                         {
                             name: "Gestão Profissional",
                             price: "R$ 1.119 / mês",
-                            features: ["Otimizações contínuas", "Ajustes por campanhas"],
+                            features: ["Todos Essencial", "Otimizações contínuas"],
                             cta: "Solicitar Gestão"
                         },
                         {
                             name: "Gestão Avançada",
                             price: "R$ 2.879 / mês",
-                            features: ["Estratégia completa", "Relatórios de desempenho"],
+                            features: ["Todos Profissional", "Relatórios de desempenho", "Ajustes por campanhas"],
                             cta: "Solicitar Gestão"
                         }
                     ]
@@ -586,7 +586,7 @@ export const translations = {
                         {
                             name: "Clear Strategic",
                             type: "Single project",
-                            price: "Up to R$ 8,000",
+                            price: "From R$ 8,000.00",
                             features: ["Integrated dashboards", "Automations", "Strategic insights"],
                             cta: "Request Evaluation"
                         }
@@ -632,13 +632,13 @@ export const translations = {
                         {
                             name: "Professional Management",
                             price: "R$ 1,119 / month",
-                            features: ["Continuous optimizations", "Adjustments by campaigns"],
+                            features: ["All Essential", "Continuous optimizations"],
                             cta: "Request Management"
                         },
                         {
                             name: "Advanced Management",
                             price: "R$ 2,879 / month",
-                            features: ["Complete strategy", "Performance reports"],
+                            features: ["All Professional", "Performance reports", "Adjustments by campaigns"],
                             cta: "Request Management"
                         }
                     ]
