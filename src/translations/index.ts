@@ -250,22 +250,22 @@ export const translations = {
                         {
                             name: "Flow Essencial",
                             type: "Implantação",
-                            price: "A partir de R$ 2.000",
-                            features: ["1 canal de atendimento", "Linguagem humanizada"],
+                            price: "A partir de R$ 1.500",
+                            features: ["1 canal de atendimento", "Linguagem humanizada", "Mensagens por texto"],
                             cta: "Solicitar Avaliação"
                         },
                         {
                             name: "Flow Profissional",
                             type: "Implantação",
-                            price: "A partir de R$ 5.000",
-                            features: ["2 canais", "Qualificação de leads"],
+                            price: "A partir de R$ 3.750",
+                            features: ["Todos Essencial", "Funil completo"],
                             cta: "Solicitar Avaliação"
                         },
                         {
                             name: "Flow Completo",
                             type: "Implantação",
-                            price: "Até R$ 10.000",
-                            features: ["Multicanais", "Follow-up automatizado"],
+                            price: "A Partir de R$ 10.000,00",
+                            features: ["Todos Profissional", "Multicanais", "Mensagens por voz"],
                             cta: "Solicitar Avaliação"
                         }
                     ]
@@ -276,19 +276,19 @@ export const translations = {
                     plans: [
                         {
                             name: "Gestão Essencial",
-                            price: "R$ 899 / mês",
+                            price: "R$ 719 / mês",
                             features: ["Monitoramento básico", "Ajustes de respostas"],
                             cta: "Solicitar Gestão"
                         },
                         {
                             name: "Gestão Profissional",
-                            price: "R$ 1.399 / mês",
+                            price: "R$ 1.119 / mês",
                             features: ["Otimizações contínuas", "Ajustes por campanhas"],
                             cta: "Solicitar Gestão"
                         },
                         {
                             name: "Gestão Avançada",
-                            price: "R$ 2.399 / mês",
+                            price: "R$ 2.879 / mês",
                             features: ["Estratégia completa", "Relatórios de desempenho"],
                             cta: "Solicitar Gestão"
                         }
@@ -301,7 +301,7 @@ export const translations = {
                         {
                             name: "Nexus Ink",
                             type: "Projeto único",
-                            price: "R$ 1.500 – R$ 4.500",
+                            price: "R$ 1.725 – R$ 5.175",
                             features: ["Organização de atendimento", "Briefing estruturado", "Redução de interrupções"],
                             cta: "Solicitar Avaliação"
                         }
@@ -599,22 +599,22 @@ export const translations = {
                         {
                             name: "Flow Essential",
                             type: "Implementation",
-                            price: "From R$ 2,000",
-                            features: ["1 service channel", "Humanized language"],
+                            price: "From R$ 1,500",
+                            features: ["1 service channel", "Humanized language", "Text messages"],
                             cta: "Request Evaluation"
                         },
                         {
                             name: "Flow Professional",
                             type: "Implementation",
-                            price: "From R$ 5,000",
-                            features: ["2 channels", "Lead qualification"],
+                            price: "From R$ 3,750",
+                            features: ["All Essential", "Full funnel"],
                             cta: "Request Evaluation"
                         },
                         {
                             name: "Flow Complete",
                             type: "Implementation",
-                            price: "Up to R$ 10,000",
-                            features: ["Multichannel", "Automated follow-up"],
+                            price: "From R$ 10,000.00",
+                            features: ["All Professional", "Multichannel", "Voice messages"],
                             cta: "Request Evaluation"
                         }
                     ]
@@ -625,19 +625,19 @@ export const translations = {
                     plans: [
                         {
                             name: "Essential Management",
-                            price: "R$ 899 / month",
+                            price: "R$ 719 / month",
                             features: ["Basic monitoring", "Response adjustments"],
                             cta: "Request Management"
                         },
                         {
                             name: "Professional Management",
-                            price: "R$ 1,399 / month",
+                            price: "R$ 1,119 / month",
                             features: ["Continuous optimizations", "Adjustments by campaigns"],
                             cta: "Request Management"
                         },
                         {
                             name: "Advanced Management",
-                            price: "R$ 2.399 / month",
+                            price: "R$ 2,879 / month",
                             features: ["Complete strategy", "Performance reports"],
                             cta: "Request Management"
                         }
@@ -650,7 +650,7 @@ export const translations = {
                         {
                             name: "Nexus Ink",
                             type: "Single project",
-                            price: "R$ 1,500 – R$ 4,500",
+                            price: "R$ 1,725 – R$ 5,175",
                             features: ["Service organization", "Structured briefing", "Interruption reduction"],
                             cta: "Request Evaluation"
                         }
