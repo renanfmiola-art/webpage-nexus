@@ -19,31 +19,24 @@ export default function Page() {
                 </div>
 
                 {/* Contact Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-24">
-                    <button className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]">
-                        <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
-                            {c.cards.nexusflow}
-                        </span>
-                    </button>
-
-                    <button className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]">
-                        <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
-                            {c.cards.nexusInk}
-                        </span>
-                    </button>
-
-                    <button className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]">
-                        <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
-                            {c.cards.nexusClear}
-                        </span>
-                    </button>
-
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-24">
                     <a
                         href={`mailto:${c.info.email}`}
                         className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]"
                     >
                         <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
                             {c.cards.email}
+                        </span>
+                    </a>
+
+                    <a
+                        href={`https://wa.me/5514998622743?text=${encodeURIComponent("Olá, Renan, vim pelo site da Nexus, e gostaria de mais informações...")}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]"
+                    >
+                        <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
+                            {c.cards.whatsapp}
                         </span>
                     </a>
                 </div>

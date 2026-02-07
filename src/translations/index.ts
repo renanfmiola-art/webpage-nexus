@@ -312,10 +312,8 @@ export const translations = {
         contact: {
             cta: "Entre em Contato",
             cards: {
-                nexusflow: "NEXUS FLOW",
-                nexusInk: "NEXUS INK",
-                nexusClear: "NEXUS CLEAR",
-                email: "EMAIL"
+                email: "EMAIL",
+                whatsapp: "WHATSAPP"
             },
             info: {
                 email: "miola@nexusintell.com.br",
@@ -663,10 +661,8 @@ export const translations = {
         contact: {
             cta: "Get in Touch",
             cards: {
-                nexusflow: "NEXUS FLOW",
-                nexusInk: "NEXUS INK",
-                nexusClear: "NEXUS CLEAR",
-                email: "EMAIL"
+                email: "EMAIL",
+                whatsapp: "WHATSAPP"
             },
             info: {
                 email: "miola@nexusintell.com.br",
