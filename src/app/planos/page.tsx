@@ -61,17 +61,38 @@ export default function Page() {
                                             </div>
 
                                             <div>
-                                                <div className="text-3xl font-black tracking-tighter text-white whitespace-nowrap">
-                                                    {plan.price.includes("/") ? (
-                                                        <div className="flex flex-col">
-                                                            <span>{plan.price.split("/")[0].trim()}</span>
-                                                            <span className="text-[10px] text-white/30 font-bold uppercase tracking-[0.2em] mt-1">
-                                                                / {plan.price.split("/")[1].trim()}
-                                                            </span>
-                                                        </div>
-                                                    ) : (
-                                                        plan.price
-                                                    )}
+                                                <div className="text-3xl font-black tracking-tighter text-white">
+                                                    {(() => {
+                                                        const price = plan.price as string;
+                                                        if (price.includes("/")) {
+                                                            const [val, period] = price.split("/");
+                                                            return (
+                                                                <div className="flex flex-col">
+                                                                    <span className="whitespace-nowrap">{val.trim()}</span>
+                                                                    <span className="text-[10px] text-white/30 font-bold uppercase tracking-[0.2em] mt-1">
+                                                                        / {period.trim()}
+                                                                    </span>
+                                                                </div>
+                                                            );
+                                                        }
+
+                                                        if (price.includes("R$")) {
+                                                            const rsIndex = price.indexOf("R$");
+                                                            const prefix = price.slice(0, rsIndex).trim();
+                                                            const value = price.slice(rsIndex).trim();
+
+                                                            if (prefix) {
+                                                                return (
+                                                                    <div className="flex items-baseline gap-2 whitespace-nowrap">
+                                                                        <span className="text-[11px] font-bold uppercase text-white/30 tracking-[0.2em] leading-none">{prefix}</span>
+                                                                        <span className="leading-none">{value}</span>
+                                                                    </div>
+                                                                );
+                                                            }
+                                                        }
+
+                                                        return <span className="whitespace-nowrap">{price}</span>;
+                                                    })()}
                                                 </div>
                                             </div>
 
