@@ -253,6 +253,24 @@ export const translations = {
                     ]
                 },
                 {
+                    title: "NEXUS FLOW – Gestão Mensal",
+                    description: "Gestão contínua dos agentes de IA para garantir performance, ajustes e evolução do atendimento.",
+                    plans: [
+                        {
+                            name: "Gestão Essencial",
+                            price: "R$ 359,50 / mês",
+                            features: ["Monitoramento básico", "Ajustes de respostas"],
+                            cta: "Solicitar Gestão"
+                        },
+                        {
+                            name: "Gestão Profissional",
+                            price: "R$ 559,50 / mês",
+                            features: ["Todos Essencial", "Otimizações contínuas"],
+                            cta: "Solicitar Gestão"
+                        }
+                    ]
+                },
+                {
                     title: "NEXUS CLEAR",
                     description: "Microprojetos de BI e clareza operacional para empresas que precisam organizar dados e tomar decisões com mais segurança.",
                     plans: [
@@ -269,24 +287,6 @@ export const translations = {
                             price: "A partir de R$ 4.000,00",
                             features: ["Todos essencial", "KPIs comerciais", "Insights estratégicos"],
                             cta: "Solicitar Avaliação"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS FLOW – Gestão Mensal",
-                    description: "Gestão contínua dos agentes de IA para garantir performance, ajustes e evolução do atendimento.",
-                    plans: [
-                        {
-                            name: "Gestão Essencial",
-                            price: "R$ 359,50 / mês",
-                            features: ["Monitoramento básico", "Ajustes de respostas"],
-                            cta: "Solicitar Gestão"
-                        },
-                        {
-                            name: "Gestão Profissional",
-                            price: "R$ 559,50 / mês",
-                            features: ["Todos Essencial", "Otimizações contínuas"],
-                            cta: "Solicitar Gestão"
                         }
                     ]
                 }
@@ -585,6 +585,24 @@ export const translations = {
                     ]
                 },
                 {
+                    title: "NEXUS FLOW – Monthly Management",
+                    description: "Continuous management of AI agents to ensure performance, adjustments, and service evolution.",
+                    plans: [
+                        {
+                            name: "Essential Management",
+                            price: "R$ 359,50 / month",
+                            features: ["Basic monitoring", "Response adjustments"],
+                            cta: "Request Management"
+                        },
+                        {
+                            name: "Professional Management",
+                            price: "R$ 559,50 / month",
+                            features: ["All Essential", "Continuous optimizations"],
+                            cta: "Request Management"
+                        }
+                    ]
+                },
+                {
                     title: "NEXUS CLEAR",
                     description: "BI micro-projects and operational clarity for companies that need to organize data and make decisions with more security.",
                     plans: [
@@ -601,24 +619,6 @@ export const translations = {
                             price: "From R$ 4,000.00",
                             features: ["All Essential", "Commercial KPIs", "Strategic insights"],
                             cta: "Request Evaluation"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS FLOW – Monthly Management",
-                    description: "Continuous management of AI agents to ensure performance, adjustments, and service evolution.",
-                    plans: [
-                        {
-                            name: "Essential Management",
-                            price: "R$ 359,50 / month",
-                            features: ["Basic monitoring", "Response adjustments"],
-                            cta: "Request Management"
-                        },
-                        {
-                            name: "Professional Management",
-                            price: "R$ 559,50 / month",
-                            features: ["All Essential", "Continuous optimizations"],
-                            cta: "Request Management"
                         }
                     ]
                 }
