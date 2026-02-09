@@ -220,21 +220,14 @@ export const translations = {
             },
             sections: [
                 {
-                    title: "NEXUS CLEAR",
-                    description: "Microprojetos de BI e clareza operacional para empresas que precisam organizar dados e tomar decisões com mais segurança.",
+                    title: "Auditoria de Dados & Compliance Tributário",
+                    description: "Recuperação tributária baseada em auditoria de dados, com foco administrativo e remuneração por êxito.",
                     plans: [
                         {
-                            name: "Clear Essencial",
-                            type: "Projeto único",
-                            price: "A partir de R$ 1.000",
-                            features: ["Dashboard executivo", "KPIs essenciais", "Organização de dados"],
-                            cta: "Solicitar Avaliação"
-                        },
-                        {
-                            name: "Clear Avançado",
-                            type: "Projeto único",
-                            price: "A partir de R$ 4.000,00",
-                            features: ["Todos essencial", "KPIs comerciais", "Insights estratégicos"],
+                            name: "Compliance Tributário",
+                            type: "Consultoria técnica",
+                            price: "sob consulta",
+                            features: ["Recuperação tributária baseada em auditoria de dados, com foco administrativo"],
                             cta: "Solicitar Avaliação"
                         }
                     ]
@@ -260,6 +253,26 @@ export const translations = {
                     ]
                 },
                 {
+                    title: "NEXUS CLEAR",
+                    description: "Microprojetos de BI e clareza operacional para empresas que precisam organizar dados e tomar decisões com mais segurança.",
+                    plans: [
+                        {
+                            name: "Clear Essencial",
+                            type: "Projeto único",
+                            price: "A partir de R$ 1.000",
+                            features: ["Dashboard executivo", "KPIs essenciais", "Organização de dados"],
+                            cta: "Solicitar Avaliação"
+                        },
+                        {
+                            name: "Clear Avançado",
+                            type: "Projeto único",
+                            price: "A partir de R$ 4.000,00",
+                            features: ["Todos essencial", "KPIs comerciais", "Insights estratégicos"],
+                            cta: "Solicitar Avaliação"
+                        }
+                    ]
+                },
+                {
                     title: "NEXUS FLOW – Gestão Mensal",
                     description: "Gestão contínua dos agentes de IA para garantir performance, ajustes e evolução do atendimento.",
                     plans: [
@@ -274,20 +287,6 @@ export const translations = {
                             price: "R$ 559,50 / mês",
                             features: ["Todos Essencial", "Otimizações contínuas"],
                             cta: "Solicitar Gestão"
-                        }
-                    ]
-                },
-
-                {
-                    title: "Auditoria de Dados & Compliance Tributário",
-                    description: "Recuperação tributária baseada em auditoria de dados, com foco administrativo e remuneração por êxito.",
-                    plans: [
-                        {
-                            name: "Compliance Tributário",
-                            type: "Consultoria técnica",
-                            price: "sob consulta",
-                            features: ["Recuperação tributária baseada em auditoria de dados, com foco administrativo"],
-                            cta: "Solicitar Avaliação"
                         }
                     ]
                 }
@@ -553,21 +552,14 @@ export const translations = {
             },
             sections: [
                 {
-                    title: "NEXUS CLEAR",
-                    description: "BI micro-projects and operational clarity for companies that need to organize data and make decisions with more security.",
+                    title: "Tax Data Auditing & Compliance",
+                    description: "Tax recovery based on data auditing, with an administrative focus and success-based remuneration.",
                     plans: [
                         {
-                            name: "Clear Essential",
-                            type: "Single project",
-                            price: "From R$ 1,000",
-                            features: ["Executive dashboard", "Essential KPIs", "Data organization"],
-                            cta: "Request Evaluation"
-                        },
-                        {
-                            name: "Clear Advanced",
-                            type: "Single project",
-                            price: "From R$ 4,000.00",
-                            features: ["All Essential", "Commercial KPIs", "Strategic insights"],
+                            name: "Tax Compliance",
+                            type: "Technical consulting",
+                            price: "on request",
+                            features: ["Tax recovery based on data auditing, with an administrative focus"],
                             cta: "Request Evaluation"
                         }
                     ]
@@ -593,6 +585,26 @@ export const translations = {
                     ]
                 },
                 {
+                    title: "NEXUS CLEAR",
+                    description: "BI micro-projects and operational clarity for companies that need to organize data and make decisions with more security.",
+                    plans: [
+                        {
+                            name: "Clear Essential",
+                            type: "Single project",
+                            price: "From R$ 1,000",
+                            features: ["Executive dashboard", "Essential KPIs", "Data organization"],
+                            cta: "Request Evaluation"
+                        },
+                        {
+                            name: "Clear Advanced",
+                            type: "Single project",
+                            price: "From R$ 4,000.00",
+                            features: ["All Essential", "Commercial KPIs", "Strategic insights"],
+                            cta: "Request Evaluation"
+                        }
+                    ]
+                },
+                {
                     title: "NEXUS FLOW – Monthly Management",
                     description: "Continuous management of AI agents to ensure performance, adjustments, and service evolution.",
                     plans: [
@@ -607,20 +619,6 @@ export const translations = {
                             price: "R$ 559,50 / month",
                             features: ["All Essential", "Continuous optimizations"],
                             cta: "Request Management"
-                        }
-                    ]
-                },
-
-                {
-                    title: "Tax Data Auditing & Compliance",
-                    description: "Tax recovery based on data auditing, with an administrative focus and success-based remuneration.",
-                    plans: [
-                        {
-                            name: "Tax Compliance",
-                            type: "Technical consulting",
-                            price: "on request",
-                            features: ["Tax recovery based on data auditing, with an administrative focus"],
-                            cta: "Request Evaluation"
                         }
                     ]
                 }
