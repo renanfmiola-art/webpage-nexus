@@ -223,22 +223,15 @@ export const translations = {
                         {
                             name: "Clear Essencial",
                             type: "Projeto único",
-                            price: "A partir de R$ 2.000",
+                            price: "A partir de R$ 1.000",
                             features: ["Dashboard executivo", "KPIs essenciais", "Organização de dados"],
                             cta: "Solicitar Avaliação"
                         },
                         {
                             name: "Clear Avançado",
                             type: "Projeto único",
-                            price: "A partir de R$ 5.000",
-                            features: ["Todos Essencial", "Automação leve", "KPIs comerciais"],
-                            cta: "Solicitar Avaliação"
-                        },
-                        {
-                            name: "Clear Estratégico",
-                            type: "Projeto único",
-                            price: "A partir de R$ 8.000,00",
-                            features: ["Todos Avançado", "Dashboards integrados", "Insights estratégicos"],
+                            price: "A partir de R$ 4.000,00",
+                            features: ["Todos essencial", "KPIs comerciais", "Insights estratégicos"],
                             cta: "Solicitar Avaliação"
                         }
                     ]
@@ -250,22 +243,15 @@ export const translations = {
                         {
                             name: "Flow Essencial",
                             type: "Implantação",
-                            price: "A partir de R$ 1.500",
+                            price: "A partir de R$ 800",
                             features: ["1 canal de atendimento", "Linguagem humanizada", "Mensagens por texto"],
                             cta: "Solicitar Avaliação"
                         },
                         {
                             name: "Flow Profissional",
                             type: "Implantação",
-                            price: "A partir de R$ 3.750",
+                            price: "A partir de R$ 3.200",
                             features: ["Todos Essencial", "Funil completo"],
-                            cta: "Solicitar Avaliação"
-                        },
-                        {
-                            name: "Flow Completo",
-                            type: "Implantação",
-                            price: "A partir de R$ 10.000,00",
-                            features: ["Todos Profissional", "Multicanais", "Mensagens por voz"],
                             cta: "Solicitar Avaliação"
                         }
                     ]
@@ -276,20 +262,14 @@ export const translations = {
                     plans: [
                         {
                             name: "Gestão Essencial",
-                            price: "R$ 719 / mês",
+                            price: "R$ 359,50 / mês",
                             features: ["Monitoramento básico", "Ajustes de respostas"],
                             cta: "Solicitar Gestão"
                         },
                         {
                             name: "Gestão Profissional",
-                            price: "R$ 1.119 / mês",
+                            price: "R$ 559,50 / mês",
                             features: ["Todos Essencial", "Otimizações contínuas"],
-                            cta: "Solicitar Gestão"
-                        },
-                        {
-                            name: "Gestão Avançada",
-                            price: "R$ 2.879 / mês",
-                            features: ["Todos Profissional", "Relatórios de desempenho", "Ajustes por campanhas"],
                             cta: "Solicitar Gestão"
                         }
                     ]
@@ -572,22 +552,15 @@ export const translations = {
                         {
                             name: "Clear Essential",
                             type: "Single project",
-                            price: "From R$ 2,000",
+                            price: "From R$ 1,000",
                             features: ["Executive dashboard", "Essential KPIs", "Data organization"],
                             cta: "Request Evaluation"
                         },
                         {
                             name: "Clear Advanced",
                             type: "Single project",
-                            price: "From R$ 5,000",
-                            features: ["All Essential", "Light automation", "Commercial KPIs"],
-                            cta: "Request Evaluation"
-                        },
-                        {
-                            name: "Clear Strategic",
-                            type: "Single project",
-                            price: "From R$ 8,000.00",
-                            features: ["All Advanced", "Integrated dashboards", "Strategic insights"],
+                            price: "From R$ 4,000.00",
+                            features: ["All Essential", "Commercial KPIs", "Strategic insights"],
                             cta: "Request Evaluation"
                         }
                     ]
@@ -599,22 +572,15 @@ export const translations = {
                         {
                             name: "Flow Essential",
                             type: "Implementation",
-                            price: "From R$ 1,500",
+                            price: "From R$ 800",
                             features: ["1 service channel", "Humanized language", "Text messages"],
                             cta: "Request Evaluation"
                         },
                         {
                             name: "Flow Professional",
                             type: "Implementation",
-                            price: "From R$ 3,750",
+                            price: "From R$ 3,200",
                             features: ["All Essential", "Full funnel"],
-                            cta: "Request Evaluation"
-                        },
-                        {
-                            name: "Flow Complete",
-                            type: "Implementation",
-                            price: "From R$ 10,000.00",
-                            features: ["All Professional", "Multichannel", "Voice messages"],
                             cta: "Request Evaluation"
                         }
                     ]
@@ -625,20 +591,14 @@ export const translations = {
                     plans: [
                         {
                             name: "Essential Management",
-                            price: "R$ 719 / month",
+                            price: "R$ 359,50 / month",
                             features: ["Basic monitoring", "Response adjustments"],
                             cta: "Request Management"
                         },
                         {
                             name: "Professional Management",
-                            price: "R$ 1,119 / month",
+                            price: "R$ 559,50 / month",
                             features: ["All Essential", "Continuous optimizations"],
-                            cta: "Request Management"
-                        },
-                        {
-                            name: "Advanced Management",
-                            price: "R$ 2,879 / month",
-                            features: ["All Professional", "Performance reports", "Adjustments by campaigns"],
                             cta: "Request Management"
                         }
                     ]
