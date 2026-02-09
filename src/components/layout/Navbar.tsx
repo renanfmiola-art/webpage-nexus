@@ -26,6 +26,7 @@ export const Navbar = () => {
 
     const navItems = [
         { name: t.nav.home, href: "/" },
+        { name: t.nav.compliance, href: "/compliance-tributario" },
         { name: t.nav.nexusflow, href: "/nexusflow" },
         { name: t.nav.nexusInk, href: "/nexus-ink" },
         { name: t.nav.nexusClear, href: "/nexus-clear" },

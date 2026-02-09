@@ -9,7 +9,8 @@ export const translations = {
             about: "Sobre",
             contact: "Contato",
             blog: "Blog",
-            plans: "Planos"
+            plans: "Planos",
+            compliance: "Compliance Tributário"
         },
         home: {
             headline: "Clareza e automação para empresas que não podem perder vendas por falta de resposta ou organização.",
@@ -77,6 +78,61 @@ export const translations = {
                     { title: "Gestão contínua", text: "Monitoramos, ajustamos e melhoramos o desempenho do agente ao longo do tempo." }
                 ],
                 footer: "Tudo com foco em eficiência, clareza e experiência do cliente."
+            }
+        },
+        compliance: {
+            hero_description: "Auditoria de dados fiscais para transformar tributos em fluxo de caixa real.",
+            what_is: {
+                title: "O que é",
+                p1: "A Auditoria de Dados & Compliance Tributário da Nexus Intelligence AI é um serviço especializado em identificar créditos tributários não aproveitados e oportunidades legais de economia fiscal, utilizando mineração de dados e análise técnica de informações fiscais.",
+                p2: "O trabalho é realizado de forma administrativa, com base documental e total aderência às normas fiscais vigentes.",
+                p3: ""
+            },
+            for_whom: {
+                title: "Para quem é",
+                p1: "Este serviço é indicado para empresas que:",
+                items: [
+                    "faturam regularmente",
+                    "cumprem suas obrigações fins fiscais",
+                    "desconfiam que pagam mais imposto do que deveriam",
+                    "buscam recuperação ou economia tributária com segurança"
+                ],
+                footer: "Atendemos principalmente: varejo especializado (Simples Nacional) e clínicas médicas e odontológicas (Lucro Presumido)."
+            },
+            problem: {
+                title: "Qual problema resolve",
+                p1: "Muitas empresas pagam impostos em duplicidade ou deixam de aproveitar benefícios legais simplesmente por falta de auditoria técnica sobre seus próprios dados fiscais.",
+                items: [
+                    "créditos tributários não recuperados",
+                    "carga tributária acima do necessário",
+                    "falta de clareza sobre oportunidades fiscais",
+                    "dependência exclusiva de rotinas contábeis padrão"
+                ],
+                footer: "A Nexus resolve a falta de aproveitamento de créditos e a sobrecarga tributária desnecessária."
+            },
+            is_not: {
+                title: "O que NÃO fazemos",
+                items: [
+                    "Não judicializamos casos",
+                    "Não criamos teses agressivas",
+                    "Não prometemos resultados sem base técnica",
+                    "Não atuamos sem lastro documental",
+                    "Não cobramos sem êxito"
+                ],
+                footer: "Trabalho 100% administrativo e técnico."
+            },
+            how_it_works: {
+                title: "Como funciona",
+                p1: "Nosso processo é simples, técnico e mensurável:",
+                steps: [
+                    { title: "Auditoria gratuita", text: "Realizamos a auditoria gratuita dos dados fiscais." },
+                    { title: "Identificação", text: "Identificação técnica do valor recuperável." },
+                    { title: "Relatório", text: "Apresentação de relatório executivo." },
+                    { title: "Contrato", text: "Remuneração exclusivamente por contrato de êxito." },
+                    { title: "Execução", text: "Execução administrativa das oportunidades identificadas." },
+                    { title: "Recuperação", text: "Recuperação ou economia efetivada no caixa da empresa." }
+                ],
+                footer: "Simples, técnico e mensurável."
             }
         },
         nexusClear: {
@@ -286,6 +342,19 @@ export const translations = {
                             cta: "Solicitar Avaliação"
                         }
                     ]
+                },
+                {
+                    title: "Auditoria de Dados & Compliance Tributário",
+                    description: "Recuperação tributária baseada em auditoria de dados, com foco administrativo e remuneração por êxito.",
+                    plans: [
+                        {
+                            name: "Compliance Tributário",
+                            type: "Consultoria técnica",
+                            price: "sob consulta",
+                            features: ["Recuperação tributária baseada em auditoria de dados, com foco administrativo"],
+                            cta: "Solicitar Avaliação"
+                        }
+                    ]
                 }
             ]
         },
@@ -338,7 +407,8 @@ export const translations = {
             about: "About",
             contact: "Contact",
             blog: "Blog",
-            plans: "Plans"
+            plans: "Plans",
+            compliance: "Tax Compliance"
         },
         home: {
             headline: "Clarity and automation for companies that cannot afford to lose sales due to lack of response or organization.",
@@ -406,6 +476,61 @@ export const translations = {
                     { title: "Continuous management", text: "We monitor, adjust, and improve the agent's performance over time." }
                 ],
                 footer: "All with a focus on efficiency, clarity, and customer experience."
+            }
+        },
+        compliance: {
+            hero_description: "Tax data auditing to transform taxes into real cash flow.",
+            what_is: {
+                title: "What is it",
+                p1: "Nexus Intelligence AI's Tax Data Auditing & Compliance is a specialized service to identify unused tax credits and legal tax saving opportunities, using data mining and technical analysis of tax information.",
+                p2: "The work is performed administratively, based on documentation and total adherence to current tax regulations.",
+                p3: ""
+            },
+            for_whom: {
+                title: "Who is it for",
+                p1: "This service is indicated for companies that:",
+                items: [
+                    "invoice regularly",
+                    "fulfill their tax obligations",
+                    "suspect they pay more tax than they should",
+                    "seek tax recovery or savings with security"
+                ],
+                footer: "We mainly serve: specialized retail (Simples Nacional) and medical and dental clinics (Lucro Presumido)."
+            },
+            problem: {
+                title: "What problem does it solve",
+                p1: "Many companies pay double taxes or fail to take advantage of legal benefits simply due to a lack of technical auditing of their own tax data.",
+                items: [
+                    "unrecovered tax credits",
+                    "tax burden above what is necessary",
+                    "lack of clarity on tax opportunities",
+                    "exclusive dependence on standard accounting routines"
+                ],
+                footer: "Nexus resolves the lack of credit utilization and unnecessary tax burden."
+            },
+            is_not: {
+                title: "What we DON'T do",
+                items: [
+                    "We don't litigate cases",
+                    "We don't create aggressive theories",
+                    "We don't promise results without a technical basis",
+                    "We don't act without documentary backing",
+                    "We don't charge without success"
+                ],
+                footer: "100% administrative and technical work."
+            },
+            how_it_works: {
+                title: "How it works",
+                p1: "Our process is simple, technical, and measurable:",
+                steps: [
+                    { title: "Free Audit", text: "We perform a free audit of tax data." },
+                    { title: "Identification", text: "Technical identification of the recoverable value." },
+                    { title: "Report", text: "Presentation of an executive report." },
+                    { title: "Contract", text: "Remuneration exclusively by success-based contract." },
+                    { title: "Execution", text: "Administrative execution of identified opportunities." },
+                    { title: "Recovery", text: "Effected recovery or savings in the company's cash flow." }
+                ],
+                footer: "Simple, technical, and measurable."
             }
         },
         nexusClear: {
@@ -612,6 +737,19 @@ export const translations = {
                             type: "Single project",
                             price: "R$ 1,725 – R$ 5,175",
                             features: ["Service organization", "Structured briefing", "Interruption reduction"],
+                            cta: "Request Evaluation"
+                        }
+                    ]
+                },
+                {
+                    title: "Tax Data Auditing & Compliance",
+                    description: "Tax recovery based on data auditing, with an administrative focus and success-based remuneration.",
+                    plans: [
+                        {
+                            name: "Tax Compliance",
+                            type: "Technical consulting",
+                            price: "on request",
+                            features: ["Tax recovery based on data auditing, with an administrative focus"],
                             cta: "Request Evaluation"
                         }
                     ]

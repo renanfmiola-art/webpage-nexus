@@ -89,7 +89,9 @@ export default function Page() {
                                                     href={`https://wa.me/5514998622743?text=${encodeURIComponent(
                                                         plan.name.includes("Gestão")
                                                             ? `Olá, gostaria de mais informações sobre o sistema de ${plan.name} Nexus Flow...`
-                                                            : `Olá, gostaria de mais informações sobre o ${plan.name}...`
+                                                            : plan.name.includes("Compliance")
+                                                                ? `Olá, gostaria de saber mais sobre a Auditoria de Dados e Compliance Tributário da Nexus...`
+                                                                : `Olá, gostaria de mais informações sobre o ${plan.name}...`
                                                     )}`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
