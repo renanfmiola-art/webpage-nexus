@@ -206,8 +206,8 @@ export const translations = {
                 {
                     title: "Posicionamento Institucional",
                     p1: "A Nexus Intelligence AI não é agência, não é software genérico e não entrega soluções improvisadas. Somos uma empresa especializada em clareza operacional e automação de atendimento, com foco em resultado prático e experiência humana.",
-                    p2: "Atuamos principalmente com empresas de serviços que precisam organizar dados, estruturar o atendimento e converter contatos em vendas de forma mais eficiente.",
-                    p3: "Nosso compromisso é com soluções simples, bem implementadas e que façam sentido para quem está na operação."
+                    p2: "Atuamos principalmente com empresas de serviços de saúde, que precisam automatizar e estruturar atendimento. Serviços de comercio que precisam organizar dados e serviços de varejo e saúde que precisam de soluções para amenizar a carga tributária.",
+                    p3: "Nosso compromisso é com soluções bem implementadas e que façam sentido para quem está na operação."
                 }
             ]
         },
@@ -538,8 +538,8 @@ export const translations = {
                 {
                     title: "Institutional Positioning",
                     p1: "Nexus Intelligence AI is not an agency, is not generic software, and does not deliver improvised solutions. We are a company specialized in operational clarity and service automation, with a focus on practical results and human experience.",
-                    p2: "We operate mainly with service companies that need to organize data, structure service, and convert contacts into sales more efficiently.",
-                    p3: "Our commitment is simple, well-implemented solutions that make sense for those in the operation."
+                    p2: "We operate primarily with healthcare service companies that need to automate and structure their service. Commercial services that need to organize data, and retail and healthcare services that need solutions to ease their tax burden.",
+                    p3: "Our commitment is to well-implemented solutions that make sense for those in the operation."
                 }
             ]
         },
