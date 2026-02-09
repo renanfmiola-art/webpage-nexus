@@ -330,6 +330,15 @@ export const translations = {
             resources: "Recursos",
             company: "Empresa",
             rights: "Todos os direitos reservados."
+        },
+        chat: {
+            greeting1: "Olá! Eu sou o assistente virtual da Nexus Intelligence.",
+            greeting2: "Como posso ajudar você hoje?",
+            typing: "Nexus AI está digitando...",
+            online: "Online Agora",
+            placeholder: "Digite sua mensagem...",
+            redirect: "Entendido. Vou te redirecionar para um de nossos especialistas no WhatsApp para continuarmos o atendimento.",
+            whatsapp_message: "Olá, estava conversando com o chatbot no site e gostaria de falar sobre: "
         }
     },
     en: {
@@ -662,6 +671,15 @@ export const translations = {
             resources: "Resources",
             company: "Company",
             rights: "All rights reserved."
+        },
+        chat: {
+            greeting1: "Hello! I am the Nexus Intelligence virtual assistant.",
+            greeting2: "How can I help you today?",
+            typing: "Nexus AI is typing...",
+            online: "Online Now",
+            placeholder: "Type your message...",
+            redirect: "Understood. I will redirect you to one of our specialists on WhatsApp to continue the service.",
+            whatsapp_message: "Hello, I was talking to the chatbot on the website and would like to talk about: "
         }
     }
 };
