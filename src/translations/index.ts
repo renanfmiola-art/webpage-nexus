@@ -40,8 +40,8 @@ export const translations = {
                 p1: "O Nexus Flow é indicado para empresas de serviços com ofertas bem definidas, onde o atendimento é repetitivo e impacta diretamente o faturamento.",
                 items: [
                     "clínicas de estética",
-                    "serviços de climatização (ar-condicionado)",
-                    "limpeza pós-obra e serviços técnicos"
+                    "clínicas médicas",
+                    "clínicas de saúde em geral"
                 ],
                 footer: "Se o seu negócio depende de responder rápido, organizar contatos e converter mensagens em vendas, o Nexus Flow faz sentido."
             },
@@ -372,8 +372,8 @@ export const translations = {
                 p1: "Nexus Flow is indicated for service companies with well-defined offers, where service is repetitive and directly impacts revenue.",
                 items: [
                     "aesthetic clinics",
-                    "air conditioning services",
-                    "post-construction cleaning and technical services"
+                    "medical clinics",
+                    "health clinics in general"
                 ],
                 footer: "If your business depends on responding quickly, organizing contacts, and converting messages into sales, Nexus Flow makes sense."
             },
