@@ -30,7 +30,7 @@ export default function Page() {
                     </a>
 
                     <a
-                        href={`https://wa.me/5514998622743?text=${encodeURIComponent("Olá, Renan, vim pelo site da Nexus, e gostaria de mais informações...")}`}
+                        href={`https://wa.me/551433335890?text=${encodeURIComponent("Olá, Renan, vim pelo site da Nexus, e gostaria de mais informações...")}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]"
