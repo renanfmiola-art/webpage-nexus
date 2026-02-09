@@ -87,7 +87,7 @@ export const WhatsAppChat = ({ isOpen, onClose }: WhatsAppChatProps) => {
 
             // Redirect after a short delay
             setTimeout(() => {
-                const whatsappUrl = `https://wa.me/551433335890?text=${encodeURIComponent(
+                const whatsappUrl = `https://wa.me/5514936180146?text=${encodeURIComponent(
                     t.chat.whatsapp_message + userMsg
                 )}`;
                 window.open(whatsappUrl, "_blank");
@@ -130,8 +130,8 @@ export const WhatsAppChat = ({ isOpen, onClose }: WhatsAppChatProps) => {
                     >
                         <div
                             className={`max-w-[85%] p-3 rounded-2xl text-[13px] leading-relaxed ${message.sender === "user"
-                                    ? "bg-white text-black rounded-tr-none font-medium"
-                                    : "bg-white/5 text-white/90 border border-white/10 rounded-tl-none"
+                                ? "bg-white text-black rounded-tr-none font-medium"
+                                : "bg-white/5 text-white/90 border border-white/10 rounded-tl-none"
                                 }`}
                         >
                             {message.text}

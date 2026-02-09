@@ -86,7 +86,7 @@ export default function Page() {
 
                                             <div className="pt-8">
                                                 <a
-                                                    href={`https://wa.me/551433335890?text=${encodeURIComponent(
+                                                    href={`https://wa.me/5514936180146?text=${encodeURIComponent(
                                                         plan.name.includes("Gestão")
                                                             ? `Olá, gostaria de mais informações sobre o sistema de ${plan.name} Nexus Flow...`
                                                             : plan.name.includes("Compliance")

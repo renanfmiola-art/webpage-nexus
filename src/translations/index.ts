@@ -300,7 +300,7 @@ export const translations = {
             },
             info: {
                 email: "miola@nexusintell.com.br",
-                whatsapp: "+55 14 3333-5890"
+                whatsapp: "+55 14 93618 0146"
             }
         },
         blog: {
@@ -641,7 +641,7 @@ export const translations = {
             },
             info: {
                 email: "miola@nexusintell.com.br",
-                whatsapp: "+55 14 3333-5890"
+                whatsapp: "+55 14 93618 0146"
             }
         },
         blog: {
