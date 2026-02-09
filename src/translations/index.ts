@@ -264,7 +264,7 @@ export const translations = {
                         {
                             name: "Clear Essencial",
                             type: "Projeto único",
-                            price: "A partir de R$ 997",
+                            price: "A partir de R$ 997,00",
                             features: ["Dashboard executivo", "KPIs essenciais", "Organização de dados"],
                             cta: "Solicitar Avaliação"
                         },
@@ -592,7 +592,7 @@ export const translations = {
                         {
                             name: "Clear Essential",
                             type: "Single project",
-                            price: "From R$ 997",
+                            price: "From R$ 997.00",
                             features: ["Executive dashboard", "Essential KPIs", "Data organization"],
                             cta: "Request Evaluation"
                         },
