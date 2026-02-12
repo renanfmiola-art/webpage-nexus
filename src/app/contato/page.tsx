@@ -30,13 +30,16 @@ export default function Page() {
                     </a>
 
                     <a
-                        href={`https://wa.me/5514936180146?text=${encodeURIComponent("Olá, Renan, vim pelo site da Nexus, e gostaria de mais informações...")}`}
+                        href={c.info.form_link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px]"
+                        className="flex flex-col items-start justify-center p-8 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300 group text-left min-h-[160px] gap-2"
                     >
                         <span className="text-sm font-black text-white tracking-widest group-hover:translate-x-1 transition-transform duration-300">
-                            {c.cards.whatsapp}
+                            {c.cards.form.title}
+                        </span>
+                        <span className="text-[10px] text-white/40 tracking-wider uppercase font-medium">
+                            {c.cards.form.subtitle}
                         </span>
                     </a>
                 </div>

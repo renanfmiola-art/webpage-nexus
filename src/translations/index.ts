@@ -101,11 +101,15 @@ export const translations = {
             cta: "Entre em Contato",
             cards: {
                 email: "EMAIL",
-                whatsapp: "WHATSAPP"
+                form: {
+                    title: "FORMULÁRIO",
+                    subtitle: "Preencha para agendar um contato"
+                }
             },
             info: {
                 email: "miola@nexusintell.com.br",
-                whatsapp: "+55 14 93618 0146"
+                whatsapp: "+55 14 93618 0146",
+                form_link: "https://forms.gle/XXXXXXX"
             }
         },
         blog: {
@@ -247,11 +251,15 @@ export const translations = {
             cta: "Get in Touch",
             cards: {
                 email: "EMAIL",
-                whatsapp: "WHATSAPP"
+                form: {
+                    title: "FORM",
+                    subtitle: "Fill out to schedule a contact"
+                }
             },
             info: {
                 email: "miola@nexusintell.com.br",
-                whatsapp: "+55 14 93618 0146"
+                whatsapp: "+55 14 93618 0146",
+                form_link: "https://forms.gle/XXXXXXX"
             }
         },
         blog: {
