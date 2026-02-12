@@ -4,12 +4,9 @@ export const translations = {
         nav: {
             home: "Início",
             nexusflow: "Nexus Flow",
-            nexusClear: "Nexus Clear",
             about: "Sobre",
             contact: "Contato",
             blog: "Blog",
-            plans: "Planos",
-            compliance: "Compliance Tributário"
         },
         home: {
             headline: "Clareza e automação para empresas que não podem perder vendas por falta de resposta ou organização.",
@@ -36,14 +33,14 @@ export const translations = {
                 p3: "O NEXUS FLOW não substitui pessoas. Ele elimina fragilidades do processo para que o fator humano atue onde realmente importa: diagnóstico, relacionamento e fechamento."
             },
             for_whom: {
-                title: "Para quem é",
-                p1: "O Nexus Flow é indicado para empresas de serviços com ofertas bem definidas, onde o atendimento é repetitivo e impacta diretamente o faturamento.",
+                title: "Quem atendemos",
+                p1: "O Nexus Flow é indicado para empresas de serviços com funis de atendimento bem definidos, onde a agilidade na resposta e a triagem inicial impactam diretamente o faturamento.",
                 items: [
-                    "clínicas de estética",
-                    "clínicas médicas",
-                    "clínicas de saúde em geral"
+                    "Clínicas (Estética, Médica e Odontológica);",
+                    "Escritórios de Advocacia;",
+                    "Imobiliárias."
                 ],
-                footer: "Se o seu negócio depende de responder rápido, organizar contatos e converter mensagens em vendas, o Nexus Flow faz sentido."
+                footer: "Se o seu negócio depende de responder rápido para não esfriar o lead, organizar o volume de contatos e converter mensagens em agendamentos, visitas ou contratos, o Nexus Flow faz sentido."
             },
             problem: {
                 title: "Qual problema resolve",
@@ -79,114 +76,7 @@ export const translations = {
                 footer: "Tudo com foco em eficiência, clareza e experiência do cliente."
             }
         },
-        compliance: {
-            hero_description: "Auditoria de dados fiscais para transformar tributos em fluxo de caixa real.",
-            what_is: {
-                title: "O que é",
-                p1: "A Auditoria de Dados & Compliance Tributário da Nexus Intelligence AI é um serviço especializado em identificar créditos tributários não aproveitados e oportunidades legais de economia fiscal, utilizando mineração de dados e análise técnica de informações fiscais.",
-                p2: "O trabalho é realizado de forma administrativa, com base documental e total aderência às normas fiscais vigentes.",
-                p3: ""
-            },
-            for_whom: {
-                title: "Para quem é",
-                p1: "Este serviço é indicado para empresas que:",
-                items: [
-                    "faturam regularmente",
-                    "cumprem suas obrigações fins fiscais",
-                    "desconfiam que pagam mais imposto do que deveriam",
-                    "buscam recuperação ou economia tributária com segurança"
-                ],
-                footer: "Atendemos principalmente: varejo especializado (Simples Nacional) e clínicas médicas e odontológicas (Lucro Presumido)."
-            },
-            problem: {
-                title: "Qual problema resolve",
-                p1: "Muitas empresas pagam impostos em duplicidade ou deixam de aproveitar benefícios legais simplesmente por falta de auditoria técnica sobre seus próprios dados fiscais.",
-                items: [
-                    "créditos tributários não recuperados",
-                    "carga tributária acima do necessário",
-                    "falta de clareza sobre oportunidades fiscais",
-                    "dependência exclusiva de rotinas contábeis padrão"
-                ],
-                footer: "A Nexus resolve a falta de aproveitamento de créditos e a sobrecarga tributária desnecessária."
-            },
-            is_not: {
-                title: "O que NÃO fazemos",
-                items: [
-                    "Não judicializamos casos",
-                    "Não criamos teses agressivas",
-                    "Não prometemos resultados sem base técnica",
-                    "Não atuamos sem lastro documental",
-                    "Não cobramos sem êxito"
-                ],
-                footer: "Trabalho 100% administrativo e técnico."
-            },
-            how_it_works: {
-                title: "Como funciona",
-                p1: "Nosso processo é simples, técnico e mensurável:",
-                steps: [
-                    { title: "Auditoria gratuita", text: "Realizamos a auditoria gratuita dos dados fiscais." },
-                    { title: "Identificação", text: "Identificação técnica do valor recuperável." },
-                    { title: "Relatório", text: "Apresentação de relatório executivo." },
-                    { title: "Contrato", text: "Remuneração exclusivamente por contrato de êxito." },
-                    { title: "Execução", text: "Execução administrativa das oportunidades identificadas." },
-                    { title: "Recuperação", text: "Recuperação ou economia efetivada no caixa da empresa." }
-                ],
-                footer: "Simples, técnico e mensurável."
-            }
-        },
-        nexusClear: {
-            hero_description: "Clareza operacional para empresas onde decisões não podem depender de feeling, planilhas soltas e improviso.",
-            what_is: {
-                title: "O que é",
-                p1: "O NEXUS CLEAR é um microprojeto de infraestrutura de dados criado para devolver clareza operacional e decisória em poucos dias.",
-                p2: "Ele organiza dados que já existem na empresa e os transforma em uma visão executiva simples, confiável e acionável.",
-                p3: "Não é um projeto longo nem uma transformação completa. É uma intervenção enxuta, com escopo fechado, para que decisões deixem de ser tomadas no escuro."
-            },
-            for_whom: {
-                title: "Para quem é",
-                p1: "O NEXUS CLEAR é indicado para empresas operacionais já em funcionamento, que:",
-                items: [
-                    "Possuem faturamento recorrente;",
-                    "Operam com vendas, operação e financeiros ativos;",
-                    "Acumulam dados em planilhas, sistemas e relatórios desconectados;",
-                    "Dependem do dono ou de poucas pessoas para decidir."
-                ],
-                footer: "É especialmente adequado para empresas B2B ou B2B2C a partir de 3 colaboradores, onde crescer sem clareza passou a ser um risco."
-            },
-            problem: {
-                title: "Qual problema resolve",
-                p1: "Empresas raramente sofrem por falta de dados. Elas sofrem por falta de visão clara sobre o que realmente importa.",
-                items: [
-                    "Dificuldade de enxergar margem, vendas e gargalos;",
-                    "Excesso de informações que não viram decisão;",
-                    "Dependência de planilhas manuais e consolidações demoradas;",
-                    "Sensação constante de trabalhar muito e decidir mal."
-                ],
-                footer: "Ao final do projeto, a empresa passa a ter visibilidade real para priorizar ajustes antes de crescer."
-            },
-            is_not: {
-                title: "O que NÃO é",
-                items: [
-                    "Consultoria estratégica aberta;",
-                    "BI genérico ou projeto de gráficos;",
-                    "Implementação longa ou contínua;",
-                    "Suporte recorrente;",
-                    "Substituto de sistemas complexos."
-                ],
-                footer: "É um projeto de clareza, não de transformação total."
-            },
-            how_it_works: {
-                title: "Como funciona",
-                p1: "O projeto é executado em até 7 dias, com etapas objetivas:",
-                steps: [
-                    { title: "Diagnóstico rápido", text: "Alinhamos o objetivo decisório e entendemos quais dados realmente importam;" },
-                    { title: "Consolidação de dados existentes", text: "Organizamos informações já disponíveis (planilhas, ERP, CRM, financeiro);" },
-                    { title: "Construção do dashboard executivo", text: "Criamos uma visão clara com os principais KPIs da operação;" },
-                    { title: "Entrega e leitura executiva", text: "Apresentamos o painel, explicamos os indicadores e indicamos os principais pontos de atenção." }
-                ],
-                footer: "Tudo é feito com escopo fechado, sem dependência futura e sem improviso."
-            }
-        },
+
 
         about: {
             title: "Clareza e automação para negócios que precisam funcionar melhor no dia a dia.",
@@ -206,79 +96,12 @@ export const translations = {
                 {
                     title: "Posicionamento Institucional",
                     p1: "A Nexus Intelligence AI não é agência, não é software genérico e não entrega soluções improvisadas. Somos uma empresa especializada em clareza operacional e automação de atendimento, com foco em resultado prático e experiência humana.",
-                    p2: "Atuamos principalmente com empresas de serviços de saúde, que precisam automatizar e estruturar atendimento. Serviços de comercio que precisam organizar dados e serviços de varejo e saúde que precisam de soluções para amenizar a carga tributária.",
+                    p2: "Atuamos principalmente com empresas de serviços de saúde, que precisam automatizar e estruturar atendimento, e serviços de comércio que precisam organizar dados.",
                     p3: "Nosso compromisso é com soluções bem implementadas e que façam sentido para quem está na operação."
                 }
             ]
         },
-        plans: {
-            title: "Planos & Investimento",
-            hero_description: "Apresentamos de forma clara, profissional e objetiva os planos e investimentos das soluções da Nexus Intelligence AI.",
-            final_cta: {
-                text: "Não sabe qual plano faz mais sentido para o seu negócio? Preencha o formulário e avaliamos a melhor opção.",
-                button: "Acessar formulário de qualificação"
-            },
-            sections: [
-                {
-                    title: "Auditoria de Dados & Compliance Tributário",
-                    description: "Recuperação tributária baseada em auditoria de dados, com foco administrativo e remuneração por êxito.",
-                    plans: [
-                        {
-                            name: "Compliance Tributário",
-                            type: "Consultoria técnica",
-                            price: "sob consulta",
-                            features: ["Recuperação tributária baseada em auditoria de dados, com foco administrativo"],
-                            cta: "Solicitar Avaliação"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS FLOW – Implantação",
-                    description: "Implantação de agentes de IA humanizados para automatizar atendimento e organizar contatos.",
-                    plans: [
-                        {
-                            name: "Flow Essencial",
-                            type: "Implantação",
-                            price: "A partir de R$ 697",
-                            features: ["1 canal de atendimento", "Linguagem humanizada", "Mensagens por texto"],
-                            cta: "Solicitar Avaliação"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS FLOW – Gestão Mensal",
-                    description: "Gestão contínua dos agentes de IA para garantir performance, ajustes e evolução do atendimento.",
-                    plans: [
-                        {
-                            name: "Gestão Essencial",
-                            price: "R$ 347,00 / mês",
-                            features: ["Monitoramento básico", "Ajustes de respostas"],
-                            cta: "Solicitar Gestão"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS CLEAR",
-                    description: "Microprojetos de BI e clareza operacional para empresas que precisam organizar dados e tomar decisões com mais segurança.",
-                    plans: [
-                        {
-                            name: "Clear Essencial",
-                            type: "Projeto único",
-                            price: "A partir de R$ 997,00",
-                            features: ["Dashboard executivo", "KPIs essenciais", "Organização de dados"],
-                            cta: "Solicitar Avaliação"
-                        },
-                        {
-                            name: "Clear Avançado",
-                            type: "Projeto único",
-                            price: "A partir de R$ 2.497,00",
-                            features: ["Todos essencial", "KPIs comerciais", "Insights estratégicos"],
-                            cta: "Solicitar Avaliação"
-                        }
-                    ]
-                }
-            ]
-        },
+
         contact: {
             cta: "Entre em Contato",
             cards: {
@@ -332,12 +155,9 @@ export const translations = {
         nav: {
             home: "Home",
             nexusflow: "Nexus Flow",
-            nexusClear: "Nexus Clear",
             about: "About",
             contact: "Contact",
             blog: "Blog",
-            plans: "Plans",
-            compliance: "Tax Compliance"
         },
         home: {
             headline: "Clarity and automation for companies that cannot afford to lose sales due to lack of response or organization.",
@@ -364,14 +184,14 @@ export const translations = {
                 p3: "NEXUS FLOW does not replace people. It eliminates process weaknesses so that the human factor can act where it truly matters: diagnosis, relationship, and closing."
             },
             for_whom: {
-                title: "Who is it for",
-                p1: "Nexus Flow is indicated for service companies with well-defined offers, where service is repetitive and directly impacts revenue.",
+                title: "Who we Serve",
+                p1: "Nexus Flow is indicated for service companies with well-defined service funnels, where response agility and initial screening directly impact revenue.",
                 items: [
-                    "aesthetic clinics",
-                    "medical clinics",
-                    "health clinics in general"
+                    "Clinics (Aesthetics, Medical, and Dental);",
+                    "Law Firms;",
+                    "Real Estate."
                 ],
-                footer: "If your business depends on responding quickly, organizing contacts, and converting messages into sales, Nexus Flow makes sense."
+                footer: "If your business depends on responding quickly to keep leads warm, organizing contact volume, and converting messages into appointments, visits, or contracts, Nexus Flow makes sense."
             },
             problem: {
                 title: "What problem does it solve",
@@ -407,114 +227,7 @@ export const translations = {
                 footer: "All with a focus on efficiency, clarity, and customer experience."
             }
         },
-        compliance: {
-            hero_description: "Tax data auditing to transform taxes into real cash flow.",
-            what_is: {
-                title: "What is it",
-                p1: "Nexus Intelligence AI's Tax Data Auditing & Compliance is a specialized service to identify unused tax credits and legal tax saving opportunities, using data mining and technical analysis of tax information.",
-                p2: "The work is performed administratively, based on documentation and total adherence to current tax regulations.",
-                p3: ""
-            },
-            for_whom: {
-                title: "Who is it for",
-                p1: "This service is indicated for companies that:",
-                items: [
-                    "invoice regularly",
-                    "fulfill their tax obligations",
-                    "suspect they pay more tax than they should",
-                    "seek tax recovery or savings with security"
-                ],
-                footer: "We mainly serve: specialized retail (Simples Nacional) and medical and dental clinics (Lucro Presumido)."
-            },
-            problem: {
-                title: "What problem does it solve",
-                p1: "Many companies pay double taxes or fail to take advantage of legal benefits simply due to a lack of technical auditing of their own tax data.",
-                items: [
-                    "unrecovered tax credits",
-                    "tax burden above what is necessary",
-                    "lack of clarity on tax opportunities",
-                    "exclusive dependence on standard accounting routines"
-                ],
-                footer: "Nexus resolves the lack of credit utilization and unnecessary tax burden."
-            },
-            is_not: {
-                title: "What we DON'T do",
-                items: [
-                    "We don't litigate cases",
-                    "We don't create aggressive theories",
-                    "We don't promise results without a technical basis",
-                    "We don't act without documentary backing",
-                    "We don't charge without success"
-                ],
-                footer: "100% administrative and technical work."
-            },
-            how_it_works: {
-                title: "How it works",
-                p1: "Our process is simple, technical, and measurable:",
-                steps: [
-                    { title: "Free Audit", text: "We perform a free audit of tax data." },
-                    { title: "Identification", text: "Technical identification of the recoverable value." },
-                    { title: "Report", text: "Presentation of an executive report." },
-                    { title: "Contract", text: "Remuneration exclusively by success-based contract." },
-                    { title: "Execution", text: "Administrative execution of identified opportunities." },
-                    { title: "Recovery", text: "Effected recovery or savings in the company's cash flow." }
-                ],
-                footer: "Simple, technical, and measurable."
-            }
-        },
-        nexusClear: {
-            hero_description: "Operational clarity for companies where decisions cannot depend on gut feeling, loose spreadsheets, and improvisation.",
-            what_is: {
-                title: "What is it",
-                p1: "NEXUS CLEAR is a data infrastructure micro-project created to restore operational and decision-making clarity in a few days.",
-                p2: "It organizes data that already exists in the company and transforms it into a simple, reliable, and actionable executive view.",
-                p3: "It is not a long project or a complete transformation. It is a lean intervention with a fixed scope so that decisions are no longer made in the dark."
-            },
-            for_whom: {
-                title: "Who is it for",
-                p1: "NEXUS CLEAR is indicated for operational companies already in operation, which:",
-                items: [
-                    "Have recurring revenue;",
-                    "Operate with active sales, operations, and financials;",
-                    "Accumulate data in disconnected spreadsheets, systems, and reports;",
-                    "Depend on the owner or a few people to decide."
-                ],
-                footer: "It is especially suitable for B2B or B2B2C companies with 3 or more employees, where growing without clarity has become an operational risk."
-            },
-            problem: {
-                title: "What problem does it solve",
-                p1: "Companies rarely suffer from a lack of data. They suffer from a lack of a clear vision of what really matters.",
-                items: [
-                    "Difficulty seeing margins, sales, and bottlenecks;",
-                    "Excess information that does not lead to decisions;",
-                    "Dependence on manual spreadsheets and time-consuming consolidations;",
-                    "Constant feeling of working hard and deciding poorly."
-                ],
-                footer: "At the end of the project, the company has real visibility to prioritize adjustments before growing."
-            },
-            is_not: {
-                title: "What it is NOT",
-                items: [
-                    "Open strategic consultancy;",
-                    "Generic BI or graphics project;",
-                    "Long or continuous implementation;",
-                    "Recurring support;",
-                    "Substitute for complex systems."
-                ],
-                footer: "It is a clarity project, not a total transformation."
-            },
-            how_it_works: {
-                title: "How it works",
-                p1: "The project is executed in up to 7 days, with objective steps:",
-                steps: [
-                    { title: "Rapid Diagnosis", text: "We align the decision-making objective and understand what data really matters;" },
-                    { title: "Consolidation of existing data", text: "We organize already available information (spreadsheets, ERP, CRM, financial);" },
-                    { title: "Executive dashboard construction", text: "We create a clear view with the operation's main KPIs;" },
-                    { title: "Executive delivery and readout", text: "We present the panel, explain the indicators, and point out the main points of attention." }
-                ],
-                footer: "Everything is done with a fixed scope, without future dependence and without improvisation."
-            }
-        },
+
 
         about: {
             title: "Clarity and automation for businesses that need to function better in their daily operations.",
@@ -534,79 +247,12 @@ export const translations = {
                 {
                     title: "Institutional Positioning",
                     p1: "Nexus Intelligence AI is not an agency, is not generic software, and does not deliver improvised solutions. We are a company specialized in operational clarity and service automation, with a focus on practical results and human experience.",
-                    p2: "We operate primarily with healthcare service companies that need to automate and structure their service. Commercial services that need to organize data, and retail and healthcare services that need solutions to ease their tax burden.",
+                    p2: "We operate primarily with healthcare service companies that need to automate and structure their service, and commercial services that need to organize data.",
                     p3: "Our commitment is to well-implemented solutions that make sense for those in the operation."
                 }
             ]
         },
-        plans: {
-            title: "Plans & Investment",
-            hero_description: "We present in a clear, professional, and objective way the plans and investments for Nexus Intelligence AI solutions.",
-            final_cta: {
-                text: "Not sure which plan makes sense for your business? Fill out the form and we will evaluate the best option.",
-                button: "Access qualification form"
-            },
-            sections: [
-                {
-                    title: "Tax Data Auditing & Compliance",
-                    description: "Tax recovery based on data auditing, with an administrative focus and success-based remuneration.",
-                    plans: [
-                        {
-                            name: "Tax Compliance",
-                            type: "Technical consulting",
-                            price: "on request",
-                            features: ["Tax recovery based on data auditing, with an administrative focus"],
-                            cta: "Request Evaluation"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS FLOW – Implementation",
-                    description: "Implementation of humanized AI agents to automate service and organize contacts.",
-                    plans: [
-                        {
-                            name: "Flow Essential",
-                            type: "Implementation",
-                            price: "From R$ 697",
-                            features: ["1 service channel", "Humanized language", "Text messages"],
-                            cta: "Request Evaluation"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS FLOW – Monthly Management",
-                    description: "Continuous management of AI agents to ensure performance, adjustments, and service evolution.",
-                    plans: [
-                        {
-                            name: "Essential Management",
-                            price: "R$ 347.00 / month",
-                            features: ["Basic monitoring", "Response adjustments"],
-                            cta: "Request Management"
-                        }
-                    ]
-                },
-                {
-                    title: "NEXUS CLEAR",
-                    description: "BI micro-projects and operational clarity for companies that need to organize data and make decisions with more security.",
-                    plans: [
-                        {
-                            name: "Clear Essential",
-                            type: "Single project",
-                            price: "From R$ 997.00",
-                            features: ["Executive dashboard", "Essential KPIs", "Data organization"],
-                            cta: "Request Evaluation"
-                        },
-                        {
-                            name: "Clear Advanced",
-                            type: "Single project",
-                            price: "From R$ 2,497.00",
-                            features: ["All Essential", "Commercial KPIs", "Strategic insights"],
-                            cta: "Request Evaluation"
-                        }
-                    ]
-                }
-            ]
-        },
+
         contact: {
             cta: "Get in Touch",
             cards: {
