@@ -109,7 +109,7 @@ export const translations = {
             info: {
                 email: "miola@nexusintell.com.br",
                 whatsapp: "+55 14 93618 0146",
-                form_link: "https://forms.gle/XXXXXXX"
+                form_link: "https://forms.gle/Wt814mxfZtEY34gw6"
             }
         },
         blog: {
@@ -259,7 +259,7 @@ export const translations = {
             info: {
                 email: "miola@nexusintell.com.br",
                 whatsapp: "+55 14 93618 0146",
-                form_link: "https://forms.gle/XXXXXXX"
+                form_link: "https://forms.gle/Wt814mxfZtEY34gw6"
             }
         },
         blog: {
