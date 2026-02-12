@@ -84,20 +84,15 @@ export const translations = {
             sections: [
                 {
                     title: "Visão",
-                    p1: "Acreditamos que tecnologia só faz sentido quando simplifica. Nossa visão é um mercado onde empresas usam dados e automação para tomar decisões melhores, atender com mais qualidade e crescer de forma organizada — sem depender de esforço excessivo ou processos confusos.",
-                    p2: "Buscamos construir soluções acessíveis, eficientes e aplicáveis à rotina real dos negócios."
+                    p1: "Acreditamos que tecnologia só faz sentido quando simplifica. Nossa visão é um mercado onde empresas usam dados e automação para agilizar negócios, elevar o padrão de atendimento e crescer de forma organizada — eliminando a burocracia desnecessária e a perda de oportunidades por falta de gestão. Buscamos construir soluções acessíveis, seguras e aplicáveis à rotina real dos negócios."
                 },
                 {
                     title: "Abordagem",
-                    p1: "A Nexus Intelligence AI atua de forma prática e objetiva. Antes de automatizar, entendemos o processo. Antes de sugerir tecnologia, organizamos a base.",
-                    p2: "Trabalhamos com escopo claro, soluções enxutas e foco em aplicação real. Nossos projetos são pensados para funcionar no dia a dia da empresa, sem complexidade desnecessária e sem criar dependência.",
-                    p3: "A automação existe para apoiar pessoas, não para substituí-las."
+                    p1: "A Nexus Intelligence AI atua de forma prática e objetiva. Antes de automatizar, entendemos o fluxo de trabalho. Antes de sugerir tecnologia, organizamos a casa. Trabalhamos com escopo claro, soluções enxutas e foco em aplicação real. Nossos projetos são pensados para funcionar no dia a dia da operação, respeitando a dinâmica comercial e técnica de cada setor, mas sem criar dependência tecnológica. A automação existe para potencializar resultados e liberar o tempo dos profissionais, não para substituí-los."
                 },
                 {
                     title: "Posicionamento Institucional",
-                    p1: "A Nexus Intelligence AI não é agência, não é software genérico e não entrega soluções improvisadas. Somos uma empresa especializada em clareza operacional e automação de atendimento, com foco em resultado prático e experiência humana.",
-                    p2: "Atuamos principalmente com empresas de serviços de saúde, que precisam automatizar e estruturar atendimento, e serviços de comércio que precisam organizar dados.",
-                    p3: "Nosso compromisso é com soluções bem implementadas e que façam sentido para quem está na operação."
+                    p1: "A Nexus Intelligence AI não é agência, não é software de prateleira e não entrega soluções improvisadas. Somos uma empresa especializada em eficiência operacional e automação de atendimento, com foco em resultado prático e experiência humana. Atuamos estrategicamente com clínicas de saúde, escritórios jurídicos e imobiliárias — setores que lidam com alto volume de interações e onde a agilidade na resposta e a organização das informações são decisivas para o sucesso. Nosso compromisso é com soluções bem implementadas, seguras e que façam sentido para quem vive a operação."
                 }
             ]
         },
@@ -235,20 +230,15 @@ export const translations = {
             sections: [
                 {
                     title: "Vision",
-                    p1: "We believe that technology only makes sense when it simplifies. Our vision is a market where companies use data and automation to make better decisions, provide higher quality service, and grow in an organized way — without depending on excessive effort or confusing processes.",
-                    p2: "We seek to build solutions that are accessible, efficient, and applicable to the real day-to-day routine of businesses."
+                    p1: "We believe that technology only makes sense when it simplifies. Our vision is a market where companies use data and automation to streamline business, raise the standard of service and grow in an organized way — eliminating unnecessary bureaucracy and the loss of opportunities due to lack of management. We seek to build accessible, secure and applicable solutions to the real routine of businesses."
                 },
                 {
                     title: "Approach",
-                    p1: "Nexus Intelligence AI acts in a practical and objective way. Before automating, we understand the process. Before suggesting technology, we organize the foundation.",
-                    p2: "We work with a clear scope, lean solutions, and a total focus on real-world application. Our projects are designed to function in the company's daily routine, without unnecessary complexity and without creating dependency.",
-                    p3: "Automation exists to support people, not to replace them."
+                    p1: "Nexus Intelligence AI acts in a practical and objective way. Before automating, we understand the workflow. Before suggesting technology, we organize the house. We work with a clear scope, lean solutions and total focus on real application. Our projects are designed to function in the day-to-day operation, respecting the commercial and technical dynamics of each sector, but without creating technological dependency. Automation exists to boost results and free up the time of professionals, not to replace them."
                 },
                 {
                     title: "Institutional Positioning",
-                    p1: "Nexus Intelligence AI is not an agency, is not generic software, and does not deliver improvised solutions. We are a company specialized in operational clarity and service automation, with a focus on practical results and human experience.",
-                    p2: "We operate primarily with healthcare service companies that need to automate and structure their service, and commercial services that need to organize data.",
-                    p3: "Our commitment is to well-implemented solutions that make sense for those in the operation."
+                    p1: "Nexus Intelligence AI is not an agency, is not off-the-shelf software and does not deliver improvised solutions. We are a company specialized in operational efficiency and service automation, with a focus on practical results and human experience. We act strategically with health clinics, law firms and real estate — sectors that deal with a high volume of interactions and where agility in response and organization of information are decisive for success. Our commitment is to well-implemented, secure solutions that make sense for those living the operation."
                 }
             ]
         },
