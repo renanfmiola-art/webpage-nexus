@@ -12,6 +12,7 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 export function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -62,7 +63,7 @@ export function Header() {
 
                 {/* Mobile Navigation (Sheet) */}
                 <div className="md:hidden">
-                    <Sheet>
+                    <Sheet open={isOpen} onOpenChange={setIsOpen}>
                         <SheetTrigger asChild>
                             <Button variant="ghost" size="icon" className="text-foreground">
                                 <Menu className="w-6 h-6" />
@@ -74,7 +75,7 @@ export function Header() {
                                 <SheetTitle>Menu de navegação</SheetTitle>
                             </VisuallyHidden>
                             <div className="flex flex-col gap-6 pt-10">
-                                <Link href="/" className="text-2xl font-bold mb-4">
+                                <Link href="/" className="text-2xl font-bold mb-4" onClick={() => setIsOpen(false)}>
                                     Nexus<span className="text-accent">Intelligence</span>
                                 </Link>
                                 <nav className="flex flex-col gap-4">
@@ -82,6 +83,7 @@ export function Header() {
                                         <Link
                                             key={item.href}
                                             href={item.href}
+                                            onClick={() => setIsOpen(false)}
                                             className="text-lg font-medium text-foreground hover:text-accent transition-colors py-2 border-b border-border/50"
                                         >
                                             {item.title}
@@ -89,7 +91,7 @@ export function Header() {
                                     ))}
                                 </nav>
                                 <div className="mt-4">
-                                    <Button className="w-full rounded-full" asChild>
+                                    <Button className="w-full rounded-full" asChild onClick={() => setIsOpen(false)}>
                                         <Link href="#contato">Fale conosco</Link>
                                     </Button>
                                 </div>
