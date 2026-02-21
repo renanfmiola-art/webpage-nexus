@@ -193,7 +193,7 @@ export function Footer() {
 
                 {/* Copyright */}
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/50">
-                    <p>© {new Date().getFullYear()} Nexus Intelligence. Todos os direitos reservados.</p>
+                    <p>© {new Date().getFullYear()} Nexus Intelligence. Todos os direitos reservados. CNPJ 58.701.735/0001-22</p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <Link href="/politica-de-privacidade" className="hover:text-white transition-colors">Política de Privacidade</Link>
                         <span className="hidden md:inline">|</span>
