@@ -1,0 +1,52 @@
+import React from "react";
+import { Container } from "@/components/layout/Container";
+import { servicesItems } from "@/lib/constants";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+
+export function Services() {
+    return (
+        <section id="services" className="bg-white py-24">
+            <Container>
+                <div className="max-w-3xl mx-auto text-center mb-16 fade-in slide-up">
+                    <h2 className="text-sm font-bold text-accent tracking-widest uppercase mb-4">Nossas Soluções</h2>
+                    <h3 className="text-3xl md:text-5xl font-bold text-primary mb-6 tracking-tight">
+                        Inteligência Fiscal Aplicada ao seu Negócio
+                    </h3>
+                    <p className="text-lg text-muted-foreground">
+                        Combinamos expertise tributária de excelência com automação avançada para entregar resultados rápidos e com risco zero para sua empresa em fomato 100% administrativo.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 relative z-10">
+                    {servicesItems.map((service, idx) => {
+                        const Icon = service.icon;
+                        return (
+                            <Card
+                                key={idx}
+                                className={`group border-border hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-white fade-in slide-up overflow-hidden`}
+                                style={{ animationDelay: `${idx * 150}ms` }}
+                            >
+                                {/* Linha Accent superior */}
+                                <div className="h-1 w-full bg-border group-hover:bg-accent transition-colors" />
+
+                                <CardHeader>
+                                    <div className="w-14 h-14 rounded-full bg-primary/5 flex items-center justify-center mb-4 group-hover:bg-primary/10 transition-colors">
+                                        <Icon className="w-7 h-7 text-primary" />
+                                    </div>
+                                    <CardTitle className="text-xl text-primary font-bold">
+                                        {service.title}
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent className="pb-8">
+                                    <CardDescription className="text-base text-muted-foreground leading-relaxed h-auto min-h-[100px]">
+                                        {service.description}
+                                    </CardDescription>
+                                </CardContent>
+                            </Card>
+                        );
+                    })}
+                </div>
+            </Container>
+        </section >
+    );
+}
