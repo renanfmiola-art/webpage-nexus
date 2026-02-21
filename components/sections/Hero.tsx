@@ -31,7 +31,7 @@ export function Hero() {
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 fade-in slide-up animation-delay-300">
                         <Button size="lg" className="rounded-full bg-accent hover:bg-accent/90 text-white px-8 py-6 text-base font-semibold border-0" asChild>
-                            <Link href="#contato">Fale com um Especialista</Link>
+                            <a href="https://wa.me/5514936180146" target="_blank" rel="noopener noreferrer">Fale com um Especialista</a>
                         </Button>
                         <Button size="lg" variant="outline" className="rounded-full border-white/20 text-white bg-white/5 hover:bg-white/10 hover:text-white px-8 py-6 text-base font-semibold backdrop-blur-sm" asChild>
                             <Link href="#services">Conheça nossas Soluções</Link>
