@@ -1,9 +1,11 @@
 import React from "react";
 import { Container } from "@/components/layout/Container";
 import { getTranslation } from "@/lib/i18n";
+import { Pill, Sparkles, Wrench, GlassWater, Store, Hammer, Laptop, Briefcase } from "lucide-react";
 
 export async function Segments() {
     const t = await getTranslation();
+    const segmentIcons = [Pill, Sparkles, Wrench, GlassWater, Store, Hammer, Laptop, Briefcase];
     return (
         <section id="segmentos" className="bg-[#fcfcfc] py-24 border-t border-border">
             <Container>
@@ -18,7 +20,7 @@ export async function Segments() {
 
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 gap-y-12 mb-16 fade-in slide-up" style={{ animationDelay: '200ms' }}>
                     {t.segments.items.map((segment, idx) => {
-                        const Icon = segment.icon;
+                        const Icon = segmentIcons[idx];
                         return (
                             <div key={idx} className="flex flex-col items-center text-center group">
                                 <div className="w-16 h-16 flex items-center justify-center text-primary mb-4 transition-transform duration-300 group-hover:-translate-y-2">

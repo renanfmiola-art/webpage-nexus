@@ -1,5 +1,3 @@
-import { Shield, Scale, ShieldCheck, HeartHandshake, Pill, Sparkles, Wrench, GlassWater, Store, Hammer, Laptop, Briefcase, FileSearch, ArrowDownToLine, Split, CheckSquare } from "lucide-react";
-
 export const ptBR = {
     siteConfig: {
         name: "Nexus Intelligence",
@@ -33,22 +31,18 @@ export const ptBR = {
             {
                 title: "Auditoria de DAS (Simples) e Mapeamento de Pagamentos Indevidos",
                 description: "Identificamos onde você pagou DAS a maior ou indevidamente por erro operacional, duplicidades, períodos apurados incorretamente ou inconsistências entre faturamento e declarações. Você recebe um relatório por mês (PA) com valores estimados, evidências e o plano de correção.",
-                icon: FileSearch,
             },
             {
                 title: "Restituição Administrativa do Simples (Tributos Federais do DAS)",
                 description: "Quando existe indébito comprovável, montamos o dossiê, protocolamos e acompanhamos o Pedido Eletrônico de Restituição dos tributos federais dentro do DAS (PIS, COFINS, IRPJ, CSLL, CPP/INSS, IPI). Processo 100% administrativo, com rastreabilidade e gestão de exigências documentais.",
-                icon: ArrowDownToLine,
             },
             {
                 title: "Diagnóstico de Segregação de Receita para Varejo com Itens Monofásicos e ST",
                 description: "Para negócios com mix complexo (farmácia, perfumaria, bebidas, autopeças, mercados), realizamos uma revisão do padrão de classificação e segregação para reduzir o risco de pagamento indevido recorrente no Simples. Entregamos uma lista prática de ajustes (cadastro/regras internas) e um checklist mensal de conferência.",
-                icon: Split,
             },
             {
                 title: "Validação de Retenções (ISS Retido) e Conciliação de Receitas B2B",
                 description: "Para empresas de serviços com ISS retido (B2B), realizamos a conciliação entre NFS-e, retenções e receitas declaradas, identificando falhas operacionais que geram pagamento indevido e apontando o caminho administrativo aplicável. Você recebe um dossiê com evidências e um plano de regularização.",
-                icon: CheckSquare,
             },
         ]
     },
@@ -56,14 +50,14 @@ export const ptBR = {
         title: "Segmentos Atendidos",
         description: "Especialidade comprovada nos setores mais complexos",
         items: [
-            { title: "Farmácias", subtitle: "e Drogarias", icon: Pill },
-            { title: "Perfumarias", subtitle: "Cosméticos e Higiene", icon: Sparkles },
-            { title: "Autopeças", subtitle: "Pneus e Acessórios", icon: Wrench },
-            { title: "Distribuidoras", subtitle: "Depósitos de Bebidas", icon: GlassWater },
-            { title: "Mercados", subtitle: "Mini e Mercearias", icon: Store },
-            { title: "Materiais", subtitle: "Construção e Home Centers", icon: Hammer },
-            { title: "Eletroeletrônicos", subtitle: "Telefonia e Informática", icon: Laptop },
-            { title: "Serviços B2B", subtitle: "com ISS retido", icon: Briefcase },
+            { title: "Farmácias", subtitle: "e Drogarias" },
+            { title: "Perfumarias", subtitle: "Cosméticos e Higiene" },
+            { title: "Autopeças", subtitle: "Pneus e Acessórios" },
+            { title: "Distribuidoras", subtitle: "Depósitos de Bebidas" },
+            { title: "Mercados", subtitle: "Mini e Mercearias" },
+            { title: "Materiais", subtitle: "Construção e Home Centers" },
+            { title: "Eletroeletrônicos", subtitle: "Telefonia e Informática" },
+            { title: "Serviços B2B", subtitle: "com ISS retido" },
         ]
     },
     faq: {
@@ -163,22 +157,18 @@ export const enUS = {
             {
                 title: "DAS (Simples) Audit and Undue Payments Mapping",
                 description: "We identify where you overpaid or unduly paid DAS due to operational errors, duplications, incorrectly calculated periods, or inconsistencies between revenue and declarations. You receive a monthly report (PA) with estimated values, evidence, and a correction plan.",
-                icon: FileSearch,
             },
             {
                 title: "Simples Administrative Restitution (DAS Federal Taxes)",
                 description: "When there is a provable overpayment, we build the dossier, file, and track the Electronic Request for Restitution of federal taxes within DAS (PIS, COFINS, IRPJ, CSLL, CPP/INSS, IPI). 100% administrative process, with traceability and management of documentary requirements.",
-                icon: ArrowDownToLine,
             },
             {
                 title: "Revenue Segregation Diagnosis for Retail with Monophasic and ST Items",
                 description: "For businesses with a complex mix (pharmacies, perfumeries, beverages, auto parts, markets), we review the classification and segregation standard to reduce the risk of recurring undue payment in Simples. We deliver a practical list of adjustments (registration/internal rules) and a monthly checklist.",
-                icon: Split,
             },
             {
                 title: "Withholding Validation (Withheld ISS) and B2B Revenue Reconciliation",
                 description: "For service companies with withheld ISS (B2B), we reconcile NFS-e, withholdings, and declared revenues, identifying operational flaws that generate undue payments and pointing out the applicable administrative path. You receive a dossier with evidence and a regularization plan.",
-                icon: CheckSquare,
             },
         ]
     },
@@ -186,14 +176,14 @@ export const enUS = {
         title: "Served Segments",
         description: "Proven expertise in the most complex sectors",
         items: [
-            { title: "Pharmacies", subtitle: "and Drugstores", icon: Pill },
-            { title: "Perfumeries", subtitle: "Cosmetics and Hygiene", icon: Sparkles },
-            { title: "Auto Parts", subtitle: "Tires and Accessories", icon: Wrench },
-            { title: "Distributors", subtitle: "Beverage Depots", icon: GlassWater },
-            { title: "Markets", subtitle: "Mini and Groceries", icon: Store },
-            { title: "Materials", subtitle: "Construction and Home Centers", icon: Hammer },
-            { title: "Electronics", subtitle: "Telephony and IT", icon: Laptop },
-            { title: "B2B Services", subtitle: "with withheld ISS", icon: Briefcase },
+            { title: "Pharmacies", subtitle: "and Drugstores" },
+            { title: "Perfumeries", subtitle: "Cosmetics and Hygiene" },
+            { title: "Auto Parts", subtitle: "Tires and Accessories" },
+            { title: "Distributors", subtitle: "Beverage Depots" },
+            { title: "Markets", subtitle: "Mini and Groceries" },
+            { title: "Materials", subtitle: "Construction and Home Centers" },
+            { title: "Electronics", subtitle: "Telephony and IT" },
+            { title: "B2B Services", subtitle: "with withheld ISS" },
         ]
     },
     faq: {

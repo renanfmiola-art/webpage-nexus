@@ -1,11 +1,12 @@
 import React from "react";
 import { Container } from "@/components/layout/Container";
-import { servicesItems } from "@/lib/constants";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getTranslation } from "@/lib/i18n";
+import { FileSearch, ArrowDownToLine, Split, CheckSquare } from "lucide-react";
 
 export async function Services() {
     const t = await getTranslation();
+    const serviceIcons = [FileSearch, ArrowDownToLine, Split, CheckSquare];
     return (
         <section id="services" className="bg-white py-24">
             <Container>
@@ -21,7 +22,7 @@ export async function Services() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 relative z-10">
                     {t.services.items.map((service, idx) => {
-                        const Icon = service.icon;
+                        const Icon = serviceIcons[idx];
                         return (
                             <Card
                                 key={idx}
