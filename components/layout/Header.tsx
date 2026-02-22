@@ -9,8 +9,10 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Container } from "@/components/layout/Container";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
-export function Header() {
+export function Header({ t }: { t: Dictionary }) {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
@@ -38,7 +40,7 @@ export function Header() {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-8">
-                    {mainNav.map((item) => (
+                    {t.mainNav.map((item) => (
                         <Link
                             key={item.href}
                             href={item.href}
@@ -51,13 +53,14 @@ export function Header() {
                 </nav>
 
                 {/* Desktop CTA */}
-                <div className="hidden md:block">
+                <div className="hidden md:flex items-center gap-4">
+                    <LanguageSwitcher />
                     <Button
                         variant="outline"
                         className="rounded-full border-primary text-primary hover:bg-accent hover:border-accent hover:text-white transition-all"
                         asChild
                     >
-                        <Link href="#contato">Fale conosco</Link>
+                        <Link href="#contato">{t.contactButtons.talkToUs}</Link>
                     </Button>
                 </div>
 
@@ -79,7 +82,7 @@ export function Header() {
                                     Nexus<span className="text-accent">Intelligence</span>
                                 </Link>
                                 <nav className="flex flex-col gap-4">
-                                    {mainNav.map((item) => (
+                                    {t.mainNav.map((item) => (
                                         <Link
                                             key={item.href}
                                             href={item.href}
@@ -90,9 +93,13 @@ export function Header() {
                                         </Link>
                                     ))}
                                 </nav>
-                                <div className="mt-4">
+                                <div className="mt-4 flex flex-col gap-4">
+                                    <div className="flex items-center gap-2">
+                                        <span className="text-sm text-muted-foreground mr-2">Idioma:</span>
+                                        <LanguageSwitcher />
+                                    </div>
                                     <Button className="w-full rounded-full" asChild onClick={() => setIsOpen(false)}>
-                                        <Link href="#contato">Fale conosco</Link>
+                                        <Link href="#contato">{t.contactButtons.talkToUs}</Link>
                                     </Button>
                                 </div>
                             </div>

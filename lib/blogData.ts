@@ -1,4 +1,4 @@
-const rawBlogPosts = [
+export const blogPostsPT = [
     {
         id: "sublimite-simples-2026",
         title: "Sublimite do Simples para ICMS/ISS em 2026 (R$ 3,6 mi) — Portal do Simples Nacional",
@@ -224,10 +224,199 @@ Além dos MEIs, o edital da PGFN também contempla os contribuintes com dívidas
     }
 ];
 
+export const blogPostsEN = [
+    {
+        id: "sublimite-simples-2026",
+        title: "Simples Nacional Sublimit for ICMS/ISS in 2026 (R$ 3.6 mi) — Simples Nacional Portal",
+        date: "21 Nov 2025",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=94c10cc2-7eb5-4ef0-bfb2-5479e72caff8",
+        excerpt: "The Executive Secretariat of the Simples Nacional Management Committee informs that the sublimit for ICMS and ISS collection has been defined...",
+        content: `The Executive Secretariat of the Simples Nacional Management Committee informs that, according to CGSN Ordinance No. 54 of November 17, 2025, published in the Official Gazette on 11/19/2025, the sublimit for the collection of ICMS and ISS within the Simples Nacional framework for the calendar year of 2026 has been defined:
+
+- R$ 3,600,000.00 – applicable to establishments located in all States and the Federal District.
+
+EXECUTIVE SECRETARIAT OF THE SIMPLES NACIONAL MANAGEMENT COMMITTEE`,
+        imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+    },
+    {
+        id: "novo-prazo-regularizacao-simples",
+        title: "New regularisation deadline to avoid exclusion from Simples (90 days; LC 216/2025)",
+        date: "15 Aug 2025",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=d6e815ec-7410-42d8-bbf1-822d4ac1773c",
+        excerpt: "The Federal Revenue informed that the new 90-day period for debt regularisation has been made available to avoid exclusion from Simples Nacional.",
+        content: `The Federal Revenue informed that, between August 1 and 4, the Terms of Exclusion from the regime and the Equivalency Reports for taxpayers with debts to the Federal Revenue or the Attorney General of the National Treasury were made available in the Simples Nacional Electronic Tax Domicile (DTE-SN).
+
+**Good news! The regularisation period is now 90 days**
+Taxpayers notified will now have 90 days, starting from learning of the Term of Exclusion, to regularise their debts — either by cash payment or instalment plan — and avoid exclusion from Simples Nacional starting January 1, 2026. This deadline already considers the extension provided by Complementary Law No. 216/2025.
+
+Attention! The deadline for contesting the Term of Exclusion remains 30 days after being notified, according to Decree No. 70.235/1972.
+
+**Access to the Term and contestation**
+The documents can be accessed via the Simples Nacional Portal (via DTE-SN) or the Federal Revenue's e-CAC Portal.
+Taxpayers who settle, offset, or parcel all debts within the deadline will remain in the Simples Nacional regime without needing to appear in person.
+
+The Revenue reinforces that the contestation deadline has not changed and remains 30 days starting from the acknowledgment of the Term of Exclusion.`,
+        imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+        id: "cancelamento-termos-exclusao",
+        title: "Cancellation of Exclusion Terms due to errors in “Pending Reports”",
+        date: "27 Jun 2025",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=4392092f-87be-49f7-9ccb-f0d7c19fcccf",
+        excerpt: "The Brazilian Federal Revenue informs that the Simples Nacional Exclusion Terms issued due to processing errors have been cancelled.",
+        content: `The Brazilian Federal Revenue informs that the Simples Nacional Exclusion Terms issued and sent between June 24 and 27, 2025, have been cancelled.
+
+**What happened?**
+There was an error in the processing of the "Pending Reports" linked to the Exclusion Terms.
+A message is being sent to the Mailbox of each of the affected taxpayers communicating the cancellation.
+
+**What to do now?**
+In the coming days, the processing of a new batch will begin with the aim of excluding from Simples Nacional taxpayers who have outstanding debts with the Brazilian Federal Revenue and/or are registered in the Active Debt of the Union, which is why it is suggested that these debts be regularised promptly.`,
+        imageUrl: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80"
+    },
+    {
+        id: "nova-funcionalidade-antecipacao",
+        title: "New functionality: anticipation of instalments in Simples payment plans",
+        date: "09 Jan 2025",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=b1aefd7c-3856-41c4-88f3-0dce2c9cd23c",
+        excerpt: "A new feature was made available in the ordinary and special instalment plans of Simples Nacional and Pert-SN, allowing for the anticipation of instalments.",
+        content: `A new feature was made available in the ordinary and special instalment plans of Simples Nacional and Pert-SN, allowing for the anticipation of instalments. This functionality is not available for Relp and MEI instalment plans.
+
+To perform the anticipation, it is necessary that the current month's instalment has not been paid and that there are no delayed instalments.
+
+The anticipation DAS (Simples Nacional Collection Document) will include the current month's instalment plus the anticipated instalments.
+Anticipated instalments reduce the number of plan instalments. Thus, if a plan was granted with 35 instalments, for example, and 9 instalments are anticipated, the final instalment will become number 26.
+
+Note: anticipation does not exempt the taxpayer from paying the following month's instalment, except if the installation plan is fully liquidated.`,
+        imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+    },
+    {
+        id: "autorregularizacao-pis-cofins",
+        title: "Federal Revenue: self-regularisation for companies with PIS/COFINS pending issues",
+        date: "29 Sep 2025",
+        sourceName: "Federal Revenue Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/setembro/receita-federal-oportuniza-autorregularizacao-para-empresas-com-pendencias-na-tributacao-do-pis-e-cofins",
+        excerpt: "Federal Revenue offers self-regularisation for companies with pending issues in PIS and COFINS taxation with alerts via e-CAC.",
+        content: `The Brazilian Federal Revenue is offering self-regularisation for companies that present discrepancies or pending issues in the calculation and collection of contributions to PIS/Pasep and Cofins.
+
+Notices and alerts were sent via the mailbox in the Virtual Service Center (e-CAC), instructing taxpayers about diverging values found in the Revenue's database, often related to improper ICMS exclusions, failure in revenue segregation, or revenue omission.
+
+Notified companies have a specified deadline in the communication to rectify their declarations (EFD-Contribuições, PGDAS-D or DCTF) and pay any differences without the incidence of ex-officio fines. Failure to regularize within the deadline will result in the opening of auditing procedures and possible rigorous penalties application.
+
+We recommend that taxpayers thoroughly review their tax parameters and take advantage of this opportunity to ensure the tax compliance of their operations.`,
+        imageUrl: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&q=80"
+    },
+    {
+        id: "multas-atraso-pgdas-defis-2026",
+        title: "New rules for delay fines in PGDAS-D and DEFIS (impact from 01/01/2026) — 12/09/2025",
+        date: "09 Dec 2025",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=1e17613a-4a08-4ba0-9a7d-550e833f3e13",
+        excerpt: "Complementary Law No. 214/2025 changed Simples Nacional legislation, directly impacting penalties for late accessory obligations.",
+        content: `Complementary Law No. 214/2025 (Tax Reform on Consumption) changed Simples Nacional legislation, directly impacting penalties for delay in accessory obligations. The new rules were regulated by CGSN Resolution No. 183/2025. Check the main points:
+
+**1. Fine for Delay in PGDAS-D:** starting 01/01/2026, the rule for Micro-enterprise (ME) and Small Business (EPP) will change.
+Those who fail to provide information by the 20th of the subsequent month to which gross revenue was earned (or provide them with inaccuracies or omissions), will be subject to a 2% (two per cent) per calendar month or fraction fine, required from the day following the end of the deadline originally established for delivery. The minimum fine applied for delayed delivery will be R$ 50.00 for each reference month.
+
+**2. DEFIS Fine and Deadline:** the new resolution also disciplined the fine for delay, inaccuracy or omission in delivering the DEFIS (Declaration of Socioeconomic and Fiscal Information).
+MEs or EPPs that fail to present the Defis, or present it with inaccuracies or omissions, or present it past the deadline, will be subject to a fine of 2% per calendar month or fraction, incident on the amount of taxes reported in Defis, or R$ 100.00 (one hundred reais) for each group of 10 inaccurate items.
+
+Pay attention! The deadline to present Defis ends on March 31 of the calendar year subsequent to the occurrence of the tax triggering events. From 01/04/2026, it will be subject to a fine.`,
+        imageUrl: "https://images.unsplash.com/photo-1554224155-1696413565d3?w=800&q=80"
+    },
+    {
+        id: "opcao-simples-simei-2026",
+        title: "Option for Simples Nacional and Simei in 2026 (deadlines and rules; includes MAT from 01/12/2025)",
+        date: "09 Jan 2026",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=b6a7c2ab-c423-43a3-8253-c498bb49983a",
+        excerpt: "Detailed information about deadlines and rules for opting into Simples Nacional and Simei in 2026, including start-up companies.",
+        content: `Micro-enterprises (ME) and small businesses (EPP) that do not incur any of the prohibitions provided by Complementary Law 123 of 2006 can opt for Simples Nacional.
+
+**1 - COMPANIES IN OPERATION**
+For existing companies, the option request can be made in January/2026, up to the last business day (01/30/2026). The option, if deferred (accepted), will be backdated to 01/01/2026.
+
+**2 - START-UP COMPANIES**
+With the implementation of the Tax Administration Module (MAT), starting 12/01/2025, the new company must formalise its intention to opt for Simples Nacional exactly when registering its CNPJ.
+
+**3 - INTERNET OPTION AND CANCELLATION REQUEST**
+The option request can only be made in January, via the internet, through the Simples Nacional Portal, and is irrevocable for the entire calendar year.
+
+**4 - ALREADY OPTING COMPANY DOES NOT NEED NEW OPTION**
+The ME/EPP already opting for Simples Nacional does not need to make a new option every year.
+
+**5 - COMPANY EXCLUDED DUE TO DEBTS CAN MAKE NEW OPTION?**
+Yes. Missing regularisation deadlines causes exclusion, but excluded companies can freely re-opt as long as they clear the debts previously associated.`,
+        imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
+    },
+    {
+        id: "acao-conformidade-simples-250m",
+        title: "Simples Compliance Action: regularisation of late instalments and prevention of plan exclusions",
+        date: "21 Jan 2026",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=8a5d95c3-c1e2-446d-93fd-9c18e40fd83e",
+        excerpt: "Federal Revenue reaches R$ 250.4 million in overdue values renegotiated through compliance actions and late instalments.",
+        content: `In December, the Federal Revenue promoted a compliance action directed at Simples Nacional taxpayers with late instalments, covering Conventional, Special, Pert and Relp instalment plans.
+
+The initiative, aiming to avoid exclusion by default of Simples Nacional taxpayers from regularisation programs, resulted in the sending of 483,517 communications. A substantial amount of the audience complied with the directives to secure R$ 250.4 million in collected debts.
+
+The Federal Revenue highlights that the debt collection action for late instalments will be perennial and periodically executed, as part of its permanent strategy for tax compliance promotion and active debt collection.
+
+**Rescission and regularisation at Federal Revenue**
+Taxpayers who failed to respond to the call for regularisation will be definitively executed from instalment benefits. If needed, the company should request new instalment lines from scratch without prior exemptions.`,
+        imageUrl: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=800&q=80"
+    },
+    {
+        id: "esclarecimento-processamento-simples",
+        title: "Clarification on Simples/Simei option processing (access peaks, instabilities, and logs validation)",
+        date: "06 Feb 2026",
+        sourceName: "Simples Nacional Portal",
+        author: "Brazilian Federal Revenue",
+        sourceUrl: "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=54adde84-df5e-4383-aca0-01dd80f73f67",
+        excerpt: "Federal Revenue clarifies details on the processing of Simples Nacional and Simei requests following a historic access spike.",
+        content: `The Federal Revenue informs that the deadline to request Simples Nacional and Simei options ended exactly matching legally bound deadlines. 
+
+The last day recorded a historic traffic peak, resulting from a high concentration of last-minute requests. Even with the high demand, over one million requests were received, and multiple domains faced connectivity degradation due to overload.
+
+The remaining requests will process gracefully to ensure full coverage and transparent resolution to all valid requests submitted in compliance with standard logs. As part of justice assurances, the Federal Revenue commits to verifying server-side logs to retroactively validate attempts affected by timeouts within acceptable margins.`,
+        imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+        id: "pgfn-prorroga-edital",
+        title: "PGFN extends debt negotiation edict (discounts and deadlines; focus on small taxpayers/MEI)",
+        date: "06 Feb 2026",
+        sourceName: "Attorney General of the National Treasury",
+        author: "Federal Government",
+        sourceUrl: "https://www.gov.br/pgfn/pt-br/assuntos/noticias/2026/pgfn-prorroga-edital-e-contribuintes-ganham-mais-tempo-para-regularizar-dividas-com-descontos-especiais",
+        excerpt: "Taxpayers who haven't yet regularized their situation on the Union's active debt have a new chance with the extension of Edict No. 11/2025.",
+        content: `Taxpayers who have not yet regularised their situation regarding the Union's active debt with discounts up to 100% on interest, fine values, and legal charges now have a new chance. The Attorney General's Office (PGFN) extended Edit No. 11/2025. Now, debts can be settled until May 29. 
+
+According to the document, the negotiation enables taxpayers to regularise their registered debts with benefits adapted to their payment capacity, providing significant reliefs to Individual Microentrepreneurs (MEIs).
+
+**Negotiation modalities**
+The MEI can transact in various modes:
+- **Payment Capacity**, whose discount can be as generous as 100% of fine and legally induced charges, effectively wiping secondary debts clean.
+- **Micro Values**, reducing up to 50% of the flat registration fee independently of interest scales.`,
+        imageUrl: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&q=80"
+    }
+];
+
 const parseDate = (dateStr: string) => {
     const months: { [key: string]: number } = {
-        "Jan": 0, "Fev": 1, "Mar": 2, "Abr": 3, "Mai": 4, "Jun": 5,
-        "Jul": 6, "Ago": 7, "Set": 8, "Out": 9, "Nov": 10, "Dez": 11
+        "Jan": 0, "Fev": 1, "Feb": 1, "Mar": 2, "Abr": 3, "Apr": 3, "Mai": 4, "May": 4, "Jun": 5,
+        "Jul": 6, "Ago": 7, "Aug": 7, "Set": 8, "Sep": 8, "Out": 9, "Oct": 9, "Nov": 10, "Dez": 11, "Dec": 11
     };
     const parts = dateStr.split(" ");
     if (parts.length === 3) {
@@ -239,4 +428,6 @@ const parseDate = (dateStr: string) => {
     return 0;
 };
 
-export const blogPosts = [...rawBlogPosts].sort((a, b) => parseDate(b.date) - parseDate(a.date));
+// Sort both by date
+export const sortedBlogPostsPT = [...blogPostsPT].sort((a, b) => parseDate(b.date) - parseDate(a.date));
+export const sortedBlogPostsEN = [...blogPostsEN].sort((a, b) => parseDate(b.date) - parseDate(a.date));

@@ -1,22 +1,23 @@
 import React from "react";
 import { Container } from "@/components/layout/Container";
-import { segmentsItems } from "@/lib/constants";
+import { getTranslation } from "@/lib/i18n";
 
-export function Segments() {
+export async function Segments() {
+    const t = await getTranslation();
     return (
         <section id="segmentos" className="bg-[#fcfcfc] py-24 border-t border-border">
             <Container>
                 <div className="max-w-4xl mx-auto text-center mb-16 fade-in slide-up">
                     <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 tracking-tight uppercase">
-                        Segmentos
+                        {t.segments.title}
                     </h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                        Recuperação administrativa de indébitos no Simples, com auditoria de dados, dossiê documental e protocolo — focado em varejo com mix tributário complexo e serviços B2B com retenção.
+                        {t.segments.description}
                     </p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 gap-y-12 mb-16 fade-in slide-up" style={{ animationDelay: '200ms' }}>
-                    {segmentsItems.map((segment, idx) => {
+                    {t.segments.items.map((segment, idx) => {
                         const Icon = segment.icon;
                         return (
                             <div key={idx} className="flex flex-col items-center text-center group">
@@ -39,7 +40,8 @@ export function Segments() {
 
                 <div className="text-center fade-in slide-up" style={{ animationDelay: '400ms' }}>
                     <p className="text-muted-foreground text-sm max-w-2xl mx-auto">
-                        Consulte-nos, sem compromisso, para mais informações sobre outros segmentos.
+                        {t.contactButtons.talkToUs} {/* Placeholder para o CTA footer if needed or just use current form...*/}
+                        {t.footer.contact.title} - Consulte-nos, sem compromisso, para mais informações sobre outros segmentos.
                     </p>
                 </div>
             </Container>

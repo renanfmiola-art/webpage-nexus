@@ -4,6 +4,7 @@ import { metadata, viewport } from "./metadata";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/sections/Footer";
 import { CookieConsent } from "@/components/CookieConsent";
+import { getLocale, getTranslation } from "@/lib/i18n";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,19 +14,22 @@ const inter = Inter({
 
 export { metadata, viewport };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const t = await getTranslation();
+
   return (
-    <html lang="pt-BR" className="scroll-smooth">
+    <html lang={locale} className="scroll-smooth">
       <body className={`${inter.variable} font-sans antialiased flex flex-col min-h-screen`}>
-        <Header />
+        <Header t={t} />
         <main className="flex-1 pt-[88px]">
           {children}
         </main>
-        <Footer />
+        <Footer t={t} />
         <CookieConsent />
       </body>
     </html>

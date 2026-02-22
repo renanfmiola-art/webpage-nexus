@@ -1,0 +1,263 @@
+import { Shield, Scale, ShieldCheck, HeartHandshake, Pill, Sparkles, Wrench, GlassWater, Store, Hammer, Laptop, Briefcase, FileSearch, ArrowDownToLine, Split, CheckSquare } from "lucide-react";
+
+export const ptBR = {
+    siteConfig: {
+        name: "Nexus Intelligence",
+        description: "Consultoria Tributária e Compliance Fiscal baseada em tecnologia antigravity.",
+        contact: {
+            email: "miola@nexusintell.com.br",
+            phone: "+55 14 93618-0146",
+        }
+    },
+    mainNav: [
+        { title: "Home", href: "/" },
+        { title: "Soluções", href: "/#services" },
+        { title: "Metodologia", href: "/#differential" },
+        { title: "Compliance", href: "/#compliance" },
+        { title: "Blog", href: "/blog" },
+        { title: "FAQ", href: "/#faq" },
+    ],
+    contactButtons: {
+        talkToUs: "Fale conosco"
+    },
+    hero: {
+        badge: "Gestão Tributária Inteligente",
+        title1: "Recupere o capital da sua empresa de",
+        title2: "forma segura e eficiente.",
+        description: "Mais de R$ 5 bilhões em oportunidades tributárias identificadas. Transformamos dados complexos em resultados financeiros reais com compliance absoluto."
+    },
+    services: {
+        title: "Soluções Especializadas",
+        description: "Serviços desenhados para eliminar pagamentos indevidos e gerar caixa com segurança jurídica.",
+        items: [
+            {
+                title: "Auditoria de DAS (Simples) e Mapeamento de Pagamentos Indevidos",
+                description: "Identificamos onde você pagou DAS a maior ou indevidamente por erro operacional, duplicidades, períodos apurados incorretamente ou inconsistências entre faturamento e declarações. Você recebe um relatório por mês (PA) com valores estimados, evidências e o plano de correção.",
+                icon: FileSearch,
+            },
+            {
+                title: "Restituição Administrativa do Simples (Tributos Federais do DAS)",
+                description: "Quando existe indébito comprovável, montamos o dossiê, protocolamos e acompanhamos o Pedido Eletrônico de Restituição dos tributos federais dentro do DAS (PIS, COFINS, IRPJ, CSLL, CPP/INSS, IPI). Processo 100% administrativo, com rastreabilidade e gestão de exigências documentais.",
+                icon: ArrowDownToLine,
+            },
+            {
+                title: "Diagnóstico de Segregação de Receita para Varejo com Itens Monofásicos e ST",
+                description: "Para negócios com mix complexo (farmácia, perfumaria, bebidas, autopeças, mercados), realizamos uma revisão do padrão de classificação e segregação para reduzir o risco de pagamento indevido recorrente no Simples. Entregamos uma lista prática de ajustes (cadastro/regras internas) e um checklist mensal de conferência.",
+                icon: Split,
+            },
+            {
+                title: "Validação de Retenções (ISS Retido) e Conciliação de Receitas B2B",
+                description: "Para empresas de serviços com ISS retido (B2B), realizamos a conciliação entre NFS-e, retenções e receitas declaradas, identificando falhas operacionais que geram pagamento indevido e apontando o caminho administrativo aplicável. Você recebe um dossiê com evidências e um plano de regularização.",
+                icon: CheckSquare,
+            },
+        ]
+    },
+    segments: {
+        title: "Segmentos Atendidos",
+        description: "Especialidade comprovada nos setores mais complexos",
+        items: [
+            { title: "Farmácias", subtitle: "e Drogarias", icon: Pill },
+            { title: "Perfumarias", subtitle: "Cosméticos e Higiene", icon: Sparkles },
+            { title: "Autopeças", subtitle: "Pneus e Acessórios", icon: Wrench },
+            { title: "Distribuidoras", subtitle: "Depósitos de Bebidas", icon: GlassWater },
+            { title: "Mercados", subtitle: "Mini e Mercearias", icon: Store },
+            { title: "Materiais", subtitle: "Construção e Home Centers", icon: Hammer },
+            { title: "Eletroeletrônicos", subtitle: "Telefonia e Informática", icon: Laptop },
+            { title: "Serviços B2B", subtitle: "com ISS retido", icon: Briefcase },
+        ]
+    },
+    faq: {
+        title: "Dúvidas Frequentes",
+        description: "Tudo o que você precisa saber sobre nossos serviços e metodologia",
+        items: [
+            {
+                question: "Como funciona o processo de Recuperação de Créditos?",
+                answer: "Nossa tecnologia Flow realiza um cruzamento massivo de suas bases de dados fiscais dos últimos 60 meses com a legislação atualizada. Após a identificação de divergências ou benefícios não fruídos, nossa equipe valida as oportunidades e conduzimos a habilitação do crédito administrativamente, com risco zero.",
+            },
+            {
+                question: "A metodologia de vocês é segura?",
+                answer: "Sim, atuamos sob os mais rígidos preceitos de Compliance Fiscal. Todas os nossos procedimentos são pacificados em instâncias administrativas consolidadas. Não aplicamos teses aventureiras ou que exponham o cliente a riscos de autuação.",
+            },
+            {
+                question: "Quais são os custos envolvidos no projeto?",
+                answer: "Trabalhamos predominantemente no modelo 'Success Fee' (taxa de exito) para recuperação de créditos. Ou seja, nossos honorários só são faturados após a efetiva homologação ou compensação financeira do crédito em favor da sua empresa. Outros serviços seguem planos especificos de precificação de acordo com complexidade da consultoria realizada.",
+            },
+            {
+                question: "A Nexus está adequada à LGPD?",
+                answer: "Absolutamente. Somos 'LGPD Ready' e nosso portal conta com criptografia SSL 256-bits. Atuamos como operadores de dados sob rigorosos Non-Disclosure Agreements (NDA) contendo cláusulas específicas de proteção de informações corporativas e dados pessoais.",
+            }
+        ]
+    },
+    compliance: {
+        title: "Governança e Compliance",
+        description: "Nosso compromisso inegociável com a segurança jurídica, proteção de dados e integridade em cada projeto realizado.",
+        items: [
+            { title: "Segurança Jurídica", description: "Bases 100% pacificadas pelo STF, STJ e Receita Federal." },
+            { title: "Compliance Total", description: "Processo 100% administrativo, sem riscos de passivos." },
+            { title: "Auditoria Precisa", description: "Cruzamento avançado na malha fiscal com IA." },
+            { title: "Garantia Operacional", description: "Seguro de responsabilidade civil para operações." }
+        ]
+    },
+    differential: {
+        title: "Nosso Diferencial Tecnológico",
+        description: "Alinhamos inteligência artificial a uma equipe altamente especializada para entregar eficiência sem paralelo no mercado brasileiro.",
+        features: [
+            { title: "Processamento Massivo", description: "Capacidade de analisar milhões de NF-es, EFDs e obrigações acessórias em tempo real." },
+            { title: "Mapeamento Preditivo", description: "Algoritmos treinados para identificar cenários ocultos de recuperação e redução tributária." },
+            { title: "Monitoramento Contínuo", description: "Integração via APIs para acompanhamento diário de mudanças legislativas e riscos fiscais." },
+            { title: "Painel Estratégico", description: "Dashboard exclusivo em tempo real para acompanhamento de cada crédito recuperado." }
+        ]
+    },
+    footer: {
+        description: "Transformando complexidade tributária em resultados financeiros através de inteligência artificial.",
+        links: {
+            title: "Links Rápidos",
+            home: "Home",
+            solutions: "Soluções",
+            methodology: "Tecnologia",
+            faq: "FAQ",
+            blog: "Blog",
+        },
+        legal: {
+            title: "Jurídico",
+            privacy: "Política de Privacidade",
+            terms: "Termos de Uso"
+        },
+        contact: {
+            title: "Contato"
+        },
+        rights: "Todos os direitos reservados."
+    }
+};
+
+export const enUS = {
+    siteConfig: {
+        name: "Nexus Intelligence",
+        description: "Tax Consulting and Fiscal Compliance powered by antigravity technology.",
+        contact: {
+            email: "miola@nexusintell.com.br",
+            phone: "+55 14 93618-0146",
+        }
+    },
+    mainNav: [
+        { title: "Home", href: "/" },
+        { title: "Solutions", href: "/#services" },
+        { title: "Methodology", href: "/#differential" },
+        { title: "Compliance", href: "/#compliance" },
+        { title: "Blog", href: "/blog" },
+        { title: "FAQ", href: "/#faq" },
+    ],
+    contactButtons: {
+        talkToUs: "Contact Us"
+    },
+    hero: {
+        badge: "Smart Tax Management",
+        title1: "Recover your company's capital",
+        title2: "safely and efficiently.",
+        description: "Over R$ 5 billion in tax opportunities identified. We transform complex data into real financial results with absolute compliance."
+    },
+    services: {
+        title: "Specialized Solutions",
+        description: "Services designed to eliminate undue payments and generate cash flow with legal security.",
+        items: [
+            {
+                title: "DAS (Simples) Audit and Undue Payments Mapping",
+                description: "We identify where you overpaid or unduly paid DAS due to operational errors, duplications, incorrectly calculated periods, or inconsistencies between revenue and declarations. You receive a monthly report (PA) with estimated values, evidence, and a correction plan.",
+                icon: FileSearch,
+            },
+            {
+                title: "Simples Administrative Restitution (DAS Federal Taxes)",
+                description: "When there is a provable overpayment, we build the dossier, file, and track the Electronic Request for Restitution of federal taxes within DAS (PIS, COFINS, IRPJ, CSLL, CPP/INSS, IPI). 100% administrative process, with traceability and management of documentary requirements.",
+                icon: ArrowDownToLine,
+            },
+            {
+                title: "Revenue Segregation Diagnosis for Retail with Monophasic and ST Items",
+                description: "For businesses with a complex mix (pharmacies, perfumeries, beverages, auto parts, markets), we review the classification and segregation standard to reduce the risk of recurring undue payment in Simples. We deliver a practical list of adjustments (registration/internal rules) and a monthly checklist.",
+                icon: Split,
+            },
+            {
+                title: "Withholding Validation (Withheld ISS) and B2B Revenue Reconciliation",
+                description: "For service companies with withheld ISS (B2B), we reconcile NFS-e, withholdings, and declared revenues, identifying operational flaws that generate undue payments and pointing out the applicable administrative path. You receive a dossier with evidence and a regularization plan.",
+                icon: CheckSquare,
+            },
+        ]
+    },
+    segments: {
+        title: "Served Segments",
+        description: "Proven expertise in the most complex sectors",
+        items: [
+            { title: "Pharmacies", subtitle: "and Drugstores", icon: Pill },
+            { title: "Perfumeries", subtitle: "Cosmetics and Hygiene", icon: Sparkles },
+            { title: "Auto Parts", subtitle: "Tires and Accessories", icon: Wrench },
+            { title: "Distributors", subtitle: "Beverage Depots", icon: GlassWater },
+            { title: "Markets", subtitle: "Mini and Groceries", icon: Store },
+            { title: "Materials", subtitle: "Construction and Home Centers", icon: Hammer },
+            { title: "Electronics", subtitle: "Telephony and IT", icon: Laptop },
+            { title: "B2B Services", subtitle: "with withheld ISS", icon: Briefcase },
+        ]
+    },
+    faq: {
+        title: "Frequently Asked Questions",
+        description: "Everything you need to know about our services and methodology",
+        items: [
+            {
+                question: "How does the Credit Recovery process work?",
+                answer: "Our Flow technology heavily cross-references your tax databases of the last 60 months with updated legislation. After identifying divergences or unutilized benefits, our team validates the opportunities and we conduct the credit habilitation administratively, with zero risk.",
+            },
+            {
+                question: "Is your methodology secure?",
+                answer: "Yes, we act under the strictest precepts of Fiscal Compliance. All our procedures are pacified in consolidated administrative instances. We do not apply adventurous theses or expose the client to assessment risks.",
+            },
+            {
+                question: "What are the costs involved in the project?",
+                answer: "We work predominantly in the 'Success Fee' model for credit recovery. That is, our fees are only billed after the effective homologation or financial compensation of the credit in favor of your company. Other services follow specific pricing plans according to the complexity of the consulting performed.",
+            },
+            {
+                question: "Is Nexus LGPD compliant?",
+                answer: "Absolutely. We are 'LGPD Ready' and our portal has 256-bit SSL encryption. We act as data operators under strict Non-Disclosure Agreements (NDA) containing specific clauses for the protection of corporate information and personal data.",
+            }
+        ]
+    },
+    compliance: {
+        title: "Governance and Compliance",
+        description: "Our non-negotiable commitment to legal security, data protection, and integrity in every project we undertake.",
+        items: [
+            { title: "Legal Security", description: "Bases 100% pacified by STF, STJ, and Federal Revenue." },
+            { title: "Total Compliance", description: "100% administrative process, without liability risks." },
+            { title: "Precise Auditing", description: "Advanced cross-referencing in the tax mesh with AI." },
+            { title: "Operational Guarantee", description: "Civil liability insurance for operations." }
+        ]
+    },
+    differential: {
+        title: "Our Technological Differential",
+        description: "We align artificial intelligence with a highly specialized team to deliver unparalleled efficiency in the Brazilian market.",
+        features: [
+            { title: "Massive Processing", description: "Ability to analyze millions of NF-es, EFDs and ancillary obligations in real time." },
+            { title: "Predictive Mapping", description: "Algorithms trained to identify hidden scenarios of tax recovery and reduction." },
+            { title: "Continuous Monitoring", description: "Integration via APIs for daily monitoring of legislative changes and tax risks." },
+            { title: "Strategic Dashboard", description: "Exclusive dashboard in real time to track each recovered credit." }
+        ]
+    },
+    footer: {
+        description: "Transforming tax complexity into financial results through artificial intelligence.",
+        links: {
+            title: "Quick Links",
+            home: "Home",
+            solutions: "Solutions",
+            methodology: "Technology",
+            faq: "FAQ",
+            blog: "Blog",
+        },
+        legal: {
+            title: "Legal",
+            privacy: "Privacy Policy",
+            terms: "Terms of Use"
+        },
+        contact: {
+            title: "Contact"
+        },
+        rights: "All rights reserved."
+    }
+};
+
+export type Dictionary = typeof ptBR;

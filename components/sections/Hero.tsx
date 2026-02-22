@@ -3,8 +3,10 @@ import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/button";
 import { Shield, TrendingUp, CheckCircle } from "lucide-react";
+import { getTranslation } from "@/lib/i18n";
 
-export function Hero() {
+export async function Hero() {
+    const t = await getTranslation();
     return (
         <section className="relative w-full bg-primary overflow-hidden min-h-[90vh] flex items-center pt-20">
             {/* Background Gradient similar to valortributario */}
@@ -18,23 +20,23 @@ export function Hero() {
                 <div className="flex flex-col gap-8 text-center lg:text-left">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium w-fit mx-auto lg:mx-0 fade-in slide-up">
                         <Shield className="w-4 h-4" />
-                        <span>Consultoria Tributária Premium</span>
+                        <span>{t.hero.badge}</span>
                     </div>
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.15] fade-in slide-up animation-delay-100">
-                        Recuperamos o que é <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-[#e6a800]">seu</span> por direito.
+                        {t.hero.title1} <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-[#e6a800]">seu</span> {t.hero.title2}
                     </h1>
 
                     <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto lg:mx-0 leading-relaxed fade-in slide-up animation-delay-200">
-                        Segurança absoluta aliada à tecnologia <span className="text-accent font-semibold">Flow</span>. Automatizamos a análise fiscal para aliviar a carga tributária da sua empresa com máxima precisão e conformidade LGPD.
+                        {t.hero.description}
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 fade-in slide-up animation-delay-300">
                         <Button size="lg" className="rounded-full bg-accent hover:bg-accent/90 text-white px-8 py-6 text-base font-semibold border-0" asChild>
-                            <a href="https://wa.me/5514936180146" target="_blank" rel="noopener noreferrer">Fale com um Especialista</a>
+                            <a href={`https://wa.me/${t.siteConfig.contact.phone.replace(/[\s-+]/g, "")}`} target="_blank" rel="noopener noreferrer">{t.contactButtons.talkToUs}</a>
                         </Button>
                         <Button size="lg" variant="outline" className="rounded-full border-white/20 text-white bg-white/5 hover:bg-white/10 hover:text-white px-8 py-6 text-base font-semibold backdrop-blur-sm" asChild>
-                            <Link href="#services">Conheça nossas Soluções</Link>
+                            <Link href="#services">{t.mainNav.find(n => n.href === "/#services")?.title || "Soluções"}</Link>
                         </Button>
                     </div>
                 </div>

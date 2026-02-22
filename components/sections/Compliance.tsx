@@ -1,14 +1,16 @@
 import React from "react";
 import { Container } from "@/components/layout/Container";
 import { Lock, ShieldCheck, FileKey, Database } from "lucide-react";
+import { getTranslation } from "@/lib/i18n";
 
-export function Compliance() {
-    const badges = [
-        { icon: Lock, title: "SSL 256-bit", desc: "Criptografia de ponta a ponta" },
-        { icon: ShieldCheck, title: "LGPD Ready", desc: "Conformidade Total Privada" },
-        { icon: FileKey, title: "NDAs Rigorosos", desc: "Termos de sigilo corporativo" },
-        { icon: Database, title: "ISO 27001", desc: "Práticas de segurança alinhadas" }
-    ];
+export async function Compliance() {
+    const t = await getTranslation();
+    const badgeIcons = [Lock, ShieldCheck, FileKey, Database];
+    const badges = t.compliance.items.map((item, idx) => ({
+        icon: badgeIcons[idx],
+        title: item.title,
+        desc: item.description
+    }));
 
     return (
         <section id="compliance" className="bg-primary py-24 text-white relative overflow-hidden">
@@ -21,13 +23,10 @@ export function Compliance() {
                     {/* Text Content */}
                     <div className="flex flex-col gap-6 fade-in slide-up">
                         <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-                            Segurança e <span className="text-accent text-transparent bg-clip-text bg-gradient-to-r from-accent to-[#e6a800]">Compliance</span> de Dados
+                            {t.compliance.title.split(" e ")[0]} e <span className="text-accent text-transparent bg-clip-text bg-gradient-to-r from-accent to-[#e6a800]">{t.compliance.title.split(" e ")[1] || "Compliance"}</span>
                         </h2>
                         <p className="text-white/80 text-lg leading-relaxed max-w-xl">
-                            Na Nexus Intelligence, compreendemos que os dados fiscais são o principal ativo confidencial da sua empresa. Por isso, nossa infraestrutura foi concebida sob o conceito de "Security by Design".
-                        </p>
-                        <p className="text-white/80 text-lg leading-relaxed max-w-xl">
-                            Garantimos a proteção total das informações trocadas, atuando de acordo com as diretrizes da Lei Geral de Proteção de Dados (LGPD) e as melhores práticas internacionais para armazenamento em provedores Tier 1.
+                            {t.compliance.description}
                         </p>
                     </div>
 

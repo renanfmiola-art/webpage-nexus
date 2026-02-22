@@ -6,10 +6,20 @@ import Link from "next/link";
 import { ArrowRight, Calendar } from "lucide-react";
 import { Card, CardFooter, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { blogPosts } from "@/lib/blogData";
+import { sortedBlogPostsPT, sortedBlogPostsEN } from "@/lib/blogData";
 
 export default function BlogPage() {
     const [visibleCount, setVisibleCount] = useState(3);
+    const [locale, setLocale] = useState<"pt-BR" | "en-US">("pt-BR");
+
+    React.useEffect(() => {
+        const match = document.cookie.match(/(^| )NEXT_LOCALE=([^;]+)/);
+        if (match) {
+            setLocale(match[2] as "pt-BR" | "en-US");
+        }
+    }, []);
+
+    const blogPosts = locale === "en-US" ? sortedBlogPostsEN : sortedBlogPostsPT;
 
     const handleLoadMore = () => {
         setVisibleCount(prev => prev + 3);
@@ -28,13 +38,13 @@ export default function BlogPage() {
                 <Container className="relative z-10">
                     <div className="max-w-3xl mx-auto text-center fade-in slide-up">
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-sm font-medium w-fit mb-6 backdrop-blur-sm">
-                            <span>Conteúdo Especializado</span>
+                            <span>{locale === "en-US" ? "Specialized Content" : "Conteúdo Especializado"}</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
                             Blog & <span className="text-accent">Insights</span>
                         </h1>
                         <p className="text-lg md:text-xl text-white/80 leading-relaxed">
-                            Artigos, atualizações legislativas e inteligência tributária para manter sua empresa um passo à frente.
+                            {locale === "en-US" ? "Articles, legislative updates, and tax intelligence to keep your business one step ahead." : "Artigos, atualizações legislativas e inteligência tributária para manter sua empresa um passo à frente."}
                         </p>
                     </div>
                 </Container>
@@ -44,7 +54,7 @@ export default function BlogPage() {
             <section className="py-20">
                 <Container>
                     <div className="flex flex-col md:flex-row justify-between items-center mb-12 gap-8 fade-in slide-up">
-                        <h2 className="text-3xl font-bold text-primary">Últimas Publicações</h2>
+                        <h2 className="text-3xl font-bold text-primary">{locale === "en-US" ? "Latest Publications" : "Últimas Publicações"}</h2>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -78,7 +88,7 @@ export default function BlogPage() {
                                     </div>
                                     <Button asChild variant="ghost" className="w-full justify-between hover:bg-transparent hover:text-accent px-0 mt-2 text-primary group-hover:text-accent transition-colors font-semibold">
                                         <Link href={`/blog/${post.id}`}>
-                                            Ler artigo completo
+                                            {locale === "en-US" ? "Read full article" : "Ler artigo completo"}
                                             <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                                         </Link>
                                     </Button>
@@ -96,7 +106,7 @@ export default function BlogPage() {
                                 variant="outline"
                                 className="rounded-full px-8 text-primary border-primary/20 hover:bg-primary/5 font-semibold"
                             >
-                                Carregar mais artigos
+                                {locale === "en-US" ? "Load more articles" : "Carregar mais artigos"}
                             </Button>
                         </div>
                     )}

@@ -2,13 +2,11 @@ import React from "react";
 import { Container } from "@/components/layout/Container";
 import { CheckCircle2, ShieldAlert, Cpu } from "lucide-react";
 import Image from "next/image";
+import { getTranslation } from "@/lib/i18n";
 
-export function Differential() {
-    const points = [
-        "Auditoria e cruzamento massivo de bases fiscais em minutos.",
-        "Rastreio de oportunidades por meio de IA preditiva.",
-        "Eliminação do erro humano na apuração do crédito."
-    ];
+export async function Differential() {
+    const t = await getTranslation();
+    const points = t.differential.features.map(f => f.description);
 
     return (
         <section id="differential" className="bg-background py-24 overflow-hidden relative">
@@ -22,11 +20,10 @@ export function Differential() {
                                 <span>Metodologia Flow</span>
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6 tracking-tight">
-                                Por que escolher a Nexus Intelligence?
+                                {t.differential.title}
                             </h2>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                Ao contrário das consultorias tradicionais que dependem de processos manuais lentos e suscetíveis a erros, utilizamos nossa metodologia <strong className="text-primary">Flow</strong>.
-                                Uma integração única de inteligência tributária e tecnologia de ponta que acelera a recuperação de créditos com risco zero.
+                                {t.differential.description}
                             </p>
                         </div>
 

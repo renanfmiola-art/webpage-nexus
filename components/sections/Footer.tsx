@@ -12,10 +12,11 @@ import { Shield, Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Container } from "@/components/layout/Container";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 type ContactFormValues = z.infer<typeof contactFormSchema>;
 
-export function Footer() {
+export function Footer({ t }: { t: Dictionary }) {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
     const [errorMsg, setErrorMsg] = useState("");
@@ -65,7 +66,7 @@ export function Footer() {
                             </span>
                         </Link>
                         <p className="text-white/70 text-sm leading-relaxed">
-                            {siteConfig.description}
+                            {t.footer.description}
                         </p>
                         <div className="flex items-center gap-2 text-accent text-sm font-semibold">
                             <Shield className="w-4 h-4" />
@@ -74,11 +75,11 @@ export function Footer() {
                         <div className="flex flex-col gap-3 mt-2 text-sm text-white/80">
                             <a href="mailto:miola@nexusintell.com.br" className="flex items-center gap-3 hover:text-accent transition-colors">
                                 <Mail className="w-4 h-4 text-accent" />
-                                {siteConfig.contact.email}
+                                {t.siteConfig.contact.email}
                             </a>
-                            <a href="https://wa.me/5514936180146" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-accent transition-colors">
+                            <a href={`https://wa.me/${t.siteConfig.contact.phone.replace(/[\s-+]/g, "")}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-accent transition-colors">
                                 <Phone className="w-4 h-4 text-accent" />
-                                {siteConfig.contact.phone}
+                                {t.siteConfig.contact.phone}
                             </a>
                             <span className="flex items-start gap-3">
                                 <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
@@ -89,9 +90,9 @@ export function Footer() {
 
                     {/* Col 2: Navigation */}
                     <div>
-                        <h3 className="text-lg font-semibold text-white mb-6">Navegação</h3>
+                        <h3 className="text-lg font-semibold text-white mb-6">{t.footer.links.title}</h3>
                         <ul className="flex flex-col gap-4">
-                            {mainNav.map((item) => (
+                            {t.mainNav.map((item) => (
                                 <li key={item.href}>
                                     <Link
                                         href={item.href}
@@ -106,7 +107,7 @@ export function Footer() {
 
                     {/* Col 3 & 4: Contact Form */}
                     <div className="lg:col-span-2">
-                        <h3 className="text-lg font-semibold text-white mb-6">Fale Conosco</h3>
+                        <h3 className="text-lg font-semibold text-white mb-6">{t.footer.contact.title}</h3>
                         {isSuccess ? (
                             <div className="bg-white/10 rounded-xl p-8 text-center border border-white/20 backdrop-blur-sm">
                                 <Send className="w-12 h-12 text-accent mx-auto mb-4" />
@@ -193,11 +194,11 @@ export function Footer() {
 
                 {/* Copyright */}
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/50">
-                    <p>© {new Date().getFullYear()} Nexus Intelligence. Todos os direitos reservados. CNPJ 58.701.735/0001-22</p>
+                    <p>© {new Date().getFullYear()} Nexus Intelligence. {t.footer.rights} CNPJ 58.701.735/0001-22</p>
                     <div className="flex flex-wrap justify-center gap-4">
-                        <Link href="/politica-de-privacidade" className="hover:text-white transition-colors">Política de Privacidade</Link>
+                        <Link href="/politica-de-privacidade" className="hover:text-white transition-colors">{t.footer.legal.privacy}</Link>
                         <span className="hidden md:inline">|</span>
-                        <Link href="/termos-de-uso" className="hover:text-white transition-colors">Termos de Uso</Link>
+                        <Link href="/termos-de-uso" className="hover:text-white transition-colors">{t.footer.legal.terms}</Link>
                     </div>
                 </div>
             </Container>

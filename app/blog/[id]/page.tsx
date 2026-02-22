@@ -2,13 +2,16 @@ import React from "react";
 import { Container } from "@/components/layout/Container";
 import Link from "next/link";
 import { ArrowLeft, Calendar, ExternalLink } from "lucide-react";
-import { blogPosts } from "@/lib/blogData";
+import { sortedBlogPostsPT, sortedBlogPostsEN } from "@/lib/blogData";
 import { notFound } from "next/navigation";
+import { getLocale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
 
 export default async function BlogPostDetail({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
+    const locale = await getLocale();
+    const blogPosts = locale === "en-US" ? sortedBlogPostsEN : sortedBlogPostsPT;
     const post = blogPosts.find((p) => p.id === id);
 
     if (!post) {
@@ -23,7 +26,7 @@ export default async function BlogPostDetail({ params }: { params: Promise<{ id:
             <Container className="max-w-4xl py-32">
                 <Link href="/blog" className="inline-flex items-center text-primary hover:text-accent font-medium mb-8 transition-colors">
                     <ArrowLeft className="w-4 h-4 mr-2" />
-                    Voltar ao blog
+                    {locale === "en-US" ? "Back to blog" : "Voltar ao blog"}
                 </Link>
 
                 <header className="mb-12">
@@ -54,7 +57,7 @@ export default async function BlogPostDetail({ params }: { params: Promise<{ id:
 
                 <footer className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                     <div>
-                        <p className="text-sm font-bold text-primary mb-1">Fonte original do artigo:</p>
+                        <p className="text-sm font-bold text-primary mb-1">{locale === "en-US" ? "Original source of the article:" : "Fonte original do artigo:"}</p>
                         <a
                             href={post.sourceUrl}
                             target="_blank"
@@ -64,7 +67,7 @@ export default async function BlogPostDetail({ params }: { params: Promise<{ id:
                             {post.sourceName}
                             <ExternalLink className="w-3.5 h-3.5" />
                         </a>
-                        <p className="text-xs text-muted-foreground mt-2">Autor: {post.author}</p>
+                        <p className="text-xs text-muted-foreground mt-2">{locale === "en-US" ? "Author" : "Autor"}: {post.author}</p>
                     </div>
                 </footer>
             </Container>
