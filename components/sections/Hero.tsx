@@ -24,7 +24,7 @@ export async function Hero() {
                     </div>
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.15] fade-in slide-up animation-delay-100">
-                        {t.hero.title1} <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-[#e6a800]">seu</span> {t.hero.title2}
+                        {t.hero.title1} <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-[#e6a800]">{t.hero.highlight}</span> {t.hero.title2}
                     </h1>
 
                     <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto lg:mx-0 leading-relaxed fade-in slide-up animation-delay-200">
@@ -55,8 +55,8 @@ export async function Hero() {
                                     <Shield className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                                 </div>
                                 <div>
-                                    <p className="text-sm text-muted-foreground font-medium">Via Administrativa</p>
-                                    <p className="text-2xl font-bold text-foreground">100%</p>
+                                    <p className="text-sm text-muted-foreground font-medium">{t.hero.cards[0].top}</p>
+                                    <p className="text-2xl font-bold text-foreground">{t.hero.cards[0].bottom}</p>
                                 </div>
                             </div>
                         </div>
@@ -68,8 +68,8 @@ export async function Hero() {
                                     <CheckCircle className="w-6 h-6 text-accent" />
                                 </div>
                                 <div>
-                                    <p className="text-sm text-muted-foreground font-medium">Compliance LGPD</p>
-                                    <p className="text-2xl font-bold text-foreground">100% Seguro</p>
+                                    <p className="text-sm text-muted-foreground font-medium">{t.hero.cards[1].top}</p>
+                                    <p className="text-2xl font-bold text-foreground">{t.hero.cards[1].bottom}</p>
                                 </div>
                             </div>
                         </div>
@@ -81,8 +81,8 @@ export async function Hero() {
                                     <TrendingUp className="w-6 h-6 text-green-600 dark:text-green-400" />
                                 </div>
                                 <div>
-                                    <p className="text-sm text-muted-foreground font-medium">Últimos 60 meses</p>
-                                    <p className="text-2xl font-bold text-foreground">Retroativo</p>
+                                    <p className="text-sm text-muted-foreground font-medium">{t.hero.cards[2].top}</p>
+                                    <p className="text-2xl font-bold text-foreground">{t.hero.cards[2].bottom}</p>
                                 </div>
                             </div>
                         </div>

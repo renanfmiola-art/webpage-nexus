@@ -20,9 +20,15 @@ export const ptBR = {
     },
     hero: {
         badge: "Auditoria e Compliance Tributário",
-        title1: "Auditoria avançada e compliance para",
-        title2: "empresas do Simples Nacional.",
-        description: "Mais de R$ 5 bilhões em oportunidades tributárias identificadas. Preparamos o seu negócio para a Reforma Tributária com absoluto foco em auditoria, compliance e recuperação segura."
+        title1: "Proteja sua empresa com",
+        highlight: "auditoria avançada",
+        title2: "e evite a malha fina.",
+        description: "Mais de R$ 5 bilhões em oportunidades tributárias identificadas. Preparamos o seu negócio para a Reforma Tributária com absoluto foco em auditoria, compliance e recuperação segura.",
+        cards: [
+            { top: "Auditoria Digital", bottom: "100% Segura" },
+            { top: "Cruzamento de Dados", bottom: "Alta Precisão" },
+            { top: "Últimos 60 meses", bottom: "Revisão Total" }
+        ]
     },
     services: {
         title: "Soluções Especializadas",
@@ -98,8 +104,7 @@ export const ptBR = {
         features: [
             { title: "Processamento Massivo", description: "Capacidade de analisar milhões de NF-es, EFDs e obrigações acessórias em tempo real." },
             { title: "Mapeamento Preditivo", description: "Algoritmos treinados para identificar cenários ocultos de recuperação e redução tributária." },
-            { title: "Monitoramento Contínuo", description: "Integração via APIs para acompanhamento diário de mudanças legislativas e riscos fiscais." },
-            { title: "Painel Estratégico", description: "Dashboard exclusivo em tempo real para acompanhamento de suas auditorias corporativas e processos de recuperação." }
+            { title: "Monitoramento Contínuo", description: "Integração via APIs para acompanhamento diário de mudanças legislativas e riscos fiscais." }
         ]
     },
     footer: {
@@ -146,9 +151,15 @@ export const enUS = {
     },
     hero: {
         badge: "Tax Audit and Compliance",
-        title1: "Advanced auditing and compliance for",
-        title2: "Simples Nacional companies.",
-        description: "Over R$ 5 billion in tax opportunities identified. We prepare your business for Tax Reform with an absolute focus on auditing, compliance, and safe recovery."
+        title1: "Protect your company with",
+        highlight: "advanced auditing",
+        title2: "and avoid tax penalties.",
+        description: "Over R$ 5 billion in tax opportunities identified. We prepare your business for Tax Reform with an absolute focus on auditing, compliance, and safe recovery.",
+        cards: [
+            { top: "Digital Audit", bottom: "100% Safe" },
+            { top: "Data Cross-referencing", bottom: "High Precision" },
+            { top: "Last 60 months", bottom: "Total Review" }
+        ]
     },
     services: {
         title: "Specialized Solutions",
@@ -224,8 +235,7 @@ export const enUS = {
         features: [
             { title: "Massive Processing", description: "Ability to analyze millions of NF-es, EFDs and ancillary obligations in real time." },
             { title: "Predictive Mapping", description: "Algorithms trained to identify hidden scenarios of tax recovery and reduction." },
-            { title: "Continuous Monitoring", description: "Integration via APIs for daily monitoring of legislative changes and tax risks." },
-            { title: "Strategic Dashboard", description: "Exclusive real-time dashboard to track your corporate audits and recovery processes." }
+            { title: "Continuous Monitoring", description: "Integration via APIs for daily monitoring of legislative changes and tax risks." }
         ]
     },
     footer: {
