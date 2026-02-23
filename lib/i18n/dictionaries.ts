@@ -72,7 +72,7 @@ export const ptBR = {
         items: [
             {
                 question: "Como funciona nosso processo de Auditoria e Recuperação?",
-                answer: "Nossa tecnologia Flow realiza uma auditoria profunda e cruzamento massivo de suas bases de dados fiscais dos últimos 60 meses. Após a auditoria criteriosa e identificação de divergências, nossa equipe valida as oportunidades de compliance e conduzimos eventuais habilitações de crédito administrativamente, com risco zero.",
+                answer: "Nossa tecnologia Flow realiza uma auditoria profunda e cruzamento massivo de suas bases de dados fiscais. Após a auditoria criteriosa e identificação de divergências, nossa equipe valida as oportunidades de compliance e conduzimos eventuais habilitações de crédito administrativamente, com risco zero.",
             },
             {
                 question: "A metodologia de vocês é segura?",
@@ -203,7 +203,7 @@ export const enUS = {
         items: [
             {
                 question: "How does the Auditing and Credit Recovery process work?",
-                answer: "Our Flow technology performs a deep audit and massive cross-referencing of your tax databases from the last 60 months. After careful auditing and identification of divergences, our team validates the compliance opportunities and we conduct any credit habilitation administratively, with zero risk.",
+                answer: "Our Flow technology performs a deep audit and massive cross-referencing of your tax databases. After careful auditing and identification of divergences, our team validates the compliance opportunities and we conduct any credit habilitation administratively, with zero risk.",
             },
             {
                 question: "Is your methodology secure?",
