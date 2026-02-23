@@ -55,8 +55,8 @@ export const segmentsItems = [
 
 export const faqItems = [
     {
-        question: "Como funciona o processo de Recuperação de Créditos?",
-        answer: "Nossa tecnologia Flow realiza um cruzamento massivo de suas bases de dados fiscais dos últimos 60 meses com a legislação atualizada. Após a identificação de divergências ou benefícios não fruídos, nossa equipe valida as oportunidades e conduzimos a habilitação do crédito administrativamente, com risco zero.",
+        question: "Como funciona nosso processo de Auditoria e Recuperação?",
+        answer: "Nossa tecnologia Flow realiza uma auditoria profunda e cruzamento massivo de suas bases de dados fiscais dos últimos 60 meses. Após a auditoria criteriosa e identificação de divergências, nossa equipe valida as oportunidades de compliance e conduzimos eventuais habilitações de crédito administrativamente, com risco zero.",
     },
     {
         question: "A metodologia de vocês é segura?",

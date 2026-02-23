@@ -19,14 +19,14 @@ export const ptBR = {
         talkToUs: "Fale conosco"
     },
     hero: {
-        badge: "Gestão Tributária Inteligente",
-        title1: "Recupere o capital da sua empresa de",
-        title2: "forma segura e eficiente.",
-        description: "Mais de R$ 5 bilhões em oportunidades tributárias identificadas. Transformamos dados complexos em resultados financeiros reais com compliance absoluto."
+        badge: "Auditoria e Compliance Tributário",
+        title1: "Auditoria avançada e compliance para",
+        title2: "empresas do Simples Nacional.",
+        description: "Mais de R$ 5 bilhões em oportunidades tributárias identificadas. Preparamos o seu negócio para a Reforma Tributária com absoluto foco em auditoria, compliance e recuperação segura."
     },
     services: {
         title: "Soluções Especializadas",
-        description: "Serviços desenhados para eliminar pagamentos indevidos e gerar caixa com segurança jurídica.",
+        description: "Foco absoluto em Auditoria, Compliance e Adaptação para a Reforma Tributária, além da recuperação estratégica de valores.",
         items: [
             {
                 title: "Auditoria de DAS (Simples) e Mapeamento de Pagamentos Indevidos",
@@ -65,8 +65,8 @@ export const ptBR = {
         description: "Tudo o que você precisa saber sobre nossos serviços e metodologia",
         items: [
             {
-                question: "Como funciona o processo de Recuperação de Créditos?",
-                answer: "Nossa tecnologia Flow realiza um cruzamento massivo de suas bases de dados fiscais dos últimos 60 meses com a legislação atualizada. Após a identificação de divergências ou benefícios não fruídos, nossa equipe valida as oportunidades e conduzimos a habilitação do crédito administrativamente, com risco zero.",
+                question: "Como funciona nosso processo de Auditoria e Recuperação?",
+                answer: "Nossa tecnologia Flow realiza uma auditoria profunda e cruzamento massivo de suas bases de dados fiscais dos últimos 60 meses. Após a auditoria criteriosa e identificação de divergências, nossa equipe valida as oportunidades de compliance e conduzimos eventuais habilitações de crédito administrativamente, com risco zero.",
             },
             {
                 question: "A metodologia de vocês é segura?",
@@ -99,7 +99,7 @@ export const ptBR = {
             { title: "Processamento Massivo", description: "Capacidade de analisar milhões de NF-es, EFDs e obrigações acessórias em tempo real." },
             { title: "Mapeamento Preditivo", description: "Algoritmos treinados para identificar cenários ocultos de recuperação e redução tributária." },
             { title: "Monitoramento Contínuo", description: "Integração via APIs para acompanhamento diário de mudanças legislativas e riscos fiscais." },
-            { title: "Painel Estratégico", description: "Dashboard exclusivo em tempo real para acompanhamento de cada crédito recuperado." }
+            { title: "Painel Estratégico", description: "Dashboard exclusivo em tempo real para acompanhamento de suas auditorias corporativas e processos de recuperação." }
         ]
     },
     footer: {
@@ -145,14 +145,14 @@ export const enUS = {
         talkToUs: "Contact Us"
     },
     hero: {
-        badge: "Smart Tax Management",
-        title1: "Recover your company's capital",
-        title2: "safely and efficiently.",
-        description: "Over R$ 5 billion in tax opportunities identified. We transform complex data into real financial results with absolute compliance."
+        badge: "Tax Audit and Compliance",
+        title1: "Advanced auditing and compliance for",
+        title2: "Simples Nacional companies.",
+        description: "Over R$ 5 billion in tax opportunities identified. We prepare your business for Tax Reform with an absolute focus on auditing, compliance, and safe recovery."
     },
     services: {
         title: "Specialized Solutions",
-        description: "Services designed to eliminate undue payments and generate cash flow with legal security.",
+        description: "Absolute focus on Auditing, Compliance and Adaptation for Tax Reform, as well as strategic claims recovery.",
         items: [
             {
                 title: "DAS (Simples) Audit and Undue Payments Mapping",
@@ -191,8 +191,8 @@ export const enUS = {
         description: "Everything you need to know about our services and methodology",
         items: [
             {
-                question: "How does the Credit Recovery process work?",
-                answer: "Our Flow technology heavily cross-references your tax databases of the last 60 months with updated legislation. After identifying divergences or unutilized benefits, our team validates the opportunities and we conduct the credit habilitation administratively, with zero risk.",
+                question: "How does the Auditing and Credit Recovery process work?",
+                answer: "Our Flow technology performs a deep audit and massive cross-referencing of your tax databases from the last 60 months. After careful auditing and identification of divergences, our team validates the compliance opportunities and we conduct any credit habilitation administratively, with zero risk.",
             },
             {
                 question: "Is your methodology secure?",
@@ -225,7 +225,7 @@ export const enUS = {
             { title: "Massive Processing", description: "Ability to analyze millions of NF-es, EFDs and ancillary obligations in real time." },
             { title: "Predictive Mapping", description: "Algorithms trained to identify hidden scenarios of tax recovery and reduction." },
             { title: "Continuous Monitoring", description: "Integration via APIs for daily monitoring of legislative changes and tax risks." },
-            { title: "Strategic Dashboard", description: "Exclusive dashboard in real time to track each recovered credit." }
+            { title: "Strategic Dashboard", description: "Exclusive real-time dashboard to track your corporate audits and recovery processes." }
         ]
     },
     footer: {
