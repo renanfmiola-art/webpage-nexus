@@ -11,7 +11,6 @@ export async function Services() {
         <section id="services" className="bg-white py-24">
             <Container>
                 <div className="max-w-3xl mx-auto text-center mb-16 fade-in slide-up">
-                    <h2 className="text-sm font-bold text-accent tracking-widest uppercase mb-4">{t.mainNav.find((n) => n.href === "/#services")?.title || "Soluções"}</h2>
                     <h3 className="text-3xl md:text-5xl font-bold text-primary mb-6 tracking-tight">
                         {t.services.title}
                     </h3>
