@@ -20,14 +20,14 @@ export const ptBR = {
     },
     hero: {
         badge: "Auditoria e Compliance Tributário",
-        title1: "Proteja sua empresa com",
-        highlight: "auditoria avançada",
-        title2: "e evite a malha fina.",
-        description: "Mais de R$ 5 bilhões em oportunidades tributárias identificadas. Preparamos o seu negócio para a Reforma Tributária com absoluto foco em auditoria, compliance e recuperação segura.",
+        title1: "Você pode estar pagando imposto a mais no",
+        highlight: "Simples",
+        title2: ". A Reforma vai tornar isso permanente.",
+        description: "Auditamos sua apuração no Simples Nacional, identificamos pagamentos indevidos e estruturamos sua operação para o novo modelo tributário — com rastreabilidade, segurança técnica e foco em margem.",
         cards: [
-            { top: "Auditoria Digital", bottom: "100% Segura" },
-            { top: "Cruzamento de Dados", bottom: "Alta Precisão" },
-            { top: "Últimos 60 meses", bottom: "Revisão Total" }
+            { top: "Auditoria Técnica", bottom: "no Simples" },
+            { top: "Pagamentos Indevidos", bottom: "Mapeados" },
+            { top: "Preparação para a", bottom: "Reforma Tributária" }
         ]
     },
     services: {
@@ -126,6 +126,35 @@ export const ptBR = {
             title: "Contato"
         },
         rights: "Todos os direitos reservados."
+    },
+    authority: {
+        title: "Por que essa auditoria é diferente",
+        items: [
+            "Análise técnica baseada em dados, não “achismo fiscal”",
+            "Metodologia rastreável e defensável",
+            "Foco em correção operacional antes de qualquer planejamento",
+            "Adequação real à lógica da Reforma Tributária"
+        ]
+    },
+    targetAudience: {
+        forWhoTitle: "Indicado para empresas do Simples que:",
+        forWhoItems: [
+            "Não sabem se estão recolhendo corretamente",
+            "Cresceram e nunca revisaram a operação fiscal",
+            "Querem atravessar a Reforma sem perda de margem",
+            "Precisam de segurança técnica e compliance real"
+        ],
+        notForWhoTitle: "O que não fazemos:",
+        notForWhoItems: [
+            "Não prometemos redução artificial de impostos",
+            "Não usamos estruturas agressivas ou arriscadas",
+            "Não vendemos “milagre tributário”"
+        ]
+    },
+    finalCta: {
+        headline: "Antes de pensar em planejamento, elimine o desperdício.",
+        description: "Solicite um diagnóstico e saiba exatamente onde sua empresa está pagando a mais — e como se proteger da Reforma Tributária.",
+        button: "Solicitar diagnóstico"
     }
 };
 
@@ -151,14 +180,14 @@ export const enUS = {
     },
     hero: {
         badge: "Tax Audit and Compliance",
-        title1: "Protect your company with",
-        highlight: "advanced auditing",
-        title2: "and avoid tax penalties.",
-        description: "Over R$ 5 billion in tax opportunities identified. We prepare your business for Tax Reform with an absolute focus on auditing, compliance, and safe recovery.",
+        title1: "You may be paying too much tax in",
+        highlight: "Simples",
+        title2: ". Tax Reform will make this permanent.",
+        description: "We audit your Simples Nacional calculation, identify undue payments, and structure your operation for the new tax model — with traceability, technical security, and a focus on margin.",
         cards: [
-            { top: "Digital Audit", bottom: "100% Safe" },
-            { top: "Data Cross-referencing", bottom: "High Precision" },
-            { top: "Last 60 months", bottom: "Total Review" }
+            { top: "Technical Audit", bottom: "in Simples" },
+            { top: "Undue Payments", bottom: "Mapped" },
+            { top: "Preparation for", bottom: "Tax Reform" }
         ]
     },
     services: {
@@ -257,6 +286,35 @@ export const enUS = {
             title: "Contact"
         },
         rights: "All rights reserved."
+    },
+    authority: {
+        title: "Why this audit is different",
+        items: [
+            "Technical analysis based on data, not 'tax guesswork'",
+            "Traceable and defensible methodology",
+            "Focus on operational correction before any planning",
+            "Real adaptation to the logic of Tax Reform"
+        ]
+    },
+    targetAudience: {
+        forWhoTitle: "Recommended for Simples companies that:",
+        forWhoItems: [
+            "Don't know if they are paying correctly",
+            "Have grown and never reviewed their tax operation",
+            "Want to go through the Reform without losing margin",
+            "Need technical security and real compliance"
+        ],
+        notForWhoTitle: "What we don't do:",
+        notForWhoItems: [
+            "We don't promise artificial tax reduction",
+            "We don't use aggressive or risky structures",
+            "We don't sell 'tax miracles'"
+        ]
+    },
+    finalCta: {
+        headline: "Before thinking about planning, eliminate waste.",
+        description: "Request a diagnosis and know exactly where your company is paying extra — and how to protect yourself from Tax Reform.",
+        button: "Request diagnosis"
     }
 };
 
